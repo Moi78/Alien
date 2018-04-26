@@ -23,10 +23,10 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.16\Engine\Source"
-/I C:\Users\mathi\Desktop\Alien_build\Alien\Source
-/I C:\Users\mathi\Desktop\Alien_build\Alien\Source\Alien_build\Public
-/I C:\Users\mathi\Desktop\Alien_build\Alien\Intermediate\Build\Win64\UE4Editor\Inc\Alien_build
-/I C:\Users\mathi\Desktop\Alien_build\Alien\Source\Alien_build
+/I C:\Users\mathi\Desktop\Alien_build\Alien_rep\Source
+/I C:\Users\mathi\Desktop\Alien_build\Alien_rep\Source\Alien_build\Public
+/I C:\Users\mathi\Desktop\Alien_build\Alien_rep\Intermediate\Build\Win64\UE4Editor\Inc\Alien_build
+/I C:\Users\mathi\Desktop\Alien_build\Alien_rep\Source\Alien_build
 /I "C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\Core\Public\Async"
@@ -318,9 +318,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.16\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\mathi\Desktop\Alien_build\Alien\Source\Alien_build\Alien_build.cpp"
-/FI"C:\Users\mathi\Desktop\Alien_build\Alien\Intermediate\Build\Win64\UE4Editor\Development\Alien_build\Definitions.Alien_build.h"
-/Fo"C:\Users\mathi\Desktop\Alien_build\Alien\Intermediate\Build\Win64\UE4Editor\Development\Alien_build\Alien_build.cpp.obj"
+"C:\Users\mathi\Desktop\Alien_build\Alien_rep\Source\Alien_build\Alien_build.cpp"
+/FI"C:\Users\mathi\Desktop\Alien_build\Alien_rep\Intermediate\Build\Win64\UE4Editor\Development\Alien_build\Definitions.Alien_build.h"
+/Fo"C:\Users\mathi\Desktop\Alien_build\Alien_rep\Intermediate\Build\Win64\UE4Editor\Development\Alien_build\Alien_build.cpp.obj"
 /TP
 /GR-
 /W4

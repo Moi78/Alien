@@ -1,0 +1,116 @@
+﻿Log file open, 04/26/18 15:57:34
+LogInit:Display: Running engine for game: Alien_build
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(916665685) SRandInit(916665686).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 6.489885
+LogInit:Warning: Incompatible or missing module: UE4Editor-Alien_build.dll
+Running C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/DotNET/UnrealBuildTool.exe Alien_build Development Win64 -project="C:/Users/mathi/Desktop/Alien_build/Alien_rep/Alien_build.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Creating makefile for Alien_build (.uproject file is newer)
+Performing full C++ include scan (no include cache file)
+@progress push 5%
+Parsing headers for Alien_buildEditor
+  Running UnrealHeaderTool "C:\Users\mathi\Desktop\Alien_build\Alien_rep\Alien_build.uproject" "C:\Users\mathi\Desktop\Alien_build\Alien_rep\Intermediate\Build\Win64\Alien_buildEditor\Development\Alien_buildEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for Alien_buildEditor in 15,3912978 seconds
+@progress pop
+Performing 8 actions (4 in parallel)
+Alien_build.cpp
+TestAlien.cpp
+lvl1_alienSpawner.cpp
+AlienVaisseau.cpp
+Alien_build.generated.cpp
+TestOBJ.cpp
+C:\Users\mathi\Desktop\Alien_build\Alien_rep\Source\Alien_build\Private\TestOBJ.cpp(14): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+C:\Program Files\Epic Games\UE_4.16\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h(615): note: voir la d?claration de 'USceneComponent::AttachTo'
+[7/8] Link UE4Editor-Alien_build.dll
+[8/8] Link UE4Editor-Alien_build.lib
+   Cr?ation de la biblioth?que C:\Users\mathi\Desktop\Alien_build\Alien_rep\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Alien_build.lib et de l'objet C:\Users\mathi\Desktop\Alien_build\Alien_rep\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Alien_build.exp
+   Cr?ation de la biblioth?que C:\Users\mathi\Desktop\Alien_build\Alien_rep\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Alien_build.suppressed.lib et de l'objet C:\Users\mathi\Desktop\Alien_build\Alien_rep\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Alien_build.suppressed.exp
+Total build time: 331,97 seconds (Local executor: 155,21 seconds)
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.26-14.03.24:797][  0]LogModuleManager:Warning: No filename provided for module ExampleDeviceProfileSelector
+[2018.04.26-14.03.24:797][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'ExampleDeviceProfileSelector' because the file 'C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/' was not found.
+[2018.04.26-14.03.24:814][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.26-14.03.25:327][  0]LogInit: Computer: DESKTOP-7FDRESD
+[2018.04.26-14.03.25:327][  0]LogInit: User: mathi
+[2018.04.26-14.03.25:327][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.26-14.03.25:327][  0]LogInit: High frequency timer resolution =2.437499 MHz
+[2018.04.26-14.03.25:353][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.04.26-14.03.25:353][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.26-14.03.25:353][  0]LogMemory: Process Physical Memory: 280.59 MB used, 280.59 MB peak
+[2018.04.26-14.03.25:353][  0]LogMemory: Process Virtual Memory: 268.45 MB used, 268.45 MB peak
+[2018.04.26-14.03.25:353][  0]LogMemory: Physical Memory: 4198.58 MB used,  3879.07 MB free, 8077.64 MB total
+[2018.04.26-14.03.25:353][  0]LogMemory: Virtual Memory: 740.18 MB used,  3879.07 MB free, 134217728.00 MB total
+[2018.04.26-14.03.28:123][  0]LogInit: Using OS detected language (fr-FR).
+[2018.04.26-14.03.28:123][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.04.26-14.03.28:968][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2018.04.26-14.03.28:969][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
+[2018.04.26-14.03.39:970][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.26-14.03.41:692][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.04.26-14.03.41:692][  0]LogD3D11RHI:       2010/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.04.26-14.03.41:816][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.04.26-14.03.41:817][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.04.26-14.03.41:857][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.26-14.03.41:857][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.26-14.03.41:857][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.26-14.03.41:940][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.26-14.03.41:941][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.04.26-14.03.41:941][  0]LogWindows: EnumDisplayDevices:
+[2018.04.26-14.03.41:941][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.04.26-14.03.41:943][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2018.04.26-14.03.41:944][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.04.26-14.03.41:944][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.26-14.03.41:944][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.04.26-14.03.41:944][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.26-14.03.41:944][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.26-14.03.41:945][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.26-14.03.42:195][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.26-14.03.44:021][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 6)
+[2018.04.26-14.03.44:216][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/Shaders/WorkingDirectory/952/).
+[2018.04.26-14.03.44:217][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mathi/AppData/Local/Temp/UnrealShaderWorkingDir/76A89F7B479ACE5786C79A9B1D55921C/'.
+[2018.04.26-14.03.44:233][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
