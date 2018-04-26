@@ -2851,3 +2851,42 @@ LogInit: Object subsystem initialized
 [2018.04.26-15.28.15:745][610]SourceControl: Info [master 3e15de2] source Alien v1
 [2018.04.26-15.28.15:745][610]SourceControl: Info  3 files changed, 0 insertions(+), 0 deletions(-)
 [2018.04.26-15.28.15:758][610]SourceControl: Info Commited [master 3e15de2] source Alien v1.
+[2018.04.26-15.29.15:795][833]LogEditorViewport: Clicking on Actor (context menu): CineCameraActor (CineCameraActor2)
+[2018.04.26-15.30.57:211][738]LogEditorViewport: Clicking on Actor (context menu): CineCameraActor (CineCameraActor2)
+[2018.04.26-15.32.04:686][ 64]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.26-15.32.26:886][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (VaisseauP1)
+[2018.04.26-15.32.28:874][399]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (CineCameraActor2)
+[2018.04.26-15.34.02:123][120]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (CineCameraActor2)
+[2018.04.26-15.35.26:869][172]LogEditorViewport: Clicking on Actor (context menu): CineCameraActor (CineCameraActor2)
+[2018.04.26-15.40.32:836][793]LogSavePackage: Save=712.80ms
+[2018.04.26-15.40.32:836][793]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/LVL_10763FE0B4446CA1B8F273087DE4D4501.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1.umap'
+[2018.04.26-15.40.32:921][793]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1.umap
+[2018.04.26-15.40.33:080][793]LogFileHelpers: Saving map 'LVL_1' took 2.015
+[2018.04.26-15.40.33:326][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cinématique/LVL1_intro/Intro" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset" SILENT=true
+[2018.04.26-15.40.33:357][793]LogSavePackage: Save=17.04ms
+[2018.04.26-15.40.33:357][793]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Intro20B5EF6A42C996B972AA77B9F68D480A.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset'
+[2018.04.26-15.40.33:365][793]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset
+[2018.04.26-15.50.30:338][ 44]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/LVL_1' took 0.029
+[2018.04.26-15.50.30:367][ 44]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cinématique/LVL1_intro/Intro] ([1] browsable assets)...
+[2018.04.26-15.50.30:367][ 44]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cinématique/LVL1_intro/Intro]
+[2018.04.26-15.50.30:406][ 44]LogSavePackage: Save=17.95ms
+[2018.04.26-15.50.30:406][ 44]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Intro_Auto23F3F72D84F1EE952C08D09AF59CC6B02.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Autosaves/Game/Cinématique/LVL1_intro/Intro_Auto2.uasset'
+[2018.04.26-15.50.30:409][ 44]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Autosaves/Game/Cinématique/LVL1_intro/Intro_Auto2.uasset
+[2018.04.26-15.50.30:409][ 44]LogFileHelpers: Auto-saving content packages took 0.045
+[2018.04.26-15.56.05:012][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cinématique/LVL1_intro/Intro" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset" SILENT=true
+[2018.04.26-15.56.05:046][ 31]LogSavePackage: Save=17.94ms
+[2018.04.26-15.56.05:047][ 31]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Intro9E7BBDB24EA1D45CA2280F88F4EE8947.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset'
+[2018.04.26-15.56.05:054][ 31]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset
+[2018.04.26-16.00.32:986][359]Cmd: TRANSACTION UNDO
+[2018.04.26-16.00.32:986][359]LogEditorTransaction: Undo Paste Keys
+[2018.04.26-16.00.53:629][599]Cmd: TRANSACTION UNDO
+[2018.04.26-16.00.53:630][599]LogEditorTransaction: Undo Select Actors/Components
+[2018.04.26-16.05.22:018][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cinématique/LVL1_intro/Intro" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset" SILENT=true
+[2018.04.26-16.05.22:057][314]LogSavePackage: Save=19.10ms
+[2018.04.26-16.05.22:057][314]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Intro54B477D24C1994818A36AAACB18C7F5D.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset'
+[2018.04.26-16.05.22:066][314]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset
+[2018.04.26-16.05.26:486][361]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.04.26-16.05.37:598][361]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.04.26-16.05.37:742][361]SourceControl: Info [master 8267428] source Alien v1
+[2018.04.26-16.05.37:742][361]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2018.04.26-16.05.37:763][361]SourceControl: Info Commited [master 8267428] source Alien v1.
