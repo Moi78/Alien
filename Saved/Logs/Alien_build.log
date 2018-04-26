@@ -924,3 +924,50 @@ LogInit: Object subsystem initialized
 [2018.04.26-14.33.28:593][505]SourceControl: Info [master 937db63] source Alien v1
 [2018.04.26-14.33.28:593][505]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
 [2018.04.26-14.33.28:604][505]SourceControl: Info Commited [master 937db63] source Alien v1.
+[2018.04.26-14.34.01:878][694]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
+[2018.04.26-14.34.01:878][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-14.34.01:878][694]PIE: New page: PIE session: LVL_1 (Apr 26, 2018, 6:34:01 PM)
+[2018.04.26-14.34.01:878][694]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1
+[2018.04.26-14.34.02:084][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.206542s)
+[2018.04.26-14.34.02:085][694]LogAIModule: Creating AISystem for world LVL_1
+[2018.04.26-14.34.02:086][694]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2018.04.26-14.34.02:086][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LVL_1.LVL_1 to /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1.LVL_1 (0.208083s)
+[2018.04.26-14.34.02:241][694]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.04.26-14.34.02:250][694]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 60) at 2018.04.26-16.34.02
+[2018.04.26-14.34.02:251][694]LogWorld: Bringing up level for play took: 0.007574
+[2018.04.26-14.34.02:252][694]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2018.04.26-14.34.02:264][694]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1 -0.057
+[2018.04.26-14.34.02:265][694]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
+[2018.04.26-14.34.13:235][894]LogBlueprintUserMessages: [BP_ALienlvl1_C_0] Touché
+[2018.04.26-14.34.13:311][895]LogBlueprintUserMessages: [BP_ALienlvl1_C_0] Touché
+[2018.04.26-14.34.13:311][895]LogBlueprintUserMessages: [BP_ALienlvl1_C_0] Touché
+[2018.04.26-14.34.13:312][895]LogBlueprintUserMessages: [BP_ALienlvl1_C_1] Touché
+[2018.04.26-14.34.14:701][914]LogBlueprintUserMessages: [BP_ALienlvl1_C_0] Touché
+[2018.04.26-14.34.15:713][927]LogBlueprintUserMessages: [Item_V_BP_C_0] 1
+[2018.04.26-14.34.15:879][929]LogBlueprintUserMessages: [Item_V_BP_C_1] 2
+[2018.04.26-14.34.16:104][932]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-3757.461 Y=1279.388 Z=909.657] for [BP_ALienlvl1_C]
+[2018.04.26-14.34.18:709][973]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=278.66 Y=531.36 Z=0.00 Location: X=-3792.29 Y=440.61 Z=1031.43 Normal: X=-0.65 Y=-0.76 Z=0.00 PenetrationDepth:3.100 Actor:BP_ALienlvl1_C_2 Component:Collision BoneName:None (0 other events since notify)
+[2018.04.26-14.34.18:709][973]LogBlueprintUserMessages: [BP_ALienlvl1_C_2] Touché
+[2018.04.26-14.34.18:709][973]LogBlueprintUserMessages: [BP_ALienlvl1_C_2] Touché
+[2018.04.26-14.34.18:709][973]LogBlueprintUserMessages: [BP_ALienlvl1_C_2] Touché
+[2018.04.26-14.34.18:768][974]LogBlueprintUserMessages: [BP_ALienlvl1_C_2] Touché
+[2018.04.26-14.34.18:828][975]LogBlueprintUserMessages: [BP_ALienlvl1_C_2] Touché
+[2018.04.26-14.34.18:885][976]LogBlueprintUserMessages: [BP_ALienlvl1_C_2] Touché
+[2018.04.26-14.34.18:885][976]LogBlueprintUserMessages: [BP_ALienlvl1_C_2] Touché
+[2018.04.26-14.34.18:885][976]LogBlueprintUserMessages: [BP_ALienlvl1_C_2] Touché
+[2018.04.26-14.34.18:943][977]LogBlueprintUserMessages: [BP_ALienlvl1_C_2] Touché
+[2018.04.26-14.34.18:943][977]LogBlueprintUserMessages: [BP_ALienlvl1_C_2] Touché
+[2018.04.26-14.34.19:001][978]LogBlueprintUserMessages: [BP_ALienlvl1_C_2] Touché
+[2018.04.26-14.34.19:001][978]LogBlueprintUserMessages: [BP_ALienlvl1_C_2] Touché
+[2018.04.26-14.34.20:290][  0]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.26-14.34.20:349][  1]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.26-14.34.20:349][  1]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.26-14.34.20:411][  2]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.26-14.34.20:411][  2]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.26-14.34.20:469][  3]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.26-14.34.20:469][  3]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.26-14.34.20:531][  4]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.26-14.34.20:655][  5]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.26-14.34.20:655][  5]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.26-14.34.22:338][ 55]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
+[2018.04.26-14.34.22:422][ 55]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
