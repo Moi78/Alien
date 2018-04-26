@@ -2890,3 +2890,86 @@ LogInit: Object subsystem initialized
 [2018.04.26-16.05.37:742][361]SourceControl: Info [master 8267428] source Alien v1
 [2018.04.26-16.05.37:742][361]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
 [2018.04.26-16.05.37:763][361]SourceControl: Info Commited [master 8267428] source Alien v1.
+[2018.04.26-16.11.21:932][427]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/mathi/Desktop/Alien - asset en tout genre/Son/crash.wav)
+[2018.04.26-16.12.30:859][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cinématique/LVL1_intro/crash" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/crash.uasset" SILENT=true
+[2018.04.26-16.12.30:874][206]LogSavePackage: Save=10.75ms
+[2018.04.26-16.12.30:874][206]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/crashC47C615F48E77F134C99B182893F75FB.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/crash.uasset'
+[2018.04.26-16.12.30:896][206]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/crash.uasset
+[2018.04.26-16.12.31:545][206]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cinématique/LVL1_intro/Intro" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset" SILENT=true
+[2018.04.26-16.12.31:626][206]LogSavePackage: Save=34.26ms
+[2018.04.26-16.12.31:626][206]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/IntroC479A97E4E1D1EE3580C6A96E0F2A122.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset'
+[2018.04.26-16.12.31:633][206]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset
+[2018.04.26-16.12.44:741][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.26-16.12.46:176][273]SourceControl:Error: Error error: pathspec 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/crash.uasset' did not match any file(s) known to git.
+[2018.04.26-16.12.46:409][273]SourceControl:Error: Error fatal: pathspec 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/crash.uasset' did not match any files
+[2018.04.26-16.12.46:421][273]LogObjectTools:Warning: SCC failed to open the selected files for deletion.
+[2018.04.26-16.15.38:751][986]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/LVL_1' took 0.041
+[2018.04.26-16.15.38:754][986]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cinématique/LVL1_intro/Intro] ([1] browsable assets)...
+[2018.04.26-16.15.38:754][986]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cinématique/LVL1_intro/Intro]
+[2018.04.26-16.15.38:790][986]LogSavePackage: Save=22.71ms
+[2018.04.26-16.15.38:790][986]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Intro_Auto369D9FE764A3F4B8ACF4734A133CD851E.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Autosaves/Game/Cinématique/LVL1_intro/Intro_Auto3.uasset'
+[2018.04.26-16.15.38:795][986]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Autosaves/Game/Cinématique/LVL1_intro/Intro_Auto3.uasset
+[2018.04.26-16.15.38:795][986]LogFileHelpers: Auto-saving content packages took 0.043
+[2018.04.26-16.17.32:095][357]LogAudioDerivedData:Display: Building compressed audio format OGG wave crash...
+[2018.04.26-16.17.32:428][357]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Cinématique/LVL1_intro/crash.crash.
+[2018.04.26-16.17.37:454][357]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/mathi/Desktop/Alien - asset en tout genre/Son/crash.wav)
+[2018.04.26-16.17.48:905][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cinématique/LVL1_intro/crash" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/crash.uasset" SILENT=true
+[2018.04.26-16.17.48:961][465]LogSavePackage: Save=37.06ms
+[2018.04.26-16.17.48:962][465]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/crashDC9977604FDDB9A6542BA58853C27260.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/crash.uasset'
+[2018.04.26-16.17.48:970][465]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/crash.uasset
+[2018.04.26-16.17.49:005][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cinématique/LVL1_intro/Intro" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset" SILENT=true
+[2018.04.26-16.17.49:065][465]LogSavePackage: Save=18.89ms
+[2018.04.26-16.17.49:065][465]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Intro232226AD434414F275F3A79688FD5EBD.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset'
+[2018.04.26-16.17.49:076][465]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset
+[2018.04.26-16.18.24:762][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cinématique/LVL1_intro/cue_sound" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/cue_sound.uasset" SILENT=true
+[2018.04.26-16.18.24:776][935]LogSavePackage: Save=10.60ms
+[2018.04.26-16.18.24:776][935]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/cue_sound6398AABE4816D24B05B870885ED593B5.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/cue_sound.uasset'
+[2018.04.26-16.18.24:784][935]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/cue_sound.uasset
+[2018.04.26-16.21.00:115][540]LogSavePackage: Save=728.31ms
+[2018.04.26-16.21.00:115][540]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/LVL_1B7ADCB5A4D193EC48BCE9DBDB0B034A8.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1.umap'
+[2018.04.26-16.21.00:119][540]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1.umap
+[2018.04.26-16.21.00:295][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/LVL_1_BuiltData" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset" SILENT=true
+[2018.04.26-16.21.00:538][540]LogSavePackage: Save=223.49ms
+[2018.04.26-16.21.00:538][540]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/LVL_1_BuiltDataCAB144CD48471318788808B493C08EC2.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset'
+[2018.04.26-16.21.00:542][540]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset
+[2018.04.26-16.21.01:901][550]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.26-16.21.01:919][550]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
+[2018.04.26-16.21.01:919][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.26-16.21.01:919][550]PIE: New page: PIE session: LVL_1 (Apr 26, 2018, 8:21:01 PM)
+[2018.04.26-16.21.01:919][550]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1
+[2018.04.26-16.21.02:150][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.230540s)
+[2018.04.26-16.21.02:151][550]LogAIModule: Creating AISystem for world LVL_1
+[2018.04.26-16.21.02:152][550]LogPlayLevel: PIE: World Init took: (0.001874s)
+[2018.04.26-16.21.02:153][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LVL_1.LVL_1 to /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1.LVL_1 (0.233206s)
+[2018.04.26-16.21.02:247][550]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.04.26-16.21.02:257][550]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 60) at 2018.04.26-18.21.02
+[2018.04.26-16.21.02:258][550]LogWorld: Bringing up level for play took: 0.009611
+[2018.04.26-16.21.02:259][550]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2018.04.26-16.21.02:275][550]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1 -0.035
+[2018.04.26-16.21.02:276][550]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
+[2018.04.26-16.21.08:037][593]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
+[2018.04.26-16.21.08:234][593]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
+[2018.04.26-16.21.21:525][726]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.26-16.21.21:533][726]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.26-16.21.22:268][727]Cmd: QUIT_EDITOR
+[2018.04.26-16.21.23:479][727]LogExit: Preparing to exit.
+[2018.04.26-16.21.24:183][727]LogDirectoryWatcher: A directory notification for 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/' was aborted.
+[2018.04.26-16.21.25:818][727]LogExit: Editor shut down
+[2018.04.26-16.21.25:902][727]LogExit: Transaction tracking system shut down
+[2018.04.26-16.21.34:391][727]LogObj: Freed 0b from 0 cluster array pools.
+[2018.04.26-16.21.34:391][727]LogExit: Object subsystem successfully closed.
+[2018.04.26-16.21.35:455][727]LogD3D11RHI: Shutdown
+[2018.04.26-16.21.35:455][727]LogD3D11RHI: CleanupD3DDevice
+[2018.04.26-16.21.36:859][727]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.26-16.21.41:356][727]LogModuleManager: Shutting down and abandoning module SequencerWidgets (518)
+[2018.04.26-16.21.41:356][727]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (516)
+[2018.04.26-16.21.41:356][727]LogModuleManager: Shutting down and abandoning module MaterialEditor (514)
+[2018.04.26-16.21.41:356][727]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (512)
+[2018.04.26-16.21.41:357][727]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (510)
+[2018.04.26-16.21.41:444][727]LogModuleManager: Shutting down and abandoning module BlueprintGraph (508)
+[2018.04.26-16.21.41:444][727]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (506)
+[2018.04.26-16.21.41:690][727]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (504)
+[2018.04.26-16.21.41:719][727]LogModuleManager: Shutting down and abandoning module CrashTracker (502)
+[2018.04.26-16.21.41:839][727]LogModuleManager: Shutting down and abandoning module SceneOutliner (500)
+[2018.04.26-16.21.41:839][727]LogModuleManager: Shutting down and abandoning module AddContentDialog (498)
+[2018.04.26-16.21.41:979][727]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
