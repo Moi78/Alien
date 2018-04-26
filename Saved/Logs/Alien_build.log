@@ -971,3 +971,120 @@ LogInit: Object subsystem initialized
 [2018.04.26-14.34.20:655][  5]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
 [2018.04.26-14.34.22:338][ 55]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
 [2018.04.26-14.34.22:422][ 55]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
+[2018.04.26-14.47.02:342][171]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/mathi/Desktop/Alien - asset en tout genre/Models/Item_lvl1.fbx)
+[2018.04.26-14.47.03:817][171]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.04.26-14.47.03:817][171]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.04.26-14.47.03:817][171]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.04.26-14.47.03:817][171]LogFbx: ItemName: NodeAttribute, ItemCount : 30
+[2018.04.26-14.47.03:817][171]LogFbx: ItemName: Model, ItemCount : 31
+[2018.04.26-14.47.03:817][171]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.04.26-14.47.03:817][171]LogFbx: ItemName: Material, ItemCount : 2
+[2018.04.26-14.47.03:893][171]LogFbx: Loading FBX Scene from ../../../../../../Users/mathi/Desktop/Alien - asset en tout genre/Models/Item_lvl1.fbx
+[2018.04.26-14.47.04:011][171]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.26-14.47.07:312][171]LogFbx: Loading FBX Scene from ../../../../../../Users/mathi/Desktop/Alien - asset en tout genre/Models/Item_lvl1.fbx
+[2018.04.26-14.47.07:337][171]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.26-14.47.07:372][171]LogLinker: Can't find file '/Game/Models/anneaux_item'
+[2018.04.26-14.47.07:373][171]LogLinker: Can't find file '/Game/Models/anneaux_item'
+[2018.04.26-14.47.07:480][171]LogMaterial: Missing cached shader map for material anneaux_item, compiling. 
+[2018.04.26-14.47.07:803][171]LogLinker: Can't find file '/Game/Models/core_Item'
+[2018.04.26-14.47.07:804][171]LogLinker: Can't find file '/Game/Models/core_Item'
+[2018.04.26-14.47.07:841][171]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.47.07:859][171]LogFbx:Warning: Triangulating static mesh polySurface11
+[2018.04.26-14.47.10:400][171]LogStaticMesh: Building static mesh Item_lvl1...
+[2018.04.26-14.47.16:328][171]LogStaticMesh: Built static mesh [5.98s] /Game/Models/Item_lvl1.Item_lvl1
+[2018.04.26-14.47.16:687][171]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.04.26-14.47.20:370][207]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/LVL_1' took 0.068
+[2018.04.26-14.47.20:434][207]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Item_lvl1] ([1] browsable assets)...
+[2018.04.26-14.47.20:448][207]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Item_lvl1.Item_lvl1]
+[2018.04.26-14.47.20:448][207]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Item_lvl1]
+[2018.04.26-14.47.20:448][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Item_lvl1" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Autosaves/Game/Models/Item_lvl1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.04.26-14.47.20:486][207]LogSavePackage: Save=21.24ms
+[2018.04.26-14.47.20:487][207]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Item_lvl1_Auto148FB1ED34F848164CAA19A8DF582264B.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Autosaves/Game/Models/Item_lvl1_Auto1.uasset'
+[2018.04.26-14.47.20:537][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Autosaves/Game/Models/Item_lvl1_Auto1.uasset
+[2018.04.26-14.47.20:540][207]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/anneaux_item] ([1] browsable assets)...
+[2018.04.26-14.47.20:553][207]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/anneaux_item.anneaux_item]
+[2018.04.26-14.47.20:553][207]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/anneaux_item]
+[2018.04.26-14.47.20:594][207]LogSavePackage: Save=36.86ms
+[2018.04.26-14.47.20:594][207]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/anneaux_item_Auto1D745A6FE47A5A29757E102B6DC3C11ED.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Autosaves/Game/Models/anneaux_item_Auto1.uasset'
+[2018.04.26-14.47.20:599][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Autosaves/Game/Models/anneaux_item_Auto1.uasset
+[2018.04.26-14.47.20:602][207]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/core_Item] ([1] browsable assets)...
+[2018.04.26-14.47.20:614][207]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/core_Item.core_Item]
+[2018.04.26-14.47.20:614][207]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/core_Item]
+[2018.04.26-14.47.20:614][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/core_Item" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Autosaves/Game/Models/core_Item_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.04.26-14.47.20:639][207]LogSavePackage: Save=20.15ms
+[2018.04.26-14.47.20:639][207]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/core_Item_Auto1B37512184B1F9FB709B5DDBC6AF2BB06.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Autosaves/Game/Models/core_Item_Auto1.uasset'
+[2018.04.26-14.47.20:670][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Autosaves/Game/Models/core_Item_Auto1.uasset
+[2018.04.26-14.47.20:670][207]LogFileHelpers: Auto-saving content packages took 0.289
+[2018.04.26-14.47.22:570][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (VaisseauP1)
+[2018.04.26-14.47.32:723][273]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 1 (Frame:1).
+[2018.04.26-14.47.38:586][350]LogSlate: Took 0.076658 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.26-14.47.49:905][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Item_lvl1" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Item_lvl1.uasset" SILENT=true
+[2018.04.26-14.47.49:929][483]LogSavePackage: Save=19.11ms
+[2018.04.26-14.47.49:929][483]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Item_lvl19528981E4335CCE3627E75AD970946F0.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Item_lvl1.uasset'
+[2018.04.26-14.47.49:939][483]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Item_lvl1.uasset
+[2018.04.26-14.47.58:549][574]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.47.58:944][574]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.47.59:007][574]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.04.26-14.48.05:045][631]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.04.26-14.48.05:046][631]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.26-14.48.05:046][631]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.26-14.48.06:769][647]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.04.26-14.48.10:843][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.04.26-14.48.10:922][708]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.48.11:037][708]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.04.26-14.48.13:265][725]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.04.26-14.48.15:278][744]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.04.26-14.48.15:308][744]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.48.15:330][744]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.04.26-14.48.21:904][813]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.04.26-14.48.21:904][813]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.26-14.48.21:904][813]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.04.26-14.48.22:116][815]LogMaterialEditor: Applying material core_Item
+[2018.04.26-14.48.27:029][815]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.48.27:167][815]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.48.27:203][815]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.48.27:257][815]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy core_Item, compiling. 
+[2018.04.26-14.48.28:474][815]TextureStreamingBuild:Display: Compiling optional shaders took 1.234 seconds.
+[2018.04.26-14.48.35:174][920]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.04.26-14.48.35:174][920]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.26-14.48.35:174][920]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.04.26-14.48.44:225][ 42]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.48.46:864][ 73]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.48.50:076][105]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.48.56:062][162]LogMaterialEditor: Applying material core_Item
+[2018.04.26-14.48.56:901][162]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.48.56:999][162]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.48.57:024][162]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.48.57:138][162]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy core_Item, compiling. 
+[2018.04.26-14.48.58:392][162]TextureStreamingBuild:Display: Compiling optional shaders took 1.327 seconds.
+[2018.04.26-14.48.59:993][180]LogMaterialEditor: Saving and Compiling material core_Item
+[2018.04.26-14.49.02:029][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/core_Item" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/core_Item.uasset" SILENT=true
+[2018.04.26-14.49.02:057][180]LogSavePackage: Save=22.06ms
+[2018.04.26-14.49.02:057][180]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/core_Item37BFD8C5421880B469B0629AD7684AB5.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/core_Item.uasset'
+[2018.04.26-14.49.02:067][180]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/core_Item.uasset
+[2018.04.26-14.49.02:931][180]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.04.26-14.49.02:931][180]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.26-14.49.02:931][180]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.04.26-14.49.06:693][227]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.49.10:882][273]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.49.13:545][301]LogMaterialEditor: Applying material core_Item
+[2018.04.26-14.49.14:500][301]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.49.14:623][301]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.49.14:671][301]LogMaterial: Missing cached shader map for material core_Item, compiling. 
+[2018.04.26-14.49.14:719][301]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy core_Item, compiling. 
+[2018.04.26-14.49.16:244][301]TextureStreamingBuild:Display: Compiling optional shaders took 1.531 seconds.
+[2018.04.26-14.49.18:618][314]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2018.04.26-14.49.18:618][314]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.04.26-14.49.18:618][314]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.04.26-14.49.22:521][365]LogMaterialEditor: Saving and Compiling material core_Item
+[2018.04.26-14.49.22:819][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/core_Item" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/core_Item.uasset" SILENT=true
+[2018.04.26-14.49.22:854][365]LogSavePackage: Save=20.43ms
+[2018.04.26-14.49.22:854][365]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/core_Item6676C5754D9A59DCE0C7A09D7602D816.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/core_Item.uasset'
+[2018.04.26-14.49.22:861][365]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/core_Item.uasset
+[2018.04.26-14.49.30:996][453]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.04.26-14.49.46:920][453]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.04.26-14.49.47:021][453]SourceControl: Info [master 3da938b] source Alien v1
+[2018.04.26-14.49.47:021][453]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
+[2018.04.26-14.49.47:021][453]SourceControl: Info  create mode 100644 Content/Models/Item_lvl1.uasset
+[2018.04.26-14.49.47:021][453]SourceControl: Info  create mode 100644 Content/Models/core_Item.uasset
+[2018.04.26-14.49.47:045][453]SourceControl: Info Commited [master 3da938b] source Alien v1.
