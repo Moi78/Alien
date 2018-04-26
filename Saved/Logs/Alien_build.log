@@ -512,3 +512,32 @@ LogInit: Object subsystem initialized
 [2018.04.26-14.10.24:713][  3]LogAssetRegistry: Asset discovery search completed in 334.9366 seconds
 [2018.04.26-14.10.24:735][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
 [2018.04.26-14.10.24:735][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000083 seconds (updated 0 objects)
+[2018.04.26-14.11.13:324][824]SourceControl: Info On branch master
+[2018.04.26-14.11.13:324][824]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.04.26-14.11.13:324][824]SourceControl: Info Changes not staged for commit:
+[2018.04.26-14.11.13:324][824]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2018.04.26-14.11.13:324][824]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.04.26-14.11.13:324][824]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.04.26-14.11.13:324][824]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2018.04.26-14.11.19:380][ 21]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.04.26-14.11.19:710][ 21]EditorErrors:Warning: Warning No assets to check in!
+[2018.04.26-14.11.41:661][551]SourceControl: Info On branch master
+[2018.04.26-14.11.41:662][551]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.04.26-14.11.41:662][551]SourceControl: Info Changes not staged for commit:
+[2018.04.26-14.11.41:662][551]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2018.04.26-14.11.41:662][551]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.04.26-14.11.41:662][551]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.04.26-14.11.41:662][551]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2018.04.26-14.11.52:780][931]LogSlate: Took 0.000461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.26-14.12.05:635][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/testGit" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/testGit.uasset" SILENT=true
+[2018.04.26-14.12.05:723][191]LogSavePackage: Save=82.60ms
+[2018.04.26-14.12.05:723][191]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/testGit7244D6E64E211E5C6CFE94AC0511B7B2.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/testGit.uasset'
+[2018.04.26-14.12.05:755][191]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/testGit.uasset
+[2018.04.26-14.12.16:257][257]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.04.26-14.12.53:154][257]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.04.26-14.12.53:238][257]SourceControl: Info [master 7ce8d2c] source Alien v1
+[2018.04.26-14.12.53:238][257]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2018.04.26-14.12.53:238][257]SourceControl: Info  create mode 100644 Content/FirstPersonBP/Blueprints/testGit.uasset
+[2018.04.26-14.12.53:256][257]SourceControl: Info Commited [master 7ce8d2c] source Alien v1.
+[2018.04.26-14.14.27:019][974]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.04.26-14.14.27:245][974]EditorErrors:Warning: Warning No assets to check in!
