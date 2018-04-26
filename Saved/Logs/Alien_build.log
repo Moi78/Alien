@@ -541,3 +541,10 @@ LogInit: Object subsystem initialized
 [2018.04.26-14.12.53:256][257]SourceControl: Info Commited [master 7ce8d2c] source Alien v1.
 [2018.04.26-14.14.27:019][974]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
 [2018.04.26-14.14.27:245][974]EditorErrors:Warning: Warning No assets to check in!
+[2018.04.26-14.15.04:876][230]SourceControl: Info rm 'Content/FirstPersonBP/Blueprints/testGit.uasset'
+[2018.04.26-14.15.11:932][309]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.04.26-14.15.21:436][309]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.04.26-14.15.21:517][309]SourceControl: Info [master c9a112b] source Alien v1
+[2018.04.26-14.15.21:517][309]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2018.04.26-14.15.21:517][309]SourceControl: Info  delete mode 100644 Content/FirstPersonBP/Blueprints/testGit.uasset
+[2018.04.26-14.15.21:533][309]SourceControl: Info Commited [master c9a112b] source Alien v1.
