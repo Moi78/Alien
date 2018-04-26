@@ -1106,3 +1106,14 @@ LogInit: Object subsystem initialized
 [2018.04.26-14.51.39:254][863]SourceControl: Info  copy Content/{Models => Material}/core_Item.uasset (99%)
 [2018.04.26-14.51.39:254][863]SourceControl: Info  rewrite Content/Models/core_Item.uasset (99%)
 [2018.04.26-14.51.39:282][863]SourceControl: Info Commited [master 7a9e412] source Alien v1.
+[2018.04.26-14.54.58:918][694]BlueprintLog: New page: Compile BP_Item_lvl1
+[2018.04.26-14.55.01:363][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Item/BP_Item_lvl1" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Blueprint/Item/BP_Item_lvl1.uasset" SILENT=true
+[2018.04.26-14.55.01:429][711]LogSavePackage: Save=61.72ms
+[2018.04.26-14.55.01:429][711]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/BP_Item_lvl10FA23E624C96C6725EC5718A3D395E2A.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Blueprint/Item/BP_Item_lvl1.uasset'
+[2018.04.26-14.55.01:437][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Blueprint/Item/BP_Item_lvl1.uasset
+[2018.04.26-14.55.10:776][813]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.04.26-14.55.23:664][813]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.04.26-14.55.25:379][813]SourceControl: Info [master 421fae5] source Alien v1
+[2018.04.26-14.55.25:379][813]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2018.04.26-14.55.25:379][813]SourceControl: Info  create mode 100644 Content/Blueprint/Item/BP_Item_lvl1.uasset
+[2018.04.26-14.55.25:399][813]SourceControl: Info Commited [master 421fae5] source Alien v1.
