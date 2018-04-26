@@ -1088,3 +1088,21 @@ LogInit: Object subsystem initialized
 [2018.04.26-14.49.47:021][453]SourceControl: Info  create mode 100644 Content/Models/Item_lvl1.uasset
 [2018.04.26-14.49.47:021][453]SourceControl: Info  create mode 100644 Content/Models/core_Item.uasset
 [2018.04.26-14.49.47:045][453]SourceControl: Info Commited [master 3da938b] source Alien v1.
+[2018.04.26-14.51.20:379][818]SourceControl: Info On branch master
+[2018.04.26-14.51.20:379][818]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.04.26-14.51.20:379][818]SourceControl: Info nothing to commit, working tree clean
+[2018.04.26-14.51.21:259][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/core_Item" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/core_Item.uasset" SILENT=true
+[2018.04.26-14.51.21:287][818]LogSavePackage: Save=23.78ms
+[2018.04.26-14.51.21:287][818]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/core_Item22526DE14530E13D6D0137A1CD6D4127.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/core_Item.uasset'
+[2018.04.26-14.51.21:294][818]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/core_Item.uasset
+[2018.04.26-14.51.22:162][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/core_Item" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/core_Item.uasset" SILENT=true
+[2018.04.26-14.51.22:662][818]LogSavePackage: Save=493.65ms
+[2018.04.26-14.51.22:663][818]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/core_Item2CEC70A449D9DC608AD7EE809502D9C5.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/core_Item.uasset'
+[2018.04.26-14.51.22:670][818]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/core_Item.uasset
+[2018.04.26-14.51.27:511][863]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.04.26-14.51.37:654][863]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.04.26-14.51.39:254][863]SourceControl: Info [master 7a9e412] source Alien v1
+[2018.04.26-14.51.39:254][863]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
+[2018.04.26-14.51.39:254][863]SourceControl: Info  copy Content/{Models => Material}/core_Item.uasset (99%)
+[2018.04.26-14.51.39:254][863]SourceControl: Info  rewrite Content/Models/core_Item.uasset (99%)
+[2018.04.26-14.51.39:282][863]SourceControl: Info Commited [master 7a9e412] source Alien v1.
