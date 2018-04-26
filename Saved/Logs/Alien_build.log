@@ -2819,3 +2819,35 @@ LogInit: Object subsystem initialized
 [2018.04.26-15.13.01:803][838]SourceControl: Info [master f3b791e] source Alien v1
 [2018.04.26-15.13.01:803][838]SourceControl: Info  4 files changed, 0 insertions(+), 0 deletions(-)
 [2018.04.26-15.13.01:818][838]SourceControl: Info Commited [master f3b791e] source Alien v1.
+[2018.04.26-15.20.58:382][869]BlueprintLog: New page: Compile BP_ALienlvl1
+[2018.04.26-15.21.02:694][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Alien/ProtoLVL1/BP_ALienlvl1" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Alien/ProtoLVL1/BP_ALienlvl1.uasset" SILENT=true
+[2018.04.26-15.21.02:820][884]LogSavePackage: Save=107.37ms
+[2018.04.26-15.21.02:821][884]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/BP_ALienlvl1E03B4BBD487EC42A371E3DAC74E5BA67.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Alien/ProtoLVL1/BP_ALienlvl1.uasset'
+[2018.04.26-15.21.02:830][884]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Alien/ProtoLVL1/BP_ALienlvl1.uasset
+[2018.04.26-15.23.22:729][285]LogEditorViewport: Clicking on Actor (LMB): Girophare_C (Lampe)
+[2018.04.26-15.23.47:455][571]LogEditorViewport: Clicking on Actor (LMB): Girophare_C (Lampe2)
+[2018.04.26-15.23.54:420][658]LogEditorViewport: Clicking on Actor (LMB): Girophare_C (Lampe)
+[2018.04.26-15.24.01:543][747]LogEditorViewport: Clicking on Actor (LMB): Girophare_C (Lampe3)
+[2018.04.26-15.24.08:995][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (VaisseauP1)
+[2018.04.26-15.24.51:374][328]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight8)
+[2018.04.26-15.25.23:184][740]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight21)
+[2018.04.26-15.25.50:858][ 75]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight8)
+[2018.04.26-15.27.35:563][310]LogEditor: Attempting to add actor of class 'CineCameraActor' to level at -1420.00,-700.00,1140.00
+[2018.04.26-15.27.37:338][329]LogEditor: Attempting to add actor of class 'CineCameraActor' to level at -620.00,-580.00,970.00
+[2018.04.26-15.27.38:258][344]LogEditor: Attempting to add actor of class 'CineCameraActor' to level at -620.00,-570.00,1010.00
+[2018.04.26-15.27.54:746][535]LogSavePackage: Save=715.42ms
+[2018.04.26-15.27.54:746][535]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/LVL_112732F89471E0840A3427C83A0BC39D2.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1.umap'
+[2018.04.26-15.27.54:757][535]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1.umap
+[2018.04.26-15.27.54:946][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/LVL_1_BuiltData" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset" SILENT=true
+[2018.04.26-15.27.55:276][535]LogSavePackage: Save=310.52ms
+[2018.04.26-15.27.55:277][535]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/LVL_1_BuiltData375C23164F8DC435F5919184C73B8AB2.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset'
+[2018.04.26-15.27.55:281][535]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset
+[2018.04.26-15.27.57:679][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Cinématique/LVL1_intro/Intro" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset" SILENT=true
+[2018.04.26-15.27.57:705][559]LogSavePackage: Save=19.83ms
+[2018.04.26-15.27.57:705][559]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Intro80A86B2D4C202040A0E4D8A0FF1625C0.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset'
+[2018.04.26-15.27.57:714][559]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Cinématique/LVL1_intro/Intro.uasset
+[2018.04.26-15.28.02:943][610]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.04.26-15.28.15:172][610]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.04.26-15.28.15:745][610]SourceControl: Info [master 3e15de2] source Alien v1
+[2018.04.26-15.28.15:745][610]SourceControl: Info  3 files changed, 0 insertions(+), 0 deletions(-)
+[2018.04.26-15.28.15:758][610]SourceControl: Info Commited [master 3e15de2] source Alien v1.
