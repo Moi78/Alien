@@ -20886,27 +20886,3 @@ Make sure 'FirstPersonCharacter_C' has been compiled for  Set Nb_itemVi
 [2018.04.29-19.34.08:713][ 80]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/LVL_1_BuiltData5FDD25184ADBE99AEC0ED789BAE36472.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset'
 [2018.04.29-19.34.08:753][ 80]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset
 [2018.04.29-19.34.08:759][ 80]LogEditorTransaction: Undo Spawn Play From Here Start
-[2018.04.29-19.36.39:958][135]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
-[2018.04.29-19.36.39:958][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.29-19.36.39:959][135]PIE: New page: PIE session: LVL_1 (Apr 29, 2018, 11:36:39 PM)
-[2018.04.29-19.36.39:959][135]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1
-[2018.04.29-19.36.40:268][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.308969s)
-[2018.04.29-19.36.40:269][135]LogAIModule: Creating AISystem for world LVL_1
-[2018.04.29-19.36.40:270][135]LogPlayLevel: PIE: World Init took: (0.002247s)
-[2018.04.29-19.36.40:271][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LVL_1.LVL_1 to /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1.LVL_1 (0.311978s)
-[2018.04.29-19.36.40:674][135]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.04.29-19.36.40:800][135]LogInit: FAudioDevice initialized.
-[2018.04.29-19.36.40:914][135]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2018.04.29-19.36.40:922][135]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 60) at 2018.04.29-21.36.40
-[2018.04.29-19.36.40:923][135]LogWorld: Bringing up level for play took: 0.008137
-[2018.04.29-19.36.40:925][135]LogSpawn:Warning: SpawnActor failed because no class was specified
-[2018.04.29-19.36.40:946][135]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1 0.008
-[2018.04.29-19.36.40:979][135]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
-[2018.04.29-19.36.42:458][175]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
-[2018.04.29-19.36.42:595][175]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
-[2018.04.29-19.41.55:845][603]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
-[2018.04.29-19.42.20:312][603]LogSourceControl: FGitCheckInWorker: commit successful
-[2018.04.29-19.42.20:467][603]SourceControl: Info [master 324ba76] source Alien v1
-[2018.04.29-19.42.20:467][603]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
-[2018.04.29-19.42.20:467][603]SourceControl: Info  rewrite Content/HUDS/Status/Status.uasset (70%)
-[2018.04.29-19.42.20:484][603]SourceControl: Info Commited [master 324ba76] source Alien v1.
