@@ -223,3 +223,189 @@ LogInit: Object subsystem initialized
 [2018.04.29-18.36.51:390][  3]LogAssetRegistry: Asset discovery search completed in 137.5046 seconds
 [2018.04.29-18.36.51:449][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
 [2018.04.29-18.36.51:449][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.015563 seconds (updated 0 objects)
+[2018.04.29-18.40.37:964][379]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.29-18.40.39:136][379]LogSlate: Took 0.000408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.29-18.40.41:455][379]LogBlueprint:Warning: [Item_B_BP] 'Nb_itemB' variable not found. Base class was probably changed.
+[2018.04.29-18.40.41:455][379]LogBlueprint:Warning: [Item_B_BP] 'Nb_itemB' variable not found. Base class was probably changed.
+[2018.04.29-18.40.41:455][379]LogBlueprint:Warning: [Item_B_BP] 'Nb_itemB' variable not found. Base class was probably changed.
+[2018.04.29-18.40.41:542][379]LogBlueprint:Error: [Compiler Item_B_BP] Error Failed to resolve term passed into  A
+[2018.04.29-18.40.41:545][379]LogBlueprint:Warning: [Compiler Item_B_BP] Warning [0452.55] Compile of Item_B_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 69 ms] (/Game/Blueprint/Item/BP/Item_B_BP.Item_B_BP)
+[2018.04.29-18.40.41:545][379]LogBlueprint:Warning: [Compiler Item_B_BP] Warning [0452.55] Compile of Item_B_BP failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Blueprint/Item/BP/Item_B_BP.Item_B_BP)
+[2018.04.29-18.40.41:545][379]LogBlueprint:Warning: [Compiler Item_B_BP] Warning [0452.55] Compile of Item_B_BP failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Blueprint/Item/BP/Item_B_BP.Item_B_BP)
+[2018.04.29-18.40.41:812][379]LogBlueprint:Warning: [Item_Vi_BP] 'Nb_itemVi' variable not found. Base class was probably changed.
+[2018.04.29-18.40.41:812][379]LogBlueprint:Warning: [Item_Vi_BP] 'Nb_itemVi' variable not found. Base class was probably changed.
+[2018.04.29-18.40.41:813][379]LogBlueprint:Warning: [Item_Vi_BP] 'Nb_itemVi' variable not found. Base class was probably changed.
+[2018.04.29-18.40.41:816][379]LogBlueprint:Error: [Compiler Item_Vi_BP] Error Failed to resolve term passed into  A
+[2018.04.29-18.40.41:819][379]LogBlueprint:Warning: [Compiler Item_Vi_BP] Warning [0452.82] Compile of Item_Vi_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 5 ms] (/Game/Blueprint/Item/BP/Item_Vi_BP.Item_Vi_BP)
+[2018.04.29-18.40.41:820][379]LogBlueprint:Warning: [Compiler Item_Vi_BP] Warning [0452.82] Compile of Item_Vi_BP failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Blueprint/Item/BP/Item_Vi_BP.Item_Vi_BP)
+[2018.04.29-18.40.41:820][379]LogBlueprint:Warning: [Compiler Item_Vi_BP] Warning [0452.82] Compile of Item_Vi_BP failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Blueprint/Item/BP/Item_Vi_BP.Item_Vi_BP)
+[2018.04.29-18.40.42:560][379]LogBlueprint:Warning: [Item_V_BP] 'Nb_itemV' variable not found. Base class was probably changed.
+[2018.04.29-18.40.42:560][379]LogBlueprint:Warning: [Item_V_BP] 'Nb_itemV' variable not found. Base class was probably changed.
+[2018.04.29-18.40.42:560][379]LogBlueprint:Warning: [Item_V_BP] 'Nb_itemV' variable not found. Base class was probably changed.
+[2018.04.29-18.40.42:564][379]LogBlueprint:Error: [Compiler Item_V_BP] Error Failed to resolve term passed into  A
+[2018.04.29-18.40.42:568][379]LogBlueprint:Warning: [Compiler Item_V_BP] Warning [0453.57] Compile of Item_V_BP failed. 1 Fatal Issue(s) 0 Warning(s) [in 6 ms] (/Game/Blueprint/Item/BP/Item_V_BP.Item_V_BP)
+[2018.04.29-18.40.42:568][379]LogBlueprint:Warning: [Compiler Item_V_BP] Warning [0453.57] Compile of Item_V_BP failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Blueprint/Item/BP/Item_V_BP.Item_V_BP)
+[2018.04.29-18.40.42:569][379]LogBlueprint:Warning: [Compiler Item_V_BP] Warning [0453.57] Compile of Item_V_BP failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Blueprint/Item/BP/Item_V_BP.Item_V_BP)
+[2018.04.29-18.40.42:580][379]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.29-18.40.42:580][379]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.29-18.40.42:787][379]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.29-18.40.42:787][379]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.29-18.40.42:791][379]LogBlueprint:Warning: [Item_V_BP] 'Nb_itemV' variable not found. Base class was probably changed.
+[2018.04.29-18.40.42:791][379]LogBlueprint:Warning: [Item_V_BP] 'Nb_itemV' variable not found. Base class was probably changed.
+[2018.04.29-18.40.42:791][379]LogBlueprint:Warning: [Item_V_BP] 'Nb_itemV' variable not found. Base class was probably changed.
+[2018.04.29-18.40.42:823][379]LogBlueprint:Warning: [Item_B_BP] 'Nb_itemB' variable not found. Base class was probably changed.
+[2018.04.29-18.40.42:823][379]LogBlueprint:Warning: [Item_B_BP] 'Nb_itemB' variable not found. Base class was probably changed.
+[2018.04.29-18.40.42:824][379]LogBlueprint:Warning: [Item_B_BP] 'Nb_itemB' variable not found. Base class was probably changed.
+[2018.04.29-18.40.42:838][379]LogBlueprint:Warning: [Item_Vi_BP] 'Nb_itemVi' variable not found. Base class was probably changed.
+[2018.04.29-18.40.42:838][379]LogBlueprint:Warning: [Item_Vi_BP] 'Nb_itemVi' variable not found. Base class was probably changed.
+[2018.04.29-18.40.42:838][379]LogBlueprint:Warning: [Item_Vi_BP] 'Nb_itemVi' variable not found. Base class was probably changed.
+[2018.04.29-18.41.08:001][379]LogAIModule: Creating AISystem for world LVL_1
+[2018.04.29-18.41.09:849][379]Cmd: MAP LOAD FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.29-18.41.09:850][379]LightingResults: New page: Lighting Build
+[2018.04.29-18.41.09:851][379]LoadErrors: New page: Loading map: LVL_1.umap
+[2018.04.29-18.41.09:880][379]MapCheck: New page: Map Check
+[2018.04.29-18.41.09:880][379]LightingResults: New page: Lighting Build
+[2018.04.29-18.41.10:815][379]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.29-18.41.10:966][379]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.29-18.41.11:250][379]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 283.393ms to complete.
+[2018.04.29-18.41.11:253][379]LogFileHelpers: Loading map 'LVL_1' took 1.494
+[2018.04.29-18.41.24:670][830]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.29-18.41.25:046][830]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
+[2018.04.29-18.41.25:070][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.29-18.42.29:748][111]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0078 seconds. Added 112 classes and 0 folders.
+[2018.04.29-18.42.33:036][111]LogSlate: Took 0.022991 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.29-18.42.34:250][112]LogSlate: Took 0.100297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.29-18.43.06:555][561]BlueprintLog: New page: Compile Item_B_BP
+[2018.04.29-18.43.06:576][561]LogBlueprint:Warning: [Compiler Item_B_BP] Warning Could not find a variable named "Nb_itemB" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set Nb_itemB
+[2018.04.29-18.43.06:609][561]LogBlueprint:Error: [Compiler Item_B_BP] Error The property associated with  Nb Item B  could not be found
+[2018.04.29-18.43.07:490][561]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Nb_itemB" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set Nb_itemB
+[2018.04.29-18.43.07:490][561]BlueprintEditorCompileResults:Error: Error The property associated with  Nb Item B  could not be found
+[2018.04.29-18.43.07:491][561]LogBlueprint:Warning: [Compiler Item_B_BP] Warning [0598.49] Compile of Item_B_BP failed. 1 Fatal Issue(s) 1 Warning(s) [in 935 ms] (/Game/Blueprint/Item/BP/Item_B_BP.Item_B_BP)
+[2018.04.29-18.43.17:864][682]BlueprintLog: New page: Compile Item_B_BP
+[2018.04.29-18.43.17:876][682]LogBlueprint:Warning: [Compiler Item_B_BP] Warning Could not find a variable named "Nb_itemB" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Get Nb_itemB
+[2018.04.29-18.43.17:876][682]LogBlueprint:Warning: [Compiler Item_B_BP] Warning Could not find a variable named "Nb_itemB" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set Nb_itemB
+[2018.04.29-18.43.17:877][682]LogBlueprint:Error: [Compiler Item_B_BP] Error The property associated with  Nb Item B  could not be found
+[2018.04.29-18.43.17:877][682]LogBlueprint:Error: [Compiler Item_B_BP] Error The property associated with  Nb Item B  could not be found
+[2018.04.29-18.43.18:094][682]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Nb_itemB" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Get Nb_itemB
+[2018.04.29-18.43.18:094][682]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Nb_itemB" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set Nb_itemB
+[2018.04.29-18.43.18:094][682]BlueprintEditorCompileResults:Error: Error The property associated with  Nb Item B  could not be found
+[2018.04.29-18.43.18:094][682]BlueprintEditorCompileResults:Error: Error The property associated with  Nb Item B  could not be found
+[2018.04.29-18.43.18:095][682]LogBlueprint:Warning: [Compiler Item_B_BP] Warning [0609.10] Compile of Item_B_BP failed. 2 Fatal Issue(s) 2 Warning(s) [in 230 ms] (/Game/Blueprint/Item/BP/Item_B_BP.Item_B_BP)
+[2018.04.29-18.50.01:524][794]LogSlate: Took 0.014393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.04.29-18.50.06:473][857]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.04.29-18.50.06:560][857]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.29-18.50.06:560][857]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.29-18.50.06:569][857]LogBlueprint:Warning: [Item_V_BP] 'Nb_itemV' variable not found. Base class was probably changed.
+[2018.04.29-18.50.06:569][857]LogBlueprint:Warning: [Item_V_BP] 'Nb_itemV' variable not found. Base class was probably changed.
+[2018.04.29-18.50.06:569][857]LogBlueprint:Warning: [Item_V_BP] 'Nb_itemV' variable not found. Base class was probably changed.
+[2018.04.29-18.50.06:639][857]LogBlueprint:Warning: [Item_B_BP] 'Nb_itemB' variable not found. Base class was probably changed.
+[2018.04.29-18.50.06:639][857]LogBlueprint:Warning: [Item_B_BP] 'Nb_itemB' variable not found. Base class was probably changed.
+[2018.04.29-18.50.06:640][857]LogBlueprint:Warning: [Item_B_BP] 'Nb_itemB' variable not found. Base class was probably changed.
+[2018.04.29-18.50.06:650][857]LogBlueprint:Warning: [Item_Vi_BP] 'Nb_itemVi' variable not found. Base class was probably changed.
+[2018.04.29-18.50.06:650][857]LogBlueprint:Warning: [Item_Vi_BP] 'Nb_itemVi' variable not found. Base class was probably changed.
+[2018.04.29-18.50.06:650][857]LogBlueprint:Warning: [Item_Vi_BP] 'Nb_itemVi' variable not found. Base class was probably changed.
+[2018.04.29-18.50.06:722][857]LogBlueprint:Warning: [Compiler Item_V_BP] Warning Could not find a variable named "Nb_itemV" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set Nb_itemV
+[2018.04.29-18.50.06:722][857]LogBlueprint:Warning: [Compiler Item_V_BP] Warning Could not find a variable named "Nb_itemV" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Get Nb_itemV
+[2018.04.29-18.50.06:722][857]LogBlueprint:Error: [Compiler Item_V_BP] Error The property associated with  Nb Item V  could not be found
+[2018.04.29-18.50.06:723][857]LogBlueprint:Error: [Compiler Item_V_BP] Error The property associated with  Nb Item V  could not be found
+[2018.04.29-18.50.06:742][857]LogBlueprint:Warning: [Compiler Item_B_BP] Warning Could not find a variable named "Nb_itemB" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Get Nb_itemB
+[2018.04.29-18.50.06:742][857]LogBlueprint:Warning: [Compiler Item_B_BP] Warning Could not find a variable named "Nb_itemB" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set Nb_itemB
+[2018.04.29-18.50.06:742][857]LogBlueprint:Error: [Compiler Item_B_BP] Error The property associated with  Nb Item B  could not be found
+[2018.04.29-18.50.06:743][857]LogBlueprint:Error: [Compiler Item_B_BP] Error The property associated with  Nb Item B  could not be found
+[2018.04.29-18.50.06:764][857]LogBlueprint:Warning: [Compiler Item_Vi_BP] Warning Could not find a variable named "Nb_itemVi" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Get Nb_itemVi
+[2018.04.29-18.50.06:765][857]LogBlueprint:Warning: [Compiler Item_Vi_BP] Warning Could not find a variable named "Nb_itemVi" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set Nb_itemVi
+[2018.04.29-18.50.06:765][857]LogBlueprint:Error: [Compiler Item_Vi_BP] Error The property associated with  Nb Item Vi  could not be found
+[2018.04.29-18.50.06:765][857]LogBlueprint:Error: [Compiler Item_Vi_BP] Error The property associated with  Nb Item Vi  could not be found
+[2018.04.29-18.50.10:842][881]LogSavePackage: Save=439.61ms
+[2018.04.29-18.50.10:842][881]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/FirstPersonCharacterBCF52E4640AF5A8357E9A6B949D2DDD1.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.04.29-18.50.10:856][881]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.04.29-18.50.19:195][ 25]BlueprintLog: New page: Compile Item_B_BP
+[2018.04.29-18.50.19:207][ 25]LogBlueprint:Warning: [Compiler Item_B_BP] Warning Could not find a variable named "Nb_itemB" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Get Nb_itemB
+[2018.04.29-18.50.19:207][ 25]LogBlueprint:Warning: [Compiler Item_B_BP] Warning Could not find a variable named "Nb_itemB" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set Nb_itemB
+[2018.04.29-18.50.19:208][ 25]LogBlueprint:Error: [Compiler Item_B_BP] Error The property associated with  Nb Item B  could not be found
+[2018.04.29-18.50.19:208][ 25]LogBlueprint:Error: [Compiler Item_B_BP] Error The property associated with  Nb Item B  could not be found
+[2018.04.29-18.50.19:454][ 25]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Nb_itemB" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Get Nb_itemB
+[2018.04.29-18.50.19:454][ 25]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "Nb_itemB" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set Nb_itemB
+[2018.04.29-18.50.19:454][ 25]BlueprintEditorCompileResults:Error: Error The property associated with  Nb Item B  could not be found
+[2018.04.29-18.50.19:454][ 25]BlueprintEditorCompileResults:Error: Error The property associated with  Nb Item B  could not be found
+[2018.04.29-18.50.19:455][ 25]LogBlueprint:Warning: [Compiler Item_B_BP] Warning [1030.46] Compile of Item_B_BP failed. 2 Fatal Issue(s) 2 Warning(s) [in 259 ms] (/Game/Blueprint/Item/BP/Item_B_BP.Item_B_BP)
+[2018.04.29-18.51.25:552][132]BlueprintLog: New page: Compile Item_B_BP
+[2018.04.29-18.51.25:612][132]LogBlueprint:Error: [Compiler Item_B_BP] Error This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2018.04.29-18.51.25:612][132]LogBlueprint:Error: [Compiler Item_B_BP] Error This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2018.04.29-18.51.25:626][132]LogBlueprint:Error: [Compiler Item_B_BP] Error Variable node  Set Nb_Item_B  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.04.29-18.51.25:627][132]LogBlueprint:Error: [Compiler Item_B_BP] Error Variable node  Set Nb_Item_B  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.04.29-18.51.25:867][132]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2018.04.29-18.51.25:867][132]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2018.04.29-18.51.25:867][132]BlueprintEditorCompileResults:Error: Error Variable node  Set Nb_Item_B  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.04.29-18.51.25:867][132]BlueprintEditorCompileResults:Error: Error Variable node  Set Nb_Item_B  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.04.29-18.51.25:868][132]LogBlueprint:Warning: [Compiler Item_B_BP] Warning [1096.87] Compile of Item_B_BP failed. 4 Fatal Issue(s) 0 Warning(s) [in 315 ms] (/Game/Blueprint/Item/BP/Item_B_BP.Item_B_BP)
+[2018.04.29-18.51.34:748][305]BlueprintLog: New page: Compile Item_B_BP
+[2018.04.29-18.51.35:724][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Item/BP/Item_B_BP" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Blueprint/Item/BP/Item_B_BP.uasset" SILENT=true
+[2018.04.29-18.51.35:797][314]LogSavePackage: Save=50.51ms
+[2018.04.29-18.51.35:798][314]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Item_B_BP5D1D2369455FA15F9AC490918C76AA88.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Blueprint/Item/BP/Item_B_BP.uasset'
+[2018.04.29-18.51.35:805][314]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Blueprint/Item/BP/Item_B_BP.uasset
+[2018.04.29-18.52.20:156][133]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.04.29-18.52.20:243][133]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.29-18.52.20:243][133]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.29-18.52.20:251][133]LogBlueprint:Warning: [Item_V_BP] 'Nb_itemV' variable not found. Base class was probably changed.
+[2018.04.29-18.52.20:251][133]LogBlueprint:Warning: [Item_V_BP] 'Nb_itemV' variable not found. Base class was probably changed.
+[2018.04.29-18.52.20:251][133]LogBlueprint:Warning: [Item_V_BP] 'Nb_itemV' variable not found. Base class was probably changed.
+[2018.04.29-18.52.20:273][133]LogBlueprint:Warning: [Item_Vi_BP] 'Nb_itemVi' variable not found. Base class was probably changed.
+[2018.04.29-18.52.20:273][133]LogBlueprint:Warning: [Item_Vi_BP] 'Nb_itemVi' variable not found. Base class was probably changed.
+[2018.04.29-18.52.20:273][133]LogBlueprint:Warning: [Item_Vi_BP] 'Nb_itemVi' variable not found. Base class was probably changed.
+[2018.04.29-18.52.20:317][133]LogBlueprint:Warning: [Compiler Item_V_BP] Warning Could not find a variable named "Nb_itemV" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set Nb_itemV
+[2018.04.29-18.52.20:318][133]LogBlueprint:Warning: [Compiler Item_V_BP] Warning Could not find a variable named "Nb_itemV" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Get Nb_itemV
+[2018.04.29-18.52.20:318][133]LogBlueprint:Error: [Compiler Item_V_BP] Error The property associated with  Nb Item V  could not be found
+[2018.04.29-18.52.20:318][133]LogBlueprint:Error: [Compiler Item_V_BP] Error The property associated with  Nb Item V  could not be found
+[2018.04.29-18.52.20:341][133]LogBlueprint:Warning: [Compiler Item_Vi_BP] Warning Could not find a variable named "Nb_itemVi" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Get Nb_itemVi
+[2018.04.29-18.52.20:341][133]LogBlueprint:Warning: [Compiler Item_Vi_BP] Warning Could not find a variable named "Nb_itemVi" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set Nb_itemVi
+[2018.04.29-18.52.20:341][133]LogBlueprint:Error: [Compiler Item_Vi_BP] Error The property associated with  Nb Item Vi  could not be found
+[2018.04.29-18.52.20:342][133]LogBlueprint:Error: [Compiler Item_Vi_BP] Error The property associated with  Nb Item Vi  could not be found
+[2018.04.29-18.52.24:966][175]LogSavePackage: Save=363.65ms
+[2018.04.29-18.52.24:966][175]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/FirstPersonCharacterF23C2D8A46134F493A374FA29422F5A6.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.04.29-18.52.24:973][175]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.04.29-18.53.19:134][131]BlueprintLog: New page: Compile Item_V_BP
+[2018.04.29-18.53.22:161][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Item/BP/Item_V_BP" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Blueprint/Item/BP/Item_V_BP.uasset" SILENT=true
+[2018.04.29-18.53.22:237][167]LogSavePackage: Save=50.97ms
+[2018.04.29-18.53.22:237][167]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Item_V_BP9306733945A49BEA66BA16B496187546.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Blueprint/Item/BP/Item_V_BP.uasset'
+[2018.04.29-18.53.22:245][167]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Blueprint/Item/BP/Item_V_BP.uasset
+[2018.04.29-18.54.12:829][207]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.04.29-18.54.12:916][207]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.29-18.54.12:916][207]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.29-18.55.02:285][770]BlueprintLog: New page: Compile Item_Vi_BP
+[2018.04.29-18.55.03:588][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Item/BP/Item_Vi_BP" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Blueprint/Item/BP/Item_Vi_BP.uasset" SILENT=true
+[2018.04.29-18.55.03:662][778]LogSavePackage: Save=49.67ms
+[2018.04.29-18.55.03:662][778]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Item_Vi_BPDA1D2DA448C9212F9850AD872E7A88AC.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Blueprint/Item/BP/Item_Vi_BP.uasset'
+[2018.04.29-18.55.03:670][778]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Blueprint/Item/BP/Item_Vi_BP.uasset
+[2018.04.29-18.55.17:058][948]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.04.29-18.55.20:124][948]LogSavePackage: Save=270.17ms
+[2018.04.29-18.55.20:124][948]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/FirstPersonCharacterE7C9990548CB8CB498830E9275868968.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.04.29-18.55.20:133][948]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.04.29-18.55.39:890][948]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.04.29-18.55.40:065][948]SourceControl: Info [master fadf19c] source Alien v1
+[2018.04.29-18.55.40:065][948]SourceControl: Info  4 files changed, 0 insertions(+), 0 deletions(-)
+[2018.04.29-18.55.40:065][948]SourceControl: Info  rewrite Content/Blueprint/Item/BP/Item_B_BP.uasset (86%)
+[2018.04.29-18.55.40:065][948]SourceControl: Info  rewrite Content/Blueprint/Item/BP/Item_V_BP.uasset (88%)
+[2018.04.29-18.55.40:065][948]SourceControl: Info  rewrite Content/Blueprint/Item/BP/Item_Vi_BP.uasset (88%)
+[2018.04.29-18.55.40:065][948]SourceControl: Info  rewrite Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset (79%)
+[2018.04.29-18.55.40:081][948]SourceControl: Info Commited [master fadf19c] source Alien v1.
