@@ -726,3 +726,1388 @@ Make sure 'FirstPersonCharacter_C' has been compiled for  Set NB_total_alien
 [2018.04.30-16.16.22:280][383]SourceControl: Info  rewrite Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset (79%)
 [2018.04.30-16.16.22:280][383]SourceControl: Info  rewrite Content/HUDS/Status/Status.uasset (72%)
 [2018.04.30-16.16.22:298][383]SourceControl: Info Commited [master 2965f5d] source Alien v1.
+[2018.04.30-16.18.55:367][158]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.30-16.18.55:409][158]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.18.55:410][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-16.18.55:410][158]PIE: New page: PIE session: Menu_principal (Apr 30, 2018, 8:18:55 PM)
+[2018.04.30-16.18.55:410][158]LogPlayLevel: Creating play world package: /Game/HUDS/Menu/UEDPIE_0_Menu_principal
+[2018.04.30-16.18.55:412][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002035s)
+[2018.04.30-16.18.55:413][158]LogAIModule: Creating AISystem for world Menu_principal
+[2018.04.30-16.18.55:413][158]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2018.04.30-16.18.55:413][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HUDS/Menu/Menu_principal.Menu_principal to /Game/HUDS/Menu/UEDPIE_0_Menu_principal.Menu_principal (0.003417s)
+[2018.04.30-16.18.55:528][158]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.30-16.18.55:638][158]LogInit: FAudioDevice initialized.
+[2018.04.30-16.18.55:729][158]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.04.30-16.18.55:732][158]LogWorld: Bringing World /Game/HUDS/Menu/UEDPIE_0_Menu_principal.Menu_principal up for play (max tick rate 60) at 2018.04.30-18.18.55
+[2018.04.30-16.18.55:732][158]LogWorld: Bringing up level for play took: 0.001364
+[2018.04.30-16.18.55:733][158]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2018.04.30-16.18.55:738][158]Cmd: r.PostProcessAAQuality 4
+[2018.04.30-16.18.55:738][158]r.PostProcessAAQuality = "4"
+[2018.04.30-16.18.55:738][158]Cmd: sg.PostProcessQuality 2
+[2018.04.30-16.18.55:738][158]sg.PostProcessQuality = "2"
+[2018.04.30-16.18.55:738][158]Cmd: sg.ShadowQuality 2
+[2018.04.30-16.18.55:738][158]sg.ShadowQuality = "2"
+[2018.04.30-16.18.55:738][158]Cmd: sg.TextureQuality 2
+[2018.04.30-16.18.55:738][158]sg.TextureQuality = "2"
+[2018.04.30-16.18.55:738][158]Cmd: sg.EffectsQuality 2
+[2018.04.30-16.18.55:739][158]sg.EffectsQuality = "2"
+[2018.04.30-16.18.55:755][158]PIE: Info Play in editor start time for /Game/HUDS/Menu/UEDPIE_0_Menu_principal 0.269
+[2018.04.30-16.18.55:755][158]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.19.06:426][374]LogNet: Browse: /Game/HUDS/Name/NameLVL
+[2018.04.30-16.19.06:465][374]LogLoad: LoadMap: /Game/HUDS/Name/NameLVL
+[2018.04.30-16.19.06:498][374]Cmd: MEM
+[2018.04.30-16.19.06:516][374]LogMemory: Platform Memory Stats for Windows
+[2018.04.30-16.19.06:516][374]LogMemory: Process Physical Memory: 2676.54 MB used, 3002.13 MB peak
+[2018.04.30-16.19.06:516][374]LogMemory: Process Virtual Memory: 4884.71 MB used, 5096.77 MB peak
+[2018.04.30-16.19.06:516][374]LogMemory: Physical Memory: 6590.34 MB used,  1487.31 MB free, 8077.64 MB total
+[2018.04.30-16.19.06:516][374]LogMemory: Virtual Memory: 5974.25 MB used,  1487.31 MB free, 134217728.00 MB total
+[2018.04.30-16.19.06:516][374]LogMemory: 
+[2018.04.30-16.19.06:516][374]Allocator Stats for TBB: (not implemented)
+[2018.04.30-16.19.06:618][374]LogAIModule: Creating AISystem for world NameLVL
+[2018.04.30-16.19.06:618][374]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.04.30-16.19.06:620][374]LogWorld: Bringing World /Game/HUDS/Name/UEDPIE_0_NameLVL.NameLVL up for play (max tick rate 60) at 2018.04.30-18.19.06
+[2018.04.30-16.19.06:621][374]LogWorld: Bringing up level for play took: 0.001380
+[2018.04.30-16.19.06:621][374]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.30-16.19.06:621][374]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2018.04.30-16.19.06:625][374]LogLoad: Took 0.159676 seconds to LoadMap(/Game/HUDS/Name/NameLVL)
+[2018.04.30-16.19.11:262][466]LogNet: Browse: /Game/FirstPersonBP/Maps/LVL_1
+[2018.04.30-16.19.11:296][466]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/LVL_1
+[2018.04.30-16.19.11:321][466]Cmd: MEM
+[2018.04.30-16.19.11:338][466]LogMemory: Platform Memory Stats for Windows
+[2018.04.30-16.19.11:338][466]LogMemory: Process Physical Memory: 2723.53 MB used, 3002.13 MB peak
+[2018.04.30-16.19.11:338][466]LogMemory: Process Virtual Memory: 4904.25 MB used, 5096.77 MB peak
+[2018.04.30-16.19.11:338][466]LogMemory: Physical Memory: 6624.32 MB used,  1453.32 MB free, 8077.64 MB total
+[2018.04.30-16.19.11:338][466]LogMemory: Virtual Memory: 6029.19 MB used,  1453.32 MB free, 134217728.00 MB total
+[2018.04.30-16.19.11:338][466]LogMemory: 
+[2018.04.30-16.19.11:338][466]Allocator Stats for TBB: (not implemented)
+[2018.04.30-16.19.27:230][466]LogAIModule: Creating AISystem for world LVL_1
+[2018.04.30-16.19.27:231][466]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.04.30-16.19.27:340][466]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 60) at 2018.04.30-18.19.27
+[2018.04.30-16.19.27:427][466]LogWorld: Bringing up level for play took: 0.193893
+[2018.04.30-16.19.27:427][466]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2018.04.30-16.19.27:557][466]LogLoad: Took 16.262453 seconds to LoadMap(/Game/FirstPersonBP/Maps/LVL_1)
+[2018.04.30-16.19.34:281][551]Set new viewmode: Wireframe
+[2018.04.30-16.19.35:070][563]Set new viewmode: Unlit
+[2018.04.30-16.19.35:901][575]Set new viewmode: Lit
+[2018.04.30-16.19.37:582][597]Set new viewmode: Unlit
+[2018.04.30-16.19.37:920][601]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.37:994][602]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.37:994][602]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.37:994][602]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.38:078][603]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.38:079][603]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.38:153][604]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.38:154][604]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.38:227][605]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.38:227][605]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.38:228][605]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.38:302][606]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.38:302][606]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.38:376][607]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.38:376][607]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.38:451][608]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.38:451][608]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.38:527][609]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.38:527][609]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.38:603][610]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.38:603][610]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.38:683][611]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.38:683][611]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.38:760][612]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.38:760][612]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.38:836][613]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.38:836][613]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.38:911][614]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.38:911][614]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.38:991][615]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.38:992][615]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.39:070][616]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.39:070][616]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.39:150][617]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.39:150][617]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.39:233][618]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.39:233][618]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.39:310][619]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.39:310][619]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.39:385][620]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.39:386][620]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.39:460][621]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.39:460][621]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.39:534][622]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.39:535][622]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.39:608][623]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.39:608][623]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.39:682][624]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.39:682][624]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.39:783][625]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.39:783][625]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.39:859][626]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.39:859][626]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.39:935][627]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.39:935][627]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.40:012][628]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.40:012][628]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.40:092][629]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.40:092][629]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.40:169][630]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.40:169][630]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.40:259][631]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.40:259][631]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.40:334][632]Set new viewmode: Lit
+[2018.04.30-16.19.40:336][632]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.40:336][632]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.40:418][633]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.40:419][633]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.40:510][634]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.40:510][634]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.40:593][635]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.40:593][635]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.40:678][636]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.40:678][636]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.40:760][637]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.40:761][637]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.40:843][638]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.40:843][638]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.40:932][639]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.40:932][639]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.41:017][640]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.41:017][640]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.41:102][641]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.41:102][641]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.41:188][642]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.41:189][642]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.41:271][643]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.41:271][643]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.41:357][644]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.41:357][644]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.41:444][645]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.41:444][645]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.41:529][646]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.41:529][646]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.41:617][647]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.41:617][647]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.41:617][647]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.41:702][648]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.41:702][648]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.41:702][648]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.41:702][648]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.41:702][648]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.41:790][649]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.41:790][649]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.41:790][649]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.41:790][649]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.41:876][650]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.41:876][650]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.41:876][650]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.41:876][650]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.41:961][651]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.41:961][651]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.41:961][651]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.41:961][651]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.41:961][651]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.42:051][652]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.42:051][652]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.42:051][652]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.42:051][652]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.42:149][653]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.42:149][653]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.42:149][653]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.42:149][653]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.42:226][654]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.42:226][654]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.42:226][654]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.42:226][654]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.42:318][655]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.42:318][655]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.42:318][655]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.42:318][655]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.42:410][656]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.42:410][656]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.42:410][656]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.42:410][656]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.42:504][657]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.42:504][657]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.42:504][657]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.42:504][657]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.42:591][658]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.42:591][658]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.42:592][658]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.42:592][658]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.42:680][659]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.42:680][659]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.42:680][659]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.42:680][659]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.42:769][660]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.42:769][660]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.42:769][660]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.42:769][660]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.42:861][661]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.42:861][661]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.42:861][661]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.42:952][662]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.42:952][662]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.42:952][662]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.42:953][662]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.43:042][663]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.43:042][663]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.43:042][663]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.43:042][663]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.43:132][664]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.43:132][664]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.43:132][664]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.43:132][664]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.43:226][665]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.43:226][665]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.43:226][665]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.43:316][666]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.43:317][666]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.43:317][666]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.43:404][667]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.43:404][667]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.43:494][668]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.43:494][668]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.43:584][669]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.43:585][669]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.43:677][670]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.43:677][670]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.43:677][670]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.43:768][671]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.43:769][671]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.43:860][672]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.43:860][672]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.43:949][673]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.43:949][673]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.44:039][674]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.44:039][674]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.44:039][674]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.44:125][675]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.44:125][675]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.44:215][676]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.44:215][676]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.44:303][677]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.44:303][677]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.44:396][678]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.44:396][678]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.44:488][679]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.44:488][679]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.44:582][680]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.44:582][680]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.44:671][681]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.44:671][681]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.44:760][682]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.44:760][682]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.44:850][683]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.44:850][683]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.44:850][683]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.44:942][684]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.44:943][684]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.44:943][684]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.45:029][685]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.45:029][685]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.45:133][686]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.45:133][686]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.45:210][687]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.45:210][687]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.45:300][688]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.45:300][688]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.45:390][689]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.45:390][689]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.45:477][690]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.45:477][690]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.45:569][691]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.45:569][691]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.45:662][692]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.45:662][692]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.45:754][693]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.45:754][693]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.45:846][694]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.45:846][694]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.45:939][695]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.45:939][695]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.46:034][696]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.46:035][696]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.46:128][697]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.46:128][697]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.46:220][698]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.46:220][698]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.46:313][699]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.46:313][699]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.46:410][700]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.46:410][700]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.46:505][701]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.46:505][701]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.46:622][702]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.46:694][703]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.46:694][703]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.46:695][703]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.46:785][704]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.46:786][704]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.46:786][704]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.46:786][704]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.46:877][705]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.46:877][705]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.46:877][705]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.46:877][705]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.46:969][706]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.46:969][706]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.46:969][706]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.47:066][707]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.47:066][707]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.47:160][708]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.47:160][708]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.47:261][709]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.47:261][709]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.47:354][710]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.47:354][710]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.47:355][710]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.47:447][711]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.47:447][711]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.47:447][711]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.47:544][712]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.47:544][712]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.47:667][713]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.47:667][713]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.47:730][714]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.47:730][714]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.47:730][714]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.47:822][715]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.47:822][715]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.47:822][715]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.47:970][716]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.47:970][716]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.47:970][716]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.47:970][716]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.47:970][716]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.48:063][717]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.48:063][717]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:063][717]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:063][717]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:063][717]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.48:063][717]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.48:159][718]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.48:159][718]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:159][718]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:159][718]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.48:159][718]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.48:253][719]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.48:253][719]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:253][719]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:253][719]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:254][719]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.48:254][719]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.48:348][720]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.48:348][720]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:348][720]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:348][720]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.48:443][721]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.48:443][721]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:443][721]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:443][721]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.48:539][722]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.48:539][722]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:539][722]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:539][722]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:539][722]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.48:539][722]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.48:637][723]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.48:637][723]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:638][723]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:638][723]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.48:736][724]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.48:737][724]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:737][724]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:737][724]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.48:830][725]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.48:831][725]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:831][725]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:831][725]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.48:925][726]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.48:925][726]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:925][726]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.48:925][726]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.49:019][727]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.49:019][727]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:019][727]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:019][727]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.49:110][728]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.49:110][728]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:110][728]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:110][728]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:110][728]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.49:110][728]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.49:209][729]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.49:209][729]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:209][729]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:209][729]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.49:306][730]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.49:306][730]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:306][730]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:306][730]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.49:400][731]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.49:400][731]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:400][731]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:400][731]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.49:491][732]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.49:492][732]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:492][732]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:492][732]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:492][732]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.49:492][732]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.49:585][733]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.49:585][733]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:585][733]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:585][733]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.49:676][734]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.49:676][734]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:676][734]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:676][734]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:676][734]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.49:676][734]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.49:768][735]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.49:769][735]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:769][735]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:769][735]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.49:869][736]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.49:869][736]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:869][736]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:869][736]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.49:979][737]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.49:979][737]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:979][737]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.49:979][737]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.50:081][738]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.50:081][738]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:082][738]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:082][738]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.50:177][739]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.50:177][739]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:177][739]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:177][739]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.50:274][740]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.50:274][740]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:274][740]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:275][740]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.50:374][741]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.50:374][741]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:374][741]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:374][741]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.50:474][742]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.50:474][742]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:474][742]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:474][742]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.50:574][743]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.50:574][743]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:574][743]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:574][743]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.50:674][744]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.50:674][744]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:674][744]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:674][744]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.50:774][745]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.50:774][745]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:774][745]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:774][745]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.50:873][746]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.50:873][746]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:873][746]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:873][746]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.50:974][747]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.50:975][747]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:975][747]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.50:975][747]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.51:075][748]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.51:075][748]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:075][748]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:075][748]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.51:174][749]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.51:174][749]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:174][749]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:174][749]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.51:276][750]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.51:276][750]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:276][750]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:276][750]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.51:375][751]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.51:375][751]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:375][751]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:375][751]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.51:475][752]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.51:475][752]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:475][752]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:475][752]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.51:575][753]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.51:575][753]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:575][753]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:575][753]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.51:676][754]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.51:676][754]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:676][754]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:676][754]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.51:774][755]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.51:774][755]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:774][755]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:774][755]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.51:872][756]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.51:873][756]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:873][756]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:873][756]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.51:974][757]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.51:974][757]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.51:974][757]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.52:075][758]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.52:075][758]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:075][758]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:075][758]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.52:178][759]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.52:178][759]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:178][759]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:178][759]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.52:282][760]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.52:282][760]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:282][760]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:282][760]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:282][760]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:283][760]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.52:386][761]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.52:387][761]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:387][761]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:387][761]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.52:484][762]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:485][762]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:485][762]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.52:585][763]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:585][763]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:585][763]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:585][763]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.52:690][764]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.52:790][765]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:790][765]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:891][766]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:891][766]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:992][767]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.52:992][767]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.52:992][767]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.53:194][769]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.53:291][770]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.19.53:291][770]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.53:390][771]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.53:390][771]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.53:390][771]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.53:390][771]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.53:490][772]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.53:491][772]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.53:491][772]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.53:491][772]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.53:491][772]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.53:491][772]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.53:491][772]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.53:597][773]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.53:598][773]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.53:598][773]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.53:702][774]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.53:702][774]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.53:702][774]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.53:803][775]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.53:804][775]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.53:804][775]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.53:903][776]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.53:904][776]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.53:904][776]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:008][777]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.54:008][777]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:008][777]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:008][777]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.54:008][777]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.54:008][777]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.54:112][778]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.54:112][778]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:112][778]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:112][778]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.54:213][779]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.54:213][779]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:213][779]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:213][779]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.54:312][780]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.54:312][780]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:312][780]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:312][780]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.54:413][781]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.54:413][781]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:413][781]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:413][781]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.54:513][782]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.54:513][782]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:513][782]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:513][782]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.54:617][783]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.54:618][783]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:618][783]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:618][783]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.54:718][784]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.54:718][784]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:718][784]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:718][784]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.54:821][785]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.54:822][785]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:822][785]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:822][785]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.54:923][786]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.54:924][786]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:924][786]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.54:924][786]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.55:024][787]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.55:024][787]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:024][787]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:024][787]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.55:124][788]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.55:124][788]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:124][788]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:124][788]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.55:226][789]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.55:227][789]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:227][789]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:227][789]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.55:323][790]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.55:324][790]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:324][790]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:324][790]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.55:426][791]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.55:426][791]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:426][791]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:426][791]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.55:525][792]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.55:525][792]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:525][792]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:525][792]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.55:631][793]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.55:631][793]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:631][793]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:631][793]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.55:735][794]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.55:735][794]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:735][794]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:735][794]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.55:833][795]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.55:833][795]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:833][795]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:833][795]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.55:933][796]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.55:933][796]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:933][796]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.55:933][796]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.56:034][797]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.56:034][797]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:034][797]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:034][797]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.56:136][798]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.56:136][798]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:136][798]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:136][798]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.56:233][799]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.56:233][799]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:233][799]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:233][799]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.56:330][800]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.56:331][800]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:331][800]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:331][800]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.56:430][801]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.56:430][801]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:430][801]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:430][801]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.56:528][802]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.56:528][802]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:528][802]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:528][802]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.56:627][803]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.56:627][803]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:628][803]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:628][803]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.56:729][804]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.56:729][804]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:729][804]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:730][804]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.56:826][805]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.56:827][805]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:827][805]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:827][805]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.56:924][806]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.56:925][806]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:925][806]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.56:925][806]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.57:025][807]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.57:026][807]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:026][807]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:026][807]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.57:132][808]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.57:133][808]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:133][808]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:134][808]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.57:233][809]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.57:233][809]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:233][809]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:234][809]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.57:332][810]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.57:333][810]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:333][810]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:333][810]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.57:435][811]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.57:435][811]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:435][811]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:435][811]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.57:534][812]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.57:534][812]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:534][812]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:534][812]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.57:633][813]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.57:633][813]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:633][813]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:634][813]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.57:734][814]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.57:734][814]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:734][814]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:735][814]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.57:840][815]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.57:840][815]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:840][815]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:840][815]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.57:942][816]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.57:943][816]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:943][816]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.57:943][816]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.58:050][817]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.58:050][817]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.58:050][817]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.58:051][817]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.58:151][818]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.58:151][818]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.58:151][818]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.58:151][818]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.58:254][819]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.58:254][819]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.58:255][819]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.58:357][820]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.58:357][820]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.58:457][821]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.58:457][821]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.58:558][822]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.58:559][822]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.58:559][822]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.58:559][822]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.58:559][822]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.58:559][822]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.58:662][823]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.58:662][823]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.58:662][823]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.58:767][824]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.58:767][824]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.58:767][824]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.58:768][824]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.58:768][824]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.58:868][825]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.58:868][825]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.58:967][826]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.58:968][826]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.59:069][827]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.59:070][827]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.59:070][827]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.59:228][828]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.59:333][829]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.59:333][829]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.59:333][829]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.59:333][829]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.59:334][829]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.59:334][829]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.59:334][829]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.59:336][829]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.59:433][830]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.59:433][830]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.59:433][830]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.59:535][831]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.59:535][831]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.59:535][831]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.59:639][832]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.59:639][832]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.59:639][832]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.59:742][833]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.59:742][833]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.59:742][833]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.59:846][834]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.59:846][834]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.59:846][834]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.19.59:851][834]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.59:949][835]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.19.59:949][835]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.19.59:949][835]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.00:051][836]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.00:051][836]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.00:051][836]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.00:148][837]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.00:148][837]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.00:148][837]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.00:253][838]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.00:253][838]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.00:253][838]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.00:253][838]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.00:253][838]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.00:354][839]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.00:354][839]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.00:354][839]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.00:354][839]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.00:452][840]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.00:453][840]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.00:453][840]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.00:453][840]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.00:554][841]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.00:554][841]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.00:554][841]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.00:554][841]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.00:654][842]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.00:654][842]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.00:654][842]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.00:654][842]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.00:753][843]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.00:753][843]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.00:754][843]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.00:754][843]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.00:854][844]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.00:854][844]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.00:854][844]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.00:854][844]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.00:856][844]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.00:953][845]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.00:953][845]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.00:953][845]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.00:953][845]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.01:051][846]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.01:051][846]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.01:051][846]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.01:051][846]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.01:148][847]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.01:148][847]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.01:148][847]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.01:148][847]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.01:249][848]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.01:249][848]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.01:249][848]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.01:249][848]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.01:348][849]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.01:348][849]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.01:349][849]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.01:349][849]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.01:446][850]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.01:447][850]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.01:447][850]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.01:447][850]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.01:451][850]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.01:549][851]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.01:549][851]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.01:549][851]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.01:550][851]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.01:654][852]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.01:654][852]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.01:654][852]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.01:654][852]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.01:756][853]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.01:756][853]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.01:756][853]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.01:757][853]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.01:857][854]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.01:858][854]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.01:858][854]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.01:858][854]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.01:959][855]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.01:959][855]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.01:959][855]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.01:959][855]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.01:959][855]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.01:962][855]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.20.02:060][856]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.02:060][856]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.02:060][856]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.02:060][856]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.02:060][856]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.02:160][857]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.02:160][857]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.02:160][857]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.02:160][857]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.02:160][857]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.02:160][857]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.02:160][857]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.02:261][858]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.02:261][858]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.02:261][858]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.02:261][858]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.02:261][858]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.02:358][859]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.02:358][859]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.02:358][859]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.02:358][859]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.02:358][859]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.02:453][860]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.02:453][860]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.02:453][860]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.02:453][860]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.02:453][860]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.02:548][861]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.02:548][861]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.02:548][861]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.02:548][861]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.02:548][861]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.02:645][862]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.02:645][862]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.02:645][862]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.02:645][862]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.02:645][862]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.02:742][863]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.02:742][863]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.02:742][863]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.02:743][863]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.02:743][863]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.02:844][864]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.02:844][864]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.02:844][864]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.02:844][864]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.02:844][864]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.02:943][865]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.02:943][865]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.02:943][865]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.02:943][865]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.02:943][865]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.03:041][866]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.03:042][866]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.03:042][866]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.03:042][866]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.03:042][866]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.03:142][867]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.03:142][867]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.03:142][867]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.03:142][867]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.03:142][867]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.03:238][868]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.03:238][868]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.03:238][868]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.03:238][868]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.03:238][868]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.03:331][869]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.03:332][869]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.03:332][869]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.03:332][869]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.03:332][869]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.03:425][870]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.03:425][870]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.03:425][870]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.03:425][870]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.03:425][870]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.03:517][871]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.03:517][871]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.03:517][871]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.03:517][871]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.03:517][871]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.03:610][872]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.03:610][872]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.03:610][872]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.03:610][872]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.03:610][872]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.03:702][873]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.03:702][873]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.03:702][873]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.03:702][873]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.03:702][873]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.03:705][873]LogBlueprintUserMessages: [BP_ALienlvl1_C_4] Touché
+[2018.04.30-16.20.03:794][874]LogBlueprintUserMessages: [BP_ALienlvl1_C_5] Touché
+[2018.04.30-16.20.03:794][874]LogBlueprintUserMessages: [BP_ALienlvl1_C_6] Touché
+[2018.04.30-16.20.03:795][874]LogBlueprintUserMessages: [BP_ALienlvl1_C_7] Touché
+[2018.04.30-16.20.03:795][874]LogBlueprintUserMessages: [BP_ALienlvl1_C_9] Touché
+[2018.04.30-16.20.03:795][874]LogBlueprintUserMessages: [BP_ALienlvl1_C_10] Touché
+[2018.04.30-16.20.03:801][874]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.20.03:953][874]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.20.15:034][ 56]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.30-16.20.15:197][ 56]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2018.04.30-16.20.15:197][ 56]LogSynthBenchmark:Display: ===============
+[2018.04.30-16.20.15:197][ 56]LogSynthBenchmark:Display: Main Processor:
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:          ... 0.023250 s/Run 'RayIntersect'
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:          ... 0.022901 s/Run 'Fractal'
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display: 
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:   CPU Perf Index 0: 110.2 (weight 1.00)
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:   CPU Perf Index 1: 124.9 (weight 1.50)
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:  
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display: Graphics:
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTX 960M'
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:   Vendor Id: 0x10DE
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:   Device Id: 0x139B
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:   Device Revision: 0xA2
+[2018.04.30-16.20.15:244][ 56]LogSynthBenchmark:Display:   GPU Memory: 2011/0/4039 MB
+[2018.04.30-16.20.15:417][ 56]LogSynthBenchmark:Display:   GPU first test: 0.04s
+[2018.04.30-16.20.15:417][ 56]LogSynthBenchmark:Display:          ... 0.284 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2018.04.30-16.20.15:417][ 56]LogSynthBenchmark:Display:          ... 0.254 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2018.04.30-16.20.15:417][ 56]LogSynthBenchmark:Display:          ... 0.201 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2018.04.30-16.20.15:417][ 56]LogSynthBenchmark:Display:          ... 0.893 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2018.04.30-16.20.15:417][ 56]LogSynthBenchmark:Display:          ... 0.047 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2018.04.30-16.20.15:417][ 56]LogSynthBenchmark:Display:          ... 9.805 s/GigaVert, Confidence=11% 'VertThroughPut1' (likely to be very inaccurate)
+[2018.04.30-16.20.15:417][ 56]LogSynthBenchmark:Display:          ... 0.319 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:   GPU second test: 0.21s
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:          ... 2.476 s/GigaPix, Confidence=19% 'ALUHeavyNoise' (likely to be inaccurate)
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:          ... 2.008 s/GigaPix, Confidence=19% 'TexHeavy' (likely to be inaccurate)
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:          ... 1.878 s/GigaPix, Confidence=19% 'DepTexHeavy' (likely to be inaccurate)
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:          ... 10.022 s/GigaPix, Confidence=19% 'FillOnly' (likely to be inaccurate)
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:          ... 0.309 s/GigaPix, Confidence=30% 'Bandwidth' (likely to be inaccurate)
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:          ... 0.375 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:          ... 1.091 s/GigaVert, Confidence=30% 'VertThroughPut2' (likely to be inaccurate)
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:   GPU Final Results:
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:          ... 2.476 s/GigaPix, Confidence=19% 'ALUHeavyNoise'
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:          ... 2.008 s/GigaPix, Confidence=19% 'TexHeavy'
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:          ... 1.878 s/GigaPix, Confidence=19% 'DepTexHeavy'
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:          ... 10.022 s/GigaPix, Confidence=19% 'FillOnly'
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:          ... 0.309 s/GigaPix, Confidence=30% 'Bandwidth'
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:          ... 0.375 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:          ... 1.091 s/GigaVert, Confidence=30% 'VertThroughPut2'
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display: 
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:   GPU Perf Index 0: 53.8 (weight 1.00)
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:   GPU Perf Index 1: 27.0 (weight 0.10)
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:   GPU Perf Index 2: 48.8 (weight 0.10)
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:   GPU Perf Index 3: 39.4 (weight 3.00)
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:   GPU Perf Index 4: 28.9 (weight 1.00)
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:   GPU Perf Index 5: 24.4 (weight 0.00)
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:   GPU Perf Index 6: 61.8 (weight 0.00)
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:   CPUIndex: 119.0
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:   GPUIndex: 40.1
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display: 
+[2018.04.30-16.20.15:719][ 56]LogSynthBenchmark:Display:          ... Total Time: 0.522065 sec
+[2018.04.30-16.20.16:494][ 58]LogRenderer: Reallocating scene render targets to support 1364x724 NumSamples 1 (Frame:507).
+[2018.04.30-16.20.16:495][ 58]LogContentStreaming: Texture pool size now 600 MB
+[2018.04.30-16.20.21:606][107]LogContentStreaming: Texture pool size now 800 MB
+[2018.04.30-16.20.21:724][109]LogRenderer: Reallocating scene render targets to support 1364x724 NumSamples 1 (Frame:509).
+[2018.04.30-16.20.23:658][124]LogRenderer: Reallocating scene render targets to support 1364x724 NumSamples 1 (Frame:511).
+[2018.04.30-16.20.24:070][128]LogContentStreaming: Texture pool size now 400 MB
+[2018.04.30-16.20.43:589][344]LogRenderer: Reallocating scene render targets to support 1364x724 NumSamples 1 (Frame:515).
+[2018.04.30-16.20.46:622][373]LogContentStreaming: Texture pool size now 800 MB
+[2018.04.30-16.20.52:040][426]LogEditorViewport: Clicking Background
+[2018.04.30-16.21.02:537][575]LogAIModule: Creating AISystem for world LVL_1
+[2018.04.30-16.21.02:652][575]Cmd: MAP LOAD FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.30-16.21.02:653][575]LightingResults: New page: Lighting Build
+[2018.04.30-16.21.02:653][575]LoadErrors: New page: Loading map: LVL_1.umap
+[2018.04.30-16.21.02:654][575]MapCheck: New page: Map Check
+[2018.04.30-16.21.02:654][575]LightingResults: New page: Lighting Build
+[2018.04.30-16.21.02:937][575]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.30-16.21.03:017][575]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.30-16.21.10:962][575]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 7,944.97ms to complete.
+[2018.04.30-16.21.10:966][575]LogFileHelpers: Loading map 'LVL_1' took 8.315
+[2018.04.30-16.21.32:275][874]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight26)
+[2018.04.30-16.22.03:031][291]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight26)
+[2018.04.30-16.22.17:317][527]Cmd: POLY TEXMULT UU=-1 VV=1
+[2018.04.30-16.22.18:354][542]Cmd: POLY TEXMULT UU=-1 VV=1
+[2018.04.30-16.22.20:037][566]Cmd: POLY TEXMULT UU=1 VV=-1
+[2018.04.30-16.22.28:778][710]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight26)
+[2018.04.30-16.23.20:200][550]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.04.30-16.23.20:718][551]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2018.04.30-16.23.21:226][553]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2018.04.30-16.23.21:344][554]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2018.04.30-16.23.35:010][681]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0073 seconds. Added 1 classes and 2 folders.
+[2018.04.30-16.23.37:702][681]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.30-16.23.45:131][681]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0070 seconds. Added 1 classes and 0 folders.
+[2018.04.30-16.23.45:266][682]LogRenderer: Reallocating scene render targets to support 1364x888 NumSamples 1 (Frame:1).
+[2018.04.30-16.31.02:817][679]LogSavePackage: Save=715.51ms
+[2018.04.30-16.31.02:817][679]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/LVL_1_Auto149D028EB41AB716A8A53A29DAB8A35F9.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Autosaves/Game/FirstPersonBP/Maps/LVL_1_Auto1.umap'
+[2018.04.30-16.31.02:833][679]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Autosaves/Game/FirstPersonBP/Maps/LVL_1_Auto1.umap
+[2018.04.30-16.31.02:840][679]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/LVL_1' took 0.843
+[2018.04.30-16.31.02:840][679]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.843
+[2018.04.30-16.38.53:919][519]LogSavePackage: Save=719.73ms
+[2018.04.30-16.38.53:919][519]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/LVL_11745D3B74E4147B87E1BBE953D6DAB0B.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1.umap'
+[2018.04.30-16.38.53:930][519]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1.umap
+[2018.04.30-16.38.53:998][519]LogFileHelpers: Saving map 'LVL_1' took 9.265
+[2018.04.30-16.38.55:271][519]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.30-16.38.55:272][519]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.30-16.38.55:867][520]Cmd: QUIT_EDITOR
+[2018.04.30-16.38.57:398][520]LogExit: Preparing to exit.
+[2018.04.30-16.38.57:878][520]LogDirectoryWatcher: A directory notification for 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/' was aborted.
+[2018.04.30-16.38.58:180][520]LogExit: Editor shut down
+[2018.04.30-16.38.58:219][520]LogExit: Transaction tracking system shut down
+[2018.04.30-16.39.01:571][520]LogObj: Freed 0b from 0 cluster array pools.
+[2018.04.30-16.39.01:573][520]LogExit: Object subsystem successfully closed.
+[2018.04.30-16.39.02:414][520]LogD3D11RHI: Shutdown
+[2018.04.30-16.39.02:414][520]LogD3D11RHI: CleanupD3DDevice
+[2018.04.30-16.39.03:021][520]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.30-16.39.04:259][520]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (520)
+[2018.04.30-16.39.04:259][520]LogModuleManager: Shutting down and abandoning module SkeletonEditor (518)
+[2018.04.30-16.39.04:259][520]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (516)
+[2018.04.30-16.39.04:259][520]LogModuleManager: Shutting down and abandoning module SynthBenchmark (514)
+[2018.04.30-16.39.04:260][520]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (512)
+[2018.04.30-16.39.04:260][520]LogModuleManager: Shutting down and abandoning module SequencerWidgets (510)
+[2018.04.30-16.39.04:260][520]LogModuleManager: Shutting down and abandoning module BlueprintGraph (508)
+[2018.04.30-16.39.04:260][520]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (506)
+[2018.04.30-16.39.04:325][520]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (504)
+[2018.04.30-16.39.04:345][520]LogModuleManager: Shutting down and abandoning module CrashTracker (502)
+[2018.04.30-16.39.04:345][520]LogModuleManager: Shutting down and abandoning module SceneOutliner (500)
+[2018.04.30-16.39.04:356][520]LogModuleManager: Shutting down and abandoning module AddContentDialog (498)
+[2018.04.30-16.39.04:373][520]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.04.30-16.39.04:390][520]LogModuleManager: Shutting down and abandoning module WidgetCarousel (497)
+[2018.04.30-16.39.04:390][520]LogModuleManager: Shutting down and abandoning module EditorWidgets (494)
+[2018.04.30-16.39.04:390][520]LogModuleManager: Shutting down and abandoning module CollectionManager (492)
+[2018.04.30-16.39.04:390][520]LogDirectoryWatcher: A directory notification for 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/Collections/' was aborted.
+[2018.04.30-16.39.04:390][520]LogDirectoryWatcher: A directory notification for 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/Developers/mathi/Collections/' was aborted.
+[2018.04.30-16.39.04:390][520]LogDirectoryWatcher: A directory notification for 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Collections/' was aborted.
+[2018.04.30-16.39.04:390][520]LogModuleManager: Shutting down and abandoning module StatsViewer (490)
+[2018.04.30-16.39.04:437][520]LogModuleManager: Shutting down and abandoning module FoliageEdit (488)
+[2018.04.30-16.39.04:437][520]LogModuleManager: Shutting down and abandoning module LandscapeEditor (486)
+[2018.04.30-16.39.04:476][520]LogModuleManager: Shutting down and abandoning module MeshPaintMode (484)
+[2018.04.30-16.39.04:476][520]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (482)
+[2018.04.30-16.39.04:476][520]LogModuleManager: Shutting down and abandoning module ActorPickerMode (480)
+[2018.04.30-16.39.04:476][520]LogModuleManager: Shutting down and abandoning module GeometryMode (478)
+[2018.04.30-16.39.04:476][520]LogModuleManager: Shutting down and abandoning module TextureAlignMode (476)
+[2018.04.30-16.39.04:476][520]LogModuleManager: Shutting down and abandoning module BspMode (474)
+[2018.04.30-16.39.04:496][520]LogModuleManager: Shutting down and abandoning module HardwareSurvey (472)
+[2018.04.30-16.39.04:511][520]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (470)
+[2018.04.30-16.39.04:520][520]LogModuleManager: Shutting down and abandoning module SequenceRecorder (468)
+[2018.04.30-16.39.04:556][520]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2018.04.30-16.39.04:568][520]LogModuleManager: Shutting down and abandoning module SteamAudioEditor (464)
+[2018.04.30-16.39.04:568][520]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2018.04.30-16.39.04:641][520]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2018.04.30-16.39.04:641][520]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2018.04.30-16.39.04:641][520]LogModuleManager: Shutting down and abandoning module Media (457)
+[2018.04.30-16.39.04:641][520]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2018.04.30-16.39.04:641][520]LogModuleManager: Shutting down and abandoning module ControlRigEditor (452)
+[2018.04.30-16.39.04:699][520]LogModuleManager: Shutting down and abandoning module CharacterAI (450)
+[2018.04.30-16.39.04:699][520]LogModuleManager: Shutting down and abandoning module SmartSnapping (448)
+[2018.04.30-16.39.04:699][520]LogModuleManager: Shutting down and abandoning module SessionServices (446)
+[2018.04.30-16.39.04:699][520]LogModuleManager: Shutting down and abandoning module ViewportSnapping (444)
+[2018.04.30-16.39.04:699][520]LogModuleManager: Shutting down and abandoning module ViewportInteraction (442)
+[2018.04.30-16.39.04:699][520]LogModuleManager: Shutting down and abandoning module ClothPainter (440)
+[2018.04.30-16.39.04:782][520]LogModuleManager: Shutting down and abandoning module LogVisualizer (438)
+[2018.04.30-16.39.04:801][520]LogModuleManager: Shutting down and abandoning module IntroTutorials (436)
+[2018.04.30-16.39.04:854][520]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (435)
+[2018.04.30-16.39.04:872][520]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (432)
+[2018.04.30-16.39.04:872][520]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (430)
+[2018.04.30-16.39.04:943][520]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (428)
+[2018.04.30-16.39.04:943][520]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (426)
+[2018.04.30-16.39.04:968][520]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (424)
+[2018.04.30-16.39.05:110][520]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (421)
+[2018.04.30-16.39.05:110][520]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (419)
+[2018.04.30-16.39.05:110][520]LogModuleManager: Shutting down and abandoning module InputBindingEditor (417)
+[2018.04.30-16.39.05:125][520]LogModuleManager: Shutting down and abandoning module MergeActors (415)
+[2018.04.30-16.39.05:135][520]LogModuleManager: Shutting down and abandoning module SizeMap (413)
+[2018.04.30-16.39.05:135][520]LogModuleManager: Shutting down and abandoning module TreeMap (411)
+[2018.04.30-16.39.05:142][520]LogModuleManager: Shutting down and abandoning module ReferenceViewer (409)
+[2018.04.30-16.39.05:151][520]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (407)
+[2018.04.30-16.39.05:167][520]LogModuleManager: Shutting down and abandoning module LocalizationService (406)
+[2018.04.30-16.39.05:184][520]LogModuleManager: Shutting down and abandoning module HardwareTargeting (403)
+[2018.04.30-16.39.05:185][520]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (401)
+[2018.04.30-16.39.05:197][520]LogModuleManager: Shutting down and abandoning module UndoHistory (399)
+[2018.04.30-16.39.05:213][520]LogModuleManager: Shutting down and abandoning module UserFeedback (397)
+[2018.04.30-16.39.05:213][520]LogModuleManager: Shutting down and abandoning module XmlParser (395)
+[2018.04.30-16.39.05:223][520]LogModuleManager: Shutting down and abandoning module Blutility (393)
+[2018.04.30-16.39.05:234][520]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (391)
+[2018.04.30-16.39.05:234][520]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (390)
+[2018.04.30-16.39.05:235][520]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (387)
+[2018.04.30-16.39.05:241][520]LogModuleManager: Shutting down and abandoning module SettingsEditor (385)
+[2018.04.30-16.39.05:275][520]LogModuleManager: Shutting down and abandoning module ProjectLauncher (383)
+[2018.04.30-16.39.05:299][520]LogModuleManager: Shutting down and abandoning module SessionFrontend (381)
+[2018.04.30-16.39.05:318][520]LogModuleManager: Shutting down and abandoning module ProfilerClient (379)
+[2018.04.30-16.39.05:355][520]LogModuleManager: Shutting down and abandoning module DeviceManager (377)
+[2018.04.30-16.39.05:374][520]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (376)
+[2018.04.30-16.39.05:440][520]LogModuleManager: Shutting down and abandoning module AutomationController (373)
+[2018.04.30-16.39.05:459][520]LogModuleManager: Shutting down and abandoning module AutomationWindow (371)
+[2018.04.30-16.39.05:487][520]LogModuleManager: Shutting down and abandoning module Layers (369)
+[2018.04.30-16.39.05:581][520]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (367)
+[2018.04.30-16.39.05:581][520]LogModuleManager: Shutting down and abandoning module DetailCustomizations (365)
+[2018.04.30-16.39.05:594][520]LogModuleManager: Shutting down and abandoning module PackagesDialog (363)
+[2018.04.30-16.39.05:595][520]LogModuleManager: Shutting down and abandoning module Persona (361)
+[2018.04.30-16.39.05:595][520]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (360)
+[2018.04.30-16.39.05:595][520]LogModuleManager: Shutting down and abandoning module AnimGraph (358)
+[2018.04.30-16.39.05:595][520]LogModuleManager: Shutting down and abandoning module Kismet (355)
+[2018.04.30-16.39.05:603][520]LogModuleManager: Shutting down and abandoning module ClassViewer (353)
+[2018.04.30-16.39.05:603][520]LogModuleManager: Shutting down and abandoning module Toolbox (351)
+[2018.04.30-16.39.05:618][520]LogModuleManager: Shutting down and abandoning module ModuleUI (349)
+[2018.04.30-16.39.05:646][520]LogModuleManager: Shutting down and abandoning module MovieSceneTools (347)
+[2018.04.30-16.39.05:659][520]LogModuleManager: Shutting down and abandoning module OutputLog (345)
+[2018.04.30-16.39.05:659][520]LogModuleManager: Shutting down and abandoning module GammaUI (343)
+[2018.04.30-16.39.05:666][520]LogModuleManager: Shutting down and abandoning module Documentation (341)
+[2018.04.30-16.39.05:666][520]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (339)
+[2018.04.30-16.39.05:666][520]LogModuleManager: Shutting down and abandoning module MovieScene (337)
+[2018.04.30-16.39.05:666][520]LogModuleManager: Shutting down and abandoning module GeometryCache (335)
+[2018.04.30-16.39.05:675][520]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (334)
+[2018.04.30-16.39.05:675][520]LogModuleManager: Shutting down and abandoning module Niagara (331)
+[2018.04.30-16.39.05:675][520]LogModuleManager: Shutting down and abandoning module NiagaraEditor (330)
+[2018.04.30-16.39.05:736][520]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (327)
+[2018.04.30-16.39.05:736][520]LogModuleManager: Shutting down and abandoning module AnalyticsET (325)
+[2018.04.30-16.39.05:736][520]LogModuleManager: Shutting down and abandoning module PortalServices (323)
+[2018.04.30-16.39.05:736][520]LogModuleManager: Shutting down and abandoning module PortalRpc (321)
+[2018.04.30-16.39.05:736][520]LogModuleManager: Shutting down and abandoning module MessagingRpc (319)
+[2018.04.30-16.39.05:736][520]LogModuleManager: Shutting down and abandoning module AIModule (317)
+[2018.04.30-16.39.05:736][520]LogModuleManager: Shutting down and abandoning module GameplayDebugger (316)
+[2018.04.30-16.39.05:736][520]LogModuleManager: Shutting down and abandoning module AITestSuite (314)
+[2018.04.30-16.39.05:750][520]LogModuleManager: Shutting down and abandoning module ProfilerService (311)
+[2018.04.30-16.39.05:954][520]LogModuleManager: Shutting down and abandoning module TaskGraph (309)
+[2018.04.30-16.39.06:014][520]LogModuleManager: Shutting down and abandoning module SteamVRController (307)
+[2018.04.30-16.39.06:014][520]LogModuleManager: Shutting down and abandoning module SteamVR (305)
+[2018.04.30-16.39.06:014][520]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (303)
+[2018.04.30-16.39.06:054][520]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (301)
+[2018.04.30-16.39.06:063][520]LogModuleManager: Shutting down and abandoning module OculusLibrary (299)
+[2018.04.30-16.39.06:063][520]LogModuleManager: Shutting down and abandoning module OculusInput (297)
+[2018.04.30-16.39.06:063][520]LogModuleManager: Shutting down and abandoning module Ansel (295)
+[2018.04.30-16.39.06:063][520]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (293)
+[2018.04.30-16.39.06:063][520]LogModuleManager: Shutting down and abandoning module CableComponent (291)
+[2018.04.30-16.39.06:063][520]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (289)
+[2018.04.30-16.39.06:063][520]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (287)
+[2018.04.30-16.39.06:129][520]LogModuleManager: Shutting down and abandoning module HTML5Networking (285)
+[2018.04.30-16.39.06:129][520]LogModuleManager: Shutting down and abandoning module CodeView (283)
+[2018.04.30-16.39.06:143][520]LogModuleManager: Shutting down and abandoning module CodeEditor (281)
+[2018.04.30-16.39.06:153][520]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (279)
+[2018.04.30-16.39.06:153][520]LogModuleManager: Shutting down and abandoning module SuperSearch (278)
+[2018.04.30-16.39.06:153][520]LogModuleManager: Shutting down and abandoning module PluginBrowser (275)
+[2018.04.30-16.39.06:235][520]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (273)
+[2018.04.30-16.39.06:293][520]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (271)
+[2018.04.30-16.39.06:293][520]LogModuleManager: Shutting down and abandoning module DesktopPlatform (270)
+[2018.04.30-16.39.06:329][520]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (267)
+[2018.04.30-16.39.06:353][520]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (265)
+[2018.04.30-16.39.06:374][520]LogModuleManager: Shutting down and abandoning module GitSourceControl (263)
+[2018.04.30-16.39.06:389][520]LogModuleManager: Shutting down and abandoning module SourceControl (262)
+[2018.04.30-16.39.06:389][520]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (259)
+[2018.04.30-16.39.06:389][520]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (257)
+[2018.04.30-16.39.06:389][520]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (255)
+[2018.04.30-16.39.06:389][520]LogModuleManager: Shutting down and abandoning module Paper2DEditor (253)
+[2018.04.30-16.39.06:416][520]LogModuleManager: Shutting down and abandoning module MeshPaint (252)
+[2018.04.30-16.39.06:512][520]LogModuleManager: Shutting down and abandoning module LevelEditor (250)
+[2018.04.30-16.39.06:547][520]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (249)
+[2018.04.30-16.39.06:609][520]LogModuleManager: Shutting down and abandoning module MainFrame (247)
+[2018.04.30-16.39.06:652][520]LogModuleManager: Shutting down and abandoning module HotReload (246)
+[2018.04.30-16.39.06:677][520]LogDirectoryWatcher: A directory notification for 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Binaries/Win64' was aborted.
+[2018.04.30-16.39.06:886][520]LogModuleManager: Shutting down and abandoning module Alien_build (241)
+[2018.04.30-16.39.06:887][520]LogModuleManager: Shutting down and abandoning module SteamAudio (239)
+[2018.04.30-16.39.06:899][520]LogSteamAudio: FSteamAudioModule Shutdown
+[2018.04.30-16.39.06:930][520]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (237)
+[2018.04.30-16.39.06:976][520]LogModuleManager: Shutting down and abandoning module PhysXVehicles (235)
+[2018.04.30-16.39.06:976][520]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (233)
+[2018.04.30-16.39.06:976][520]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (231)
+[2018.04.30-16.39.06:976][520]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (229)
+[2018.04.30-16.39.07:024][520]LogModuleManager: Shutting down and abandoning module ControlRig (227)
+[2018.04.30-16.39.07:024][520]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (225)
+[2018.04.30-16.39.07:178][520]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (223)
+[2018.04.30-16.39.07:216][520]LogModuleManager: Shutting down and abandoning module FacialAnimation (221)
+[2018.04.30-16.39.07:216][520]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (219)
+[2018.04.30-16.39.07:336][520]LogModuleManager: Shutting down and abandoning module GraphEditor (218)
+[2018.04.30-16.39.07:337][520]LogModuleManager: Shutting down and abandoning module ContentBrowser (216)
+[2018.04.30-16.39.07:339][520]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (213)
+[2018.04.30-16.39.07:339][520]LogModuleManager: Shutting down and abandoning module Paper2D (211)
+[2018.04.30-16.39.07:374][520]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (209)
+[2018.04.30-16.39.07:374][520]LogModuleManager: Shutting down and abandoning module WmfMedia (207)
+[2018.04.30-16.39.07:414][520]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (205)
+[2018.04.30-16.39.07:415][520]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (203)
+[2018.04.30-16.39.07:439][520]LogModuleManager: Shutting down and abandoning module MediaAssets (201)
+[2018.04.30-16.39.07:440][520]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (199)
+[2018.04.30-16.39.07:463][520]LogModuleManager: Shutting down and abandoning module VREditor (197)
+[2018.04.30-16.39.07:582][520]LogModuleManager: Shutting down and abandoning module StringTableEditor (195)
+[2018.04.30-16.39.07:888][520]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (193)
+[2018.04.30-16.39.07:888][520]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (191)
+[2018.04.30-16.39.08:187][520]LogModuleManager: Shutting down and abandoning module FunctionalTesting (189)
+[2018.04.30-16.39.08:187][520]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (187)
+[2018.04.30-16.39.08:328][520]LogModuleManager: Shutting down and abandoning module UMG (185)
+[2018.04.30-16.39.08:365][520]LogModuleManager: Shutting down and abandoning module UMGEditor (184)
+[2018.04.30-16.39.08:365][520]LogModuleManager: Shutting down and abandoning module Sequencer (183)
+[2018.04.30-16.39.08:365][520]LogModuleManager: Shutting down and abandoning module AssetTools (181)
+[2018.04.30-16.39.08:804][520]LogModuleManager: Shutting down and abandoning module MessageLog (180)
+[2018.04.30-16.39.08:804][520]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (179)
+[2018.04.30-16.39.08:804][520]LogModuleManager: Shutting down and abandoning module SlateReflector (173)
+[2018.04.30-16.39.09:140][520]LogModuleManager: Shutting down and abandoning module Slate (171)
+[2018.04.30-16.39.09:140][520]LogModuleManager: Shutting down and abandoning module EditorStyle (169)
+[2018.04.30-16.39.09:199][520]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (167)
+[2018.04.30-16.39.09:199][520]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (165)
+[2018.04.30-16.39.09:199][520]LogModuleManager: Shutting down and abandoning module XAudio2 (163)
+[2018.04.30-16.39.09:199][520]LogModuleManager: Shutting down and abandoning module Networking (161)
+[2018.04.30-16.39.09:199][520]LogModuleManager: Shutting down and abandoning module Core (157)
+[2018.04.30-16.39.09:199][520]LogModuleManager: Shutting down and abandoning module AssetRegistry (155)
+[2018.04.30-16.39.09:493][520]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.30-16.39.09:493][520]LogDirectoryWatcher: A directory notification for '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/' was aborted.
+[2018.04.30-16.39.09:493][520]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.30-16.39.09:493][520]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Experimental/ControlRig/Content/' was aborted.
+[2018.04.30-16.39.09:493][520]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.04.30-16.39.09:493][520]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamAudio/Content/' was aborted.
+[2018.04.30-16.39.09:524][520]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (154)
+[2018.04.30-16.39.09:531][520]LogModuleManager: Shutting down and abandoning module KismetCompiler (151)
+[2018.04.30-16.39.09:531][520]LogModuleManager: Shutting down and abandoning module LevelSequence (149)
+[2018.04.30-16.39.09:531][520]LogModuleManager: Shutting down and abandoning module PhysXFormats (147)
+[2018.04.30-16.39.09:531][520]LogModuleManager: Shutting down and abandoning module MeshUtilities (145)
+[2018.04.30-16.39.09:598][520]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (144)
+[2018.04.30-16.39.09:632][520]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (142)
+[2018.04.30-16.39.09:632][520]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (140)
+[2018.04.30-16.39.09:686][520]LogModuleManager: Shutting down and abandoning module DerivedDataCache (137)
+[2018.04.30-16.39.09:753][520]LogDerivedDataCache: Shutdown
+[2018.04.30-16.39.09:754][520]LogModuleManager: Shutting down and abandoning module TargetPlatform (135)
+[2018.04.30-16.39.09:754][520]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (134)
+[2018.04.30-16.39.09:890][520]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (132)
+[2018.04.30-16.39.09:959][520]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (130)
+[2018.04.30-16.39.10:027][520]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (128)
+[2018.04.30-16.39.10:055][520]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (126)
+[2018.04.30-16.39.10:154][520]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (124)
+[2018.04.30-16.39.10:154][520]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (122)
+[2018.04.30-16.39.10:154][520]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (120)
+[2018.04.30-16.39.10:213][520]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (118)
+[2018.04.30-16.39.10:274][520]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (116)
+[2018.04.30-16.39.10:274][520]LogModuleManager: Shutting down and abandoning module ImageWrapper (115)
+[2018.04.30-16.39.10:274][520]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (112)
+[2018.04.30-16.39.10:274][520]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (110)
+[2018.04.30-16.39.10:274][520]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (108)
+[2018.04.30-16.39.10:274][520]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (106)
+[2018.04.30-16.39.10:274][520]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (104)
+[2018.04.30-16.39.10:274][520]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (102)
+[2018.04.30-16.39.10:274][520]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (100)
+[2018.04.30-16.39.10:274][520]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (98)
+[2018.04.30-16.39.10:274][520]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (96)
+[2018.04.30-16.39.10:274][520]LogModuleManager: Shutting down and abandoning module Messaging (94)
+[2018.04.30-16.39.10:274][520]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (92)
+[2018.04.30-16.39.10:274][520]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (90)
+[2018.04.30-16.39.10:274][520]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (88)
+[2018.04.30-16.39.10:343][520]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (86)
+[2018.04.30-16.39.10:343][520]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (84)
+[2018.04.30-16.39.10:368][520]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (82)
+[2018.04.30-16.39.10:474][520]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (80)
+[2018.04.30-16.39.10:498][520]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (78)
+[2018.04.30-16.39.10:525][520]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (76)
+[2018.04.30-16.39.10:525][520]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (74)
+[2018.04.30-16.39.10:573][520]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (72)
+[2018.04.30-16.39.10:574][520]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (70)
+[2018.04.30-16.39.10:574][520]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (68)
+[2018.04.30-16.39.10:574][520]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (66)
+[2018.04.30-16.39.10:574][520]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (64)
+[2018.04.30-16.39.10:574][520]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (62)
+[2018.04.30-16.39.10:574][520]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (60)
+[2018.04.30-16.39.10:574][520]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (58)
+[2018.04.30-16.39.10:574][520]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (56)
+[2018.04.30-16.39.10:574][520]LogModuleManager: Shutting down and abandoning module InputCore (53)
+[2018.04.30-16.39.10:574][520]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2018.04.30-16.39.10:575][520]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2018.04.30-16.39.10:615][520]LogModuleManager: Shutting down and abandoning module GearVRController (46)
+[2018.04.30-16.39.10:615][520]LogModuleManager: Shutting down and abandoning module GearVR (44)
+[2018.04.30-16.39.10:672][520]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (42)
+[2018.04.30-16.39.10:704][520]LogModuleManager: Shutting down and abandoning module XMPP (41)
+[2018.04.30-16.39.10:822][520]LogModuleManager: Shutting down and abandoning module HTTP (39)
+[2018.04.30-16.39.10:822][520]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.30-16.39.10:845][520]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B417179E8-4EDA-5AA2-C9A7-869DC1155C45%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=a84f5cc54bdf4b94862db0a98bc92dd4%7C6855d30c7bf045ce8f43503786266ef9%7C9ef5caba-46ff-4fb5-9752-1aa5a8b12452&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.30-16.39.10:849][520]LogModuleManager: Shutting down and abandoning module SSL (38)
+[2018.04.30-16.39.10:932][520]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.04.30-16.39.10:950][520]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.04.30-16.39.10:950][520]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.04.30-16.39.10:964][520]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.04.30-16.39.10:980][520]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.04.30-16.39.10:980][520]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.04.30-16.39.10:980][520]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.04.30-16.39.11:040][520]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.04.30-16.39.11:100][520]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.04.30-16.39.11:100][520]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.04.30-16.39.11:126][520]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.04.30-16.39.11:126][520]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.04.30-16.39.11:126][520]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.04.30-16.39.11:126][520]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.04.30-16.39.11:245][520]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.30-16.39.11:255][520]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.30-16.39.11:261][520]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.30-16.39.11:264][520]LogExit: Exiting.
+[2018.04.30-16.39.11:391][520]Log file closed, 04/30/18 18:39:11
