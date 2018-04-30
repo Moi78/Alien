@@ -91,3 +91,638 @@ LogInit: Object subsystem initialized
 [2018.04.30-15.57.37:447][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/Shaders/WorkingDirectory/3884/).
 [2018.04.30-15.57.37:447][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mathi/AppData/Local/Temp/UnrealShaderWorkingDir/0AEC915D4EB53E4D28F2CDB41E946A95/'.
 [2018.04.30-15.57.37:509][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.04.30-15.57.48:296][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.30-15.57.48:491][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.04.30-15.57.48:703][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.30-15.57.48:901][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.04.30-15.57.49:196][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.04.30-15.57.49:398][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.30-15.57.49:601][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.30-15.57.49:814][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.30-15.57.50:056][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.04.30-15.57.50:368][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.04.30-15.57.50:611][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.30-15.57.50:838][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.30-15.57.51:116][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.30-15.57.51:410][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.30-15.57.51:666][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.30-15.57.52:210][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.30-15.57.52:210][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.30-15.57.52:451][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.04.30-15.57.53:024][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.04.30-15.57.53:141][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.04.30-15.57.53:410][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.30-15.57.53:674][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.30-15.57.53:928][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.30-15.57.54:208][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.04.30-15.57.54:208][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.04.30-15.57.57:789][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.04.30-15.57.59:394][  0]LogDerivedDataCache: Loaded boot cache 1.60s 90MB C:/Users/mathi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.30-15.57.59:394][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mathi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.04.30-15.57.59:395][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.30-15.57.59:395][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.30-15.57.59:395][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.30-15.57.59:395][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.30-15.57.59:491][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.30-15.57.59:506][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mathi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.30-15.57.59:723][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.30-15.57.59:875][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.30-15.58.00:174][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.30-15.58.00:174][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.30-15.58.16:142][  0]LogModuleManager:Warning: No filename provided for module ExampleDeviceProfileSelector
+[2018.04.30-15.58.16:142][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'ExampleDeviceProfileSelector' because the file 'C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/' was not found.
+[2018.04.30-15.58.21:430][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.30-15.58.23:814][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.30-15.58.24:896][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.30-15.58.25:333][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.30-15.58.25:333][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.04.30-15.58.25:333][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.04.30-15.58.41:930][  0]LogNetVersion: Alien_build , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2330291340)
+[2018.04.30-15.58.42:681][  0]LogAssetRegistry: FAssetRegistry took 0.0500 seconds to start up
+[2018.04.30-15.58.43:600][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 1 prioritized culture(s) in 0.305561 seconds
+[2018.04.30-15.58.43:754][  0]LogUObjectArray: 33812 objects as part of root set at end of initial load.
+[2018.04.30-15.58.43:754][  0]LogUObjectAllocator: 6959544 out of 0 bytes used by permanent object pool.
+[2018.04.30-15.58.43:786][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.30-15.58.44:238][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.30-15.59.26:904][  0]LogSteamAudio: FSteamAudioModule Startup
+[2018.04.30-15.59.26:904][  0]LogSteamAudio: Attempting to load ../../../Engine/Binaries/ThirdParty/Phonon/Win64/phonon.dll
+[2018.04.30-15.59.27:192][  0]LogSteamAudio: Loaded ../../../Engine/Binaries/ThirdParty/Phonon/Win64/phonon.dll.
+[2018.04.30-15.59.30:070][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.30-15.59.33:060][  0]SourceControl: Info Source control is disabled
+[2018.04.30-15.59.41:629][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
+[2018.04.30-15.59.43:252][  0]LogLinker:Warning: Can't find file '/Script/OnlineSubsystemUtils'
+[2018.04.30-15.59.43:253][  0]LogLinker:Warning: Can't find file '/Script/OnlineSubsystemUtils'
+[2018.04.30-15.59.44:741][  0]LogEngine: Initializing Engine...
+[2018.04.30-15.59.44:955][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2018.04.30-15.59.46:316][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.30-15.59.46:318][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.30-15.59.48:125][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.30-15.59.49:083][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.30-15.59.50:409][  0]LogInit: FAudioDevice initialized.
+[2018.04.30-15.59.50:513][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/mathi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.30-15.59.50:534][  0]LogInit: Texture streaming: Enabled
+[2018.04.30-15.59.51:428][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.30-15.59.55:057][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.30-15.59.55:078][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.30-15.59.56:506][  0]LogInit: Transaction tracking system initialized
+[2018.04.30-16.00.02:678][  0]BlueprintLog: New page: Editor Load
+[2018.04.30-16.00.15:466][  0]LocalizationService: Info Localization service is disabled
+[2018.04.30-16.00.18:493][  0]LogModuleManager:Warning: No filename provided for module TcpMessaging
+[2018.04.30-16.00.18:493][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'TcpMessaging' because the file 'C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/' was not found.
+[2018.04.30-16.00.24:275][  0]LogConsoleResponse:Display: 
+[2018.04.30-16.00.34:983][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/' took 0.15s
+[2018.04.30-16.00.34:983][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.30-16.00.35:063][  0]LogCook:Display: Mobile HDR setting 1
+[2018.04.30-16.00.53:063][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/HUDS/Menu/Menu_principal.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.30-16.00.53:316][  0]LightingResults: New page: Lighting Build
+[2018.04.30-16.00.55:616][  0]MapCheck: New page: Map Check
+[2018.04.30-16.00.55:616][  0]LightingResults: New page: Lighting Build
+[2018.04.30-16.01.10:546][  0]LogAIModule: Creating AISystem for world Menu_principal
+[2018.04.30-16.01.11:775][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.30-16.01.13:303][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.30-16.01.13:719][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 356.14ms to complete.
+[2018.04.30-16.01.13:772][  0]LogFileHelpers: Loading map 'Menu_principal' took 20.784
+[2018.04.30-16.01.26:696][  0]LogCollectionManager: Loaded 0 collections in 0.007955 seconds
+[2018.04.30-16.01.28:643][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Collections/' took 0.01s
+[2018.04.30-16.01.28:643][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/Developers/mathi/Collections/' took 0.01s
+[2018.04.30-16.01.28:643][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/Collections/' took 0.01s
+[2018.04.30-16.01.28:643][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2018.04.30-16.01.28:977][  0]LogContentBrowser: Native class hierarchy populated in 0.1902 seconds. Added 2320 classes and 474 folders.
+[2018.04.30-16.01.30:276][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0066 seconds. Added 0 classes and 0 folders.
+[2018.04.30-16.01.38:795][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0096 seconds. Added 0 classes and 0 folders.
+[2018.04.30-16.01.40:590][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0131 seconds. Added 1 classes and 2 folders.
+[2018.04.30-16.01.50:019][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.04.30-16.01.51:571][  0]LogSlate: Took 0.033343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.30-16.01.51:746][  0]LogSlate: Took 0.074613 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.30-16.01.52:927][  0]LogSlate: Took 0.035107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.30-16.01.54:906][  0]LogRenderer: Reallocating scene render targets to support 1208x572 NumSamples 1 (Frame:1).
+[2018.04.30-16.01.59:482][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.04.30-16.01.59:948][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0146 seconds. Added 1 classes and 2 folders.
+[2018.04.30-16.01.59:949][  0]LogLoad: (Engine Initialization) Total time: 325.88 seconds
+[2018.04.30-16.01.59:949][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 5.67 seconds
+[2018.04.30-16.01.59:949][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.30-16.01.59:949][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.30-16.02.00:133][  0]LogOcInput: OculusInput pre-init called
+[2018.04.30-16.02.00:144][  0]LogHMD: Starting GearVRController plugin
+[2018.04.30-16.02.01:128][  0]SourceControl: Info On branch master
+[2018.04.30-16.02.01:128][  0]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.04.30-16.02.01:128][  0]SourceControl: Info Changes not staged for commit:
+[2018.04.30-16.02.01:128][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2018.04.30-16.02.01:129][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.04.30-16.02.01:129][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.04.30-16.02.01:129][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2018.04.30-16.02.01:191][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.04.30-16.02.02:864][  1]LogSlate: Took 0.026014 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.30-16.02.03:594][  2]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.30-16.02.04:690][  5]LogAssetRegistry: Asset discovery search completed in 202.0547 seconds
+[2018.04.30-16.02.04:830][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.04.30-16.02.04:830][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.056098 seconds (updated 0 objects)
+[2018.04.30-16.04.24:544][904]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.30-16.04.24:544][904]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.30-16.04.24:735][904]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.30-16.04.24:735][904]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.30-16.04.34:617][904]LogSlate: Took 0.000389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.30-16.04.36:036][904]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.30-16.04.38:307][904]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0072 seconds. Added 112 classes and 0 folders.
+[2018.04.30-16.04.43:758][904]LogSlate: Took 0.029998 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.30-16.05.47:672][481]LogSlate: Took 0.025678 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.30-16.06.20:733][197]BlueprintLog: New page: Compile Status
+[2018.04.30-16.06.22:233][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/Status/Status" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/HUDS/Status/Status.uasset" SILENT=true
+[2018.04.30-16.06.22:716][197]LogSavePackage: Save=401.29ms
+[2018.04.30-16.06.22:716][197]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Status057A0EA2490A4787C44B40B82968EDB3.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/HUDS/Status/Status.uasset'
+[2018.04.30-16.06.22:779][197]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/HUDS/Status/Status.uasset
+[2018.04.30-16.06.22:845][197]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.04.30-16.07.28:193][993]BlueprintLog: New page: Compile Status
+[2018.04.30-16.07.28:562][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/Status/Status" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/HUDS/Status/Status.uasset" SILENT=true
+[2018.04.30-16.07.28:843][993]LogSavePackage: Save=263.66ms
+[2018.04.30-16.07.28:843][993]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/StatusAFBE9FDE4AEF1770216782B80E380C6A.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/HUDS/Status/Status.uasset'
+[2018.04.30-16.07.28:852][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/HUDS/Status/Status.uasset
+[2018.04.30-16.07.28:869][993]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.04.30-16.08.01:121][674]BlueprintLog: New page: Compile Status
+[2018.04.30-16.08.01:506][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDS/Status/Status" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/HUDS/Status/Status.uasset" SILENT=true
+[2018.04.30-16.08.01:776][674]LogSavePackage: Save=251.20ms
+[2018.04.30-16.08.01:776][674]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/StatusA5245C394AFA2D3EA3F9C2A5380EF54D.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/HUDS/Status/Status.uasset'
+[2018.04.30-16.08.01:847][674]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/HUDS/Status/Status.uasset
+[2018.04.30-16.08.01:871][674]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.04.30-16.08.46:589][434]BlueprintLog: New page: Compile Status
+[2018.04.30-16.08.46:773][434]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.04.30-16.08.48:532][475]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.30-16.08.48:854][475]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.08.48:878][475]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-16.08.48:924][475]PIE: New page: PIE session: Menu_principal (Apr 30, 2018, 8:08:48 PM)
+[2018.04.30-16.08.48:949][475]LogPlayLevel: Creating play world package: /Game/HUDS/Menu/UEDPIE_0_Menu_principal
+[2018.04.30-16.08.49:059][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.109806s)
+[2018.04.30-16.08.49:060][475]LogAIModule: Creating AISystem for world Menu_principal
+[2018.04.30-16.08.49:060][475]LogPlayLevel: PIE: World Init took: (0.001077s)
+[2018.04.30-16.08.49:078][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HUDS/Menu/Menu_principal.Menu_principal to /Game/HUDS/Menu/UEDPIE_0_Menu_principal.Menu_principal (0.144261s)
+[2018.04.30-16.08.49:226][475]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.30-16.08.49:347][475]LogInit: FAudioDevice initialized.
+[2018.04.30-16.08.50:246][475]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.04.30-16.08.50:285][475]LogWorld: Bringing World /Game/HUDS/Menu/UEDPIE_0_Menu_principal.Menu_principal up for play (max tick rate 60) at 2018.04.30-18.08.50
+[2018.04.30-16.08.50:328][475]LogWorld: Bringing up level for play took: 0.025092
+[2018.04.30-16.08.51:008][475]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2018.04.30-16.08.51:324][475]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0081 seconds. Added 11 classes and 0 folders.
+[2018.04.30-16.08.52:395][475]Cmd: r.PostProcessAAQuality 4
+[2018.04.30-16.08.52:584][475]r.PostProcessAAQuality = "4"
+[2018.04.30-16.08.52:753][475]Cmd: sg.PostProcessQuality 2
+[2018.04.30-16.08.52:753][475]sg.PostProcessQuality = "2"
+[2018.04.30-16.08.52:753][475]Cmd: sg.ShadowQuality 2
+[2018.04.30-16.08.52:753][475]sg.ShadowQuality = "2"
+[2018.04.30-16.08.52:754][475]Cmd: sg.TextureQuality 2
+[2018.04.30-16.08.52:754][475]sg.TextureQuality = "2"
+[2018.04.30-16.08.52:754][475]Cmd: sg.EffectsQuality 2
+[2018.04.30-16.08.52:754][475]sg.EffectsQuality = "2"
+[2018.04.30-16.08.52:817][475]PIE: Info Play in editor start time for /Game/HUDS/Menu/UEDPIE_0_Menu_principal 3.281
+[2018.04.30-16.08.52:857][475]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.08.53:051][475]LogAnsel: We reckon 0.010000 meters to 1 world unit
+[2018.04.30-16.08.53:251][475]LogRenderer: Reallocating scene render targets to support 1208x572 NumSamples 1 (Frame:2).
+[2018.04.30-16.09.06:357][676]Cmd: Stat FPS
+[2018.04.30-16.09.45:909][258]LogNet: Browse: /Game/HUDS/Name/NameLVL
+[2018.04.30-16.09.45:942][258]LogLoad: LoadMap: /Game/HUDS/Name/NameLVL
+[2018.04.30-16.09.46:183][258]Cmd: MEM
+[2018.04.30-16.09.46:210][258]LogMemory: Platform Memory Stats for Windows
+[2018.04.30-16.09.46:210][258]LogMemory: Process Physical Memory: 1592.13 MB used, 1629.29 MB peak
+[2018.04.30-16.09.46:210][258]LogMemory: Process Virtual Memory: 2176.47 MB used, 2320.82 MB peak
+[2018.04.30-16.09.46:210][258]LogMemory: Physical Memory: 5715.84 MB used,  2361.80 MB free, 8077.64 MB total
+[2018.04.30-16.09.46:210][258]LogMemory: Virtual Memory: 3212.29 MB used,  2361.80 MB free, 134217728.00 MB total
+[2018.04.30-16.09.46:210][258]LogMemory: 
+[2018.04.30-16.09.46:210][258]Allocator Stats for TBB: (not implemented)
+[2018.04.30-16.09.46:292][258]LogBlueprint:Warning: [Name] 'Niveau max' variable not found. Base class was probably changed.
+[2018.04.30-16.09.46:326][258]LogBlueprint:Warning: [Compiler Name] Warning Could not find a variable named "Niveau max" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Get Niveau max
+[2018.04.30-16.09.46:376][258]LogBlueprint:Error: [Compiler Name] Error The property associated with  Niveau Max  could not be found
+[2018.04.30-16.09.46:385][258]LogBlueprint:Warning: [Compiler Name] Warning [0792.37] Compile of Name failed. 1 Fatal Issue(s) 1 Warning(s) [in 92 ms] (/Game/HUDS/Name/Name.Name)
+[2018.04.30-16.09.46:385][258]LogBlueprint:Warning: [Compiler Name] Warning [0792.37] Compile of Name failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/HUDS/Name/Name.Name)
+[2018.04.30-16.09.46:386][258]LogBlueprint:Warning: [Compiler Name] Warning [0792.37] Compile of Name failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/HUDS/Name/Name.Name)
+[2018.04.30-16.09.46:387][258]LogBlueprint:Warning: [Name] 'Niveau max' variable not found. Base class was probably changed.
+[2018.04.30-16.09.49:359][258]LogAIModule: Creating AISystem for world NameLVL
+[2018.04.30-16.09.49:359][258]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.04.30-16.09.49:383][258]LogWorld: Bringing World /Game/HUDS/Name/UEDPIE_0_NameLVL.NameLVL up for play (max tick rate 60) at 2018.04.30-18.09.49
+[2018.04.30-16.09.49:383][258]LogWorld: Bringing up level for play took: 0.020440
+[2018.04.30-16.09.49:384][258]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.30-16.09.49:398][258]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2018.04.30-16.09.49:460][258]LogLoad: Took 3.517750 seconds to LoadMap(/Game/HUDS/Name/NameLVL)
+[2018.04.30-16.09.55:875][375]LogSlate: Took 0.103803 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.04.30-16.10.09:561][625]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.10.09:720][625]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.10.12:677][687]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.30-16.10.12:702][687]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.10.12:702][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-16.11.09:768][797]LogSlate: Took 0.022464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.04.30-16.11.13:248][854]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.04.30-16.11.13:336][854]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.30-16.11.13:336][854]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.30-16.11.15:201][854]LogSavePackage: Save=369.21ms
+[2018.04.30-16.11.15:201][854]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/FirstPersonCharacterC5BE23064B7EC62A7284E2AEC8E13726.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.04.30-16.11.15:209][854]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.04.30-16.11.17:198][873]LogSavePackage: Save=260.82ms
+[2018.04.30-16.11.17:198][873]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/FirstPersonCharacter3E01872D4848E83A44C7619FD0E21F56.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.04.30-16.11.17:201][873]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.04.30-16.11.21:355][970]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.04.30-16.11.21:435][970]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.30-16.11.21:435][970]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.30-16.11.22:352][970]LogSavePackage: Save=271.81ms
+[2018.04.30-16.11.22:353][970]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/FirstPersonCharacterB6B905CD49770AD38317AB83750C3501.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.04.30-16.11.22:361][970]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.04.30-16.11.24:237][987]LogSavePackage: Save=261.84ms
+[2018.04.30-16.11.24:237][987]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/FirstPersonCharacter6D17DFB347EEAAFEFC4EB0926DA31D12.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.04.30-16.11.24:241][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.04.30-16.11.35:591][262]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.30-16.11.35:623][262]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.11.35:623][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-16.11.35:623][262]PIE: New page: PIE session: Menu_principal (Apr 30, 2018, 8:11:35 PM)
+[2018.04.30-16.11.35:623][262]LogPlayLevel: Creating play world package: /Game/HUDS/Menu/UEDPIE_0_Menu_principal
+[2018.04.30-16.11.35:625][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002061s)
+[2018.04.30-16.11.35:626][262]LogAIModule: Creating AISystem for world Menu_principal
+[2018.04.30-16.11.35:626][262]LogPlayLevel: PIE: World Init took: (0.000941s)
+[2018.04.30-16.11.35:627][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HUDS/Menu/Menu_principal.Menu_principal to /Game/HUDS/Menu/UEDPIE_0_Menu_principal.Menu_principal (0.003365s)
+[2018.04.30-16.11.35:778][262]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.30-16.11.35:886][262]LogInit: FAudioDevice initialized.
+[2018.04.30-16.11.35:977][262]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.04.30-16.11.35:980][262]LogWorld: Bringing World /Game/HUDS/Menu/UEDPIE_0_Menu_principal.Menu_principal up for play (max tick rate 60) at 2018.04.30-18.11.35
+[2018.04.30-16.11.35:981][262]LogWorld: Bringing up level for play took: 0.001314
+[2018.04.30-16.11.35:982][262]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2018.04.30-16.11.35:985][262]Cmd: r.PostProcessAAQuality 4
+[2018.04.30-16.11.35:985][262]r.PostProcessAAQuality = "4"
+[2018.04.30-16.11.35:985][262]Cmd: sg.PostProcessQuality 2
+[2018.04.30-16.11.35:985][262]sg.PostProcessQuality = "2"
+[2018.04.30-16.11.35:985][262]Cmd: sg.ShadowQuality 2
+[2018.04.30-16.11.35:985][262]sg.ShadowQuality = "2"
+[2018.04.30-16.11.35:985][262]Cmd: sg.TextureQuality 2
+[2018.04.30-16.11.35:986][262]sg.TextureQuality = "2"
+[2018.04.30-16.11.35:986][262]Cmd: sg.EffectsQuality 2
+[2018.04.30-16.11.35:986][262]sg.EffectsQuality = "2"
+[2018.04.30-16.11.36:002][262]PIE: Info Play in editor start time for /Game/HUDS/Menu/UEDPIE_0_Menu_principal 0.479
+[2018.04.30-16.11.36:002][262]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.11.47:428][469]LogRenderer: Reallocating scene render targets to support 1364x724 NumSamples 1 (Frame:209).
+[2018.04.30-16.11.48:930][494]LogNet: Browse: /Game/HUDS/Menu/Credit/Credit
+[2018.04.30-16.11.48:980][494]LogLoad: LoadMap: /Game/HUDS/Menu/Credit/Credit
+[2018.04.30-16.11.49:007][494]Cmd: MEM
+[2018.04.30-16.11.49:026][494]LogMemory: Platform Memory Stats for Windows
+[2018.04.30-16.11.49:026][494]LogMemory: Process Physical Memory: 2027.27 MB used, 2048.38 MB peak
+[2018.04.30-16.11.49:026][494]LogMemory: Process Virtual Memory: 3355.36 MB used, 3355.36 MB peak
+[2018.04.30-16.11.49:026][494]LogMemory: Physical Memory: 6040.84 MB used,  2036.80 MB free, 8077.64 MB total
+[2018.04.30-16.11.49:026][494]LogMemory: Virtual Memory: 4329.39 MB used,  2036.80 MB free, 134217728.00 MB total
+[2018.04.30-16.11.49:026][494]LogMemory: 
+[2018.04.30-16.11.49:026][494]Allocator Stats for TBB: (not implemented)
+[2018.04.30-16.11.50:274][494]LogAIModule: Creating AISystem for world Credit
+[2018.04.30-16.11.50:275][494]LogLoad: Game class is 'GM_Void_C'
+[2018.04.30-16.11.50:402][494]LogWorld: Bringing World /Game/HUDS/Menu/Credit/UEDPIE_0_Credit.Credit up for play (max tick rate 60) at 2018.04.30-18.11.50
+[2018.04.30-16.11.50:403][494]LogWorld: Bringing up level for play took: 0.126721
+[2018.04.30-16.11.50:404][494]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.30-16.11.50:452][494]LogLoad: Took 1.472301 seconds to LoadMap(/Game/HUDS/Menu/Credit/Credit)
+[2018.04.30-16.12.09:895][819]LogNet: Browse: /Game/HUDS/Name/NameLVL
+[2018.04.30-16.12.09:948][819]LogLoad: LoadMap: /Game/HUDS/Name/NameLVL
+[2018.04.30-16.12.10:118][819]Cmd: MEM
+[2018.04.30-16.12.10:140][819]LogMemory: Platform Memory Stats for Windows
+[2018.04.30-16.12.10:140][819]LogMemory: Process Physical Memory: 2073.71 MB used, 2124.57 MB peak
+[2018.04.30-16.12.10:140][819]LogMemory: Process Virtual Memory: 3349.54 MB used, 3533.34 MB peak
+[2018.04.30-16.12.10:140][819]LogMemory: Physical Memory: 6076.57 MB used,  2001.07 MB free, 8077.64 MB total
+[2018.04.30-16.12.10:140][819]LogMemory: Virtual Memory: 4456.58 MB used,  2001.07 MB free, 134217728.00 MB total
+[2018.04.30-16.12.10:140][819]LogMemory: 
+[2018.04.30-16.12.10:140][819]Allocator Stats for TBB: (not implemented)
+[2018.04.30-16.12.10:476][819]LogAIModule: Creating AISystem for world NameLVL
+[2018.04.30-16.12.10:477][819]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.04.30-16.12.10:492][819]LogWorld: Bringing World /Game/HUDS/Name/UEDPIE_0_NameLVL.NameLVL up for play (max tick rate 60) at 2018.04.30-18.12.10
+[2018.04.30-16.12.10:492][819]LogWorld: Bringing up level for play took: 0.001158
+[2018.04.30-16.12.10:492][819]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.30-16.12.10:493][819]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2018.04.30-16.12.10:496][819]LogLoad: Took 0.548185 seconds to LoadMap(/Game/HUDS/Name/NameLVL)
+[2018.04.30-16.12.16:857][933]LogNet: Browse: /Game/FirstPersonBP/Maps/LVL_0
+[2018.04.30-16.12.16:858][933]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/LVL_0
+[2018.04.30-16.12.16:885][933]Cmd: MEM
+[2018.04.30-16.12.16:904][933]LogMemory: Platform Memory Stats for Windows
+[2018.04.30-16.12.16:904][933]LogMemory: Process Physical Memory: 2098.17 MB used, 2133.81 MB peak
+[2018.04.30-16.12.16:904][933]LogMemory: Process Virtual Memory: 3363.72 MB used, 3533.34 MB peak
+[2018.04.30-16.12.16:904][933]LogMemory: Physical Memory: 6102.98 MB used,  1974.66 MB free, 8077.64 MB total
+[2018.04.30-16.12.16:904][933]LogMemory: Virtual Memory: 4472.32 MB used,  1974.66 MB free, 134217728.00 MB total
+[2018.04.30-16.12.16:904][933]LogMemory: 
+[2018.04.30-16.12.16:904][933]Allocator Stats for TBB: (not implemented)
+[2018.04.30-16.12.18:354][933]LogBlueprint:Warning: [LVL_0] 'NB_total_alien' variable not found. Base class was probably changed.
+[2018.04.30-16.12.18:354][933]LogBlueprint:Warning: [LVL_0] 'NB_total_alien' variable not found. Base class was probably changed.
+[2018.04.30-16.12.18:384][933]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning Could not find a variable named "NB_total_alien" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set NB_total_alien
+[2018.04.30-16.12.18:387][933]LogBlueprint:Error: [Compiler PersistentLevel.LVL_0] Error The property associated with  NB Total Alien  could not be found
+[2018.04.30-16.12.18:399][933]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [0944.40] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 1 Warning(s) [in 41 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.12.18:399][933]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [0944.40] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.12.18:399][933]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [0944.40] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.12.18:401][933]LogBlueprint:Warning: [LVL_0] 'NB_total_alien' variable not found. Base class was probably changed.
+[2018.04.30-16.12.18:401][933]LogBlueprint:Warning: [LVL_0] 'NB_total_alien' variable not found. Base class was probably changed.
+[2018.04.30-16.12.18:410][933]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning Could not find a variable named "NB_total_alien" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set NB_total_alien
+[2018.04.30-16.12.18:414][933]LogBlueprint:Error: [Compiler PersistentLevel.LVL_0] Error The property associated with  NB Total Alien  could not be found
+[2018.04.30-16.12.18:425][933]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [0944.42] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 1 Warning(s) [in 22 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.12.18:425][933]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [0944.42] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.12.18:425][933]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [0944.42] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.12.31:603][933]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.699 s
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: === Handled ensure: ===
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: 
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1305]
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: 
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: Stack: 
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000641CE2B6
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000063F7B8C2
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000063F91E86
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x0000000051B0BCF7
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x0000000051ADC23D
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000005F680377
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000005F9831A6
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000005F999393
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000005F99891A
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000003B015ACF
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000003AFCEEA8
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000003B03460D
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000038AD2F55
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000392F8D86
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor.exe!0x00000000E06CE2B2
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor.exe!0x00000000E06BF0B0
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor.exe!0x00000000E06BF12A
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor.exe!0x00000000E06D0CF9
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: UE4Editor.exe!0x00000000E06D25F7
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: KERNEL32.DLL!0x000000009DBE1FE4
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: ntdll.dll!0x000000009E0DF061
+[2018.04.30-16.12.31:604][933]LogOutputDevice:Error: 
+[2018.04.30-16.12.31:612][933]LogStats:                SubmitErrorReport -  0.000 s
+[2018.04.30-16.12.43:839][933]LogStats:                    SendNewReport - 12.228 s
+[2018.04.30-16.12.43:839][933]LogStats:             FDebug::EnsureFailed - 14.935 s
+[2018.04.30-16.12.45:647][933]LogAIModule: Creating AISystem for world LVL_0
+[2018.04.30-16.12.45:648][933]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.04.30-16.12.46:794][933]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_0.LVL_0 up for play (max tick rate 60) at 2018.04.30-18.12.46
+[2018.04.30-16.12.47:024][933]LogWorld: Bringing up level for play took: 1.374010
+[2018.04.30-16.12.47:050][933]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.30-16.12.47:198][933]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2018.04.30-16.12.47:199][933]LogLoad: Took 30.343667 seconds to LoadMap(/Game/FirstPersonBP/Maps/LVL_0)
+[2018.04.30-16.13.12:216][348]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.13.12:317][348]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.13.13:586][366]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.30-16.13.13:618][366]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.13.13:618][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-16.13.13:618][366]PIE: New page: PIE session: Menu_principal (Apr 30, 2018, 8:13:13 PM)
+[2018.04.30-16.13.13:618][366]LogPlayLevel: Creating play world package: /Game/HUDS/Menu/UEDPIE_0_Menu_principal
+[2018.04.30-16.13.13:620][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001892s)
+[2018.04.30-16.13.13:621][366]LogAIModule: Creating AISystem for world Menu_principal
+[2018.04.30-16.13.13:621][366]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2018.04.30-16.13.13:621][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HUDS/Menu/Menu_principal.Menu_principal to /Game/HUDS/Menu/UEDPIE_0_Menu_principal.Menu_principal (0.002932s)
+[2018.04.30-16.13.13:737][366]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.30-16.13.13:845][366]LogInit: FAudioDevice initialized.
+[2018.04.30-16.13.13:926][366]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.04.30-16.13.13:928][366]LogWorld: Bringing World /Game/HUDS/Menu/UEDPIE_0_Menu_principal.Menu_principal up for play (max tick rate 60) at 2018.04.30-18.13.13
+[2018.04.30-16.13.13:929][366]LogWorld: Bringing up level for play took: 0.001248
+[2018.04.30-16.13.13:930][366]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2018.04.30-16.13.13:935][366]Cmd: r.PostProcessAAQuality 4
+[2018.04.30-16.13.13:935][366]r.PostProcessAAQuality = "4"
+[2018.04.30-16.13.13:936][366]Cmd: sg.PostProcessQuality 2
+[2018.04.30-16.13.13:936][366]sg.PostProcessQuality = "2"
+[2018.04.30-16.13.13:936][366]Cmd: sg.ShadowQuality 2
+[2018.04.30-16.13.13:936][366]sg.ShadowQuality = "2"
+[2018.04.30-16.13.13:936][366]Cmd: sg.TextureQuality 2
+[2018.04.30-16.13.13:936][366]sg.TextureQuality = "2"
+[2018.04.30-16.13.13:936][366]Cmd: sg.EffectsQuality 2
+[2018.04.30-16.13.13:936][366]sg.EffectsQuality = "2"
+[2018.04.30-16.13.13:953][366]PIE: Info Play in editor start time for /Game/HUDS/Menu/UEDPIE_0_Menu_principal 0.439
+[2018.04.30-16.13.13:954][366]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.13.18:073][429]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.13.18:156][429]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel' has LevelScriptBlueprint '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal' with GeneratedClass '/Game/HUDS/Menu/Menu_principal.Menu_principal_C' with ClassGeneratedBy '/Game/HUDS/Menu/Menu_principal.Menu_principal:PersistentLevel.Menu_principal'
+[2018.04.30-16.13.39:674][811]LogBlueprint:Warning: [LVL_0] 'NB_total_alien' variable not found. Base class was probably changed.
+[2018.04.30-16.13.39:674][811]LogBlueprint:Warning: [LVL_0] 'NB_total_alien' variable not found. Base class was probably changed.
+[2018.04.30-16.13.39:685][811]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning Could not find a variable named "NB_total_alien" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set NB_total_alien
+[2018.04.30-16.13.39:689][811]LogBlueprint:Error: [Compiler PersistentLevel.LVL_0] Error The property associated with  NB Total Alien  could not be found
+[2018.04.30-16.13.39:700][811]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [1025.71] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 1 Warning(s) [in 22 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.13.39:700][811]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [1025.71] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.13.39:701][811]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [1025.71] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.13.39:702][811]LogBlueprint:Warning: [LVL_0] 'NB_total_alien' variable not found. Base class was probably changed.
+[2018.04.30-16.13.39:702][811]LogBlueprint:Warning: [LVL_0] 'NB_total_alien' variable not found. Base class was probably changed.
+[2018.04.30-16.13.39:713][811]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning Could not find a variable named "NB_total_alien" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set NB_total_alien
+[2018.04.30-16.13.39:717][811]LogBlueprint:Error: [Compiler PersistentLevel.LVL_0] Error The property associated with  NB Total Alien  could not be found
+[2018.04.30-16.13.39:728][811]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [1025.73] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 1 Warning(s) [in 22 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.13.39:728][811]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [1025.73] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.13.39:728][811]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [1025.73] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.13.39:952][811]LogAIModule: Creating AISystem for world LVL_0
+[2018.04.30-16.13.40:161][811]Cmd: MAP LOAD FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_0.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.30-16.13.40:161][811]LightingResults: New page: Lighting Build
+[2018.04.30-16.13.40:180][811]LoadErrors: New page: Loading map: LVL_0.umap
+[2018.04.30-16.13.40:191][811]MapCheck: New page: Map Check
+[2018.04.30-16.13.40:191][811]LightingResults: New page: Lighting Build
+[2018.04.30-16.13.40:488][811]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.30-16.13.40:653][811]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.30-16.13.42:557][811]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,903.893ms to complete.
+[2018.04.30-16.13.42:559][811]LogFileHelpers: Loading map 'LVL_0' took 2.431
+[2018.04.30-16.13.45:283][864]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.30-16.13.45:356][864]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_0.LVL_0_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0'
+[2018.04.30-16.13.45:357][864]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.30-16.13.45:357][864]LogPlayLevel: [PlayLevel] Compiling LVL_0 before play...
+[2018.04.30-16.13.45:411][864]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning Could not find a variable named "NB_total_alien" in 'FirstPersonCharacter_C'.
+Make sure 'FirstPersonCharacter_C' has been compiled for  Set NB_total_alien
+[2018.04.30-16.13.45:990][864]LogBlueprint:Error: [Compiler PersistentLevel.LVL_0] Error The property associated with  NB Total Alien  could not be found
+[2018.04.30-16.13.46:246][864]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [1032.25] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 1 Warning(s) [in 855 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.13.46:247][864]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [1032.25] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.13.46:247][864]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [1032.25] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.13.46:247][864]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [1032.25] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.13.46:248][864]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [1032.25] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 5 Warning(s) [in 1 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.13.46:248][864]LogBlueprint:Warning: [Compiler PersistentLevel.LVL_0] Warning [1032.25] Compile of PersistentLevel.LVL_0 failed. 1 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0)
+[2018.04.30-16.13.46:281][864]LogPlayLevel: PlayLevel: Blueprint regeneration took 924 ms (1 blueprints)
+[2018.04.30-16.13.46:281][864]BlueprintLog: Info Blueprint LVL_0 failed to compile
+[2018.04.30-16.14.34:697][780]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.04.30-16.14.34:778][780]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.30-16.14.34:778][780]LogBlueprint:Warning: [BP_Balais] 'Inventaire' variable not found. Base class was probably changed.
+[2018.04.30-16.14.36:166][780]LogSavePackage: Save=273.17ms
+[2018.04.30-16.14.36:166][780]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/FirstPersonCharacterA1994F7449CCBC0B8C8F4DA26253D1B2.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.04.30-16.14.36:175][780]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.04.30-16.14.41:734][899]LogSavePackage: Save=346.76ms
+[2018.04.30-16.14.41:734][899]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/FirstPersonCharacter80ED60C644290AB2724A1782A6619EE8.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2018.04.30-16.14.41:739][899]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.04.30-16.14.46:888][974]LogSavePackage: Save=609.16ms
+[2018.04.30-16.14.46:888][974]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/LVL_0F198B8B5447316BEDBA61588E0C84C7E.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_0.umap'
+[2018.04.30-16.14.46:896][974]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_0.umap
+[2018.04.30-16.14.46:969][974]LogFileHelpers: Saving map 'LVL_0' took 1.002
+[2018.04.30-16.14.48:436][ 10]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.04.30-16.14.48:465][ 10]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_0.LVL_0_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0'
+[2018.04.30-16.14.48:465][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.30-16.14.48:466][ 10]PIE: New page: PIE session: LVL_0 (Apr 30, 2018, 8:14:48 PM)
+[2018.04.30-16.14.48:466][ 10]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_0
+[2018.04.30-16.14.48:554][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.088015s)
+[2018.04.30-16.14.48:556][ 10]LogAIModule: Creating AISystem for world LVL_0
+[2018.04.30-16.14.48:556][ 10]LogPlayLevel: PIE: World Init took: (0.001411s)
+[2018.04.30-16.14.48:556][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LVL_0.LVL_0 to /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_0.LVL_0 (0.089890s)
+[2018.04.30-16.14.48:671][ 10]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.30-16.14.48:775][ 10]LogInit: FAudioDevice initialized.
+[2018.04.30-16.14.48:854][ 10]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.04.30-16.14.48:859][ 10]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_0.LVL_0 up for play (max tick rate 60) at 2018.04.30-18.14.48
+[2018.04.30-16.14.48:860][ 10]LogWorld: Bringing up level for play took: 0.004303
+[2018.04.30-16.14.48:861][ 10]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2018.04.30-16.14.48:893][ 10]LogBlueprintUserMessages: [LVL_0_C_0] ton cul
+[2018.04.30-16.14.48:908][ 10]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_0 1.402
+[2018.04.30-16.14.48:909][ 10]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_0.LVL_0_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0'
+[2018.04.30-16.14.50:751][ 39]LogBlueprintUserMessages: [BP_ALien_C_0] Touché
+[2018.04.30-16.14.51:773][ 56]Set new viewmode: Wireframe
+[2018.04.30-16.14.52:684][ 74]Set new viewmode: Unlit
+[2018.04.30-16.14.53:335][ 87]Set new viewmode: Lit
+[2018.04.30-16.14.53:337][ 87]Cmd: stat FPS
+[2018.04.30-16.14.53:715][ 94]LogBlueprintUserMessages: [BP_ALien_C_1] Touché
+[2018.04.30-16.14.53:763][ 95]LogBlueprintUserMessages: [BP_ALien_C_2] Touché
+[2018.04.30-16.14.53:868][ 97]Set new viewmode: Lit_DetailLighting
+[2018.04.30-16.14.54:795][115]LogBlueprintUserMessages: [BP_ALien_C_3] Touché
+[2018.04.30-16.14.55:861][132]LogBlueprintUserMessages: [BP_ALien_C_4] Touché
+[2018.04.30-16.14.56:058][137]Set new viewmode: Lit
+[2018.04.30-16.14.56:059][137]Cmd: stat FPS
+[2018.04.30-16.14.56:194][140]Set new viewmode: Unlit
+[2018.04.30-16.14.56:878][155]Set new viewmode: Wireframe
+[2018.04.30-16.14.57:352][164]Set new viewmode: Unlit
+[2018.04.30-16.14.58:981][194]LogBlueprintUserMessages: [BP_ALien_C_0] Touché
+[2018.04.30-16.14.58:982][194]LogBlueprintUserMessages: [BP_ALien_C_1] Touché
+[2018.04.30-16.14.59:449][202]LogBlueprintUserMessages: [BP_ALien_C_0] Touché
+[2018.04.30-16.14.59:571][205]LogBlueprintUserMessages: [BP_ALien_C_1] Touché
+[2018.04.30-16.14.59:823][210]LogBlueprintUserMessages: [BP_ALien_C_5] Touché
+[2018.04.30-16.14.59:873][211]LogBlueprintUserMessages: [BP_ALien_C_6] Touché
+[2018.04.30-16.15.00:069][215]LogCharacterMovement: BP_ALien_C_1 is stuck and failed to move! Velocity: X=161.02 Y=-15.86 Z=0.00 Location: X=-1721.72 Y=10355.78 Z=5768.32 Normal: X=0.27 Y=0.96 Z=0.00 PenetrationDepth:29.890 Actor:BP_ALien_C_0 Component:CharacterMesh0 BoneName:joint3 (0 other events since notify)
+[2018.04.30-16.15.00:120][216]LogCharacterMovement: BP_ALien_C_0 is stuck and failed to move! Velocity: X=201.97 Y=-67.30 Z=0.00 Location: X=-1650.84 Y=10113.68 Z=5739.91 Normal: X=-0.32 Y=-0.53 Z=-0.79 PenetrationDepth:22.694 Actor:BP_ALien_C_1 Component:CharacterMesh0 BoneName:joint6 (0 other events since notify)
+[2018.04.30-16.15.01:773][249]LogBlueprintUserMessages: [BP_ALien_C_5] Touché
+[2018.04.30-16.15.01:773][249]LogBlueprintUserMessages: [BP_ALien_C_0] Touché
+[2018.04.30-16.15.02:075][255]LogBlueprintUserMessages: [BP_ALien_C_0] Touché
+[2018.04.30-16.15.02:127][256]LogBlueprintUserMessages: [BP_ALien_C_5] Touché
+[2018.04.30-16.15.02:234][258]LogBlueprintUserMessages: [BP_ALien_C_5] Touché
+[2018.04.30-16.15.02:234][258]LogBlueprintUserMessages: [BP_ALien_C_1] Touché
+[2018.04.30-16.15.02:895][271]LogBlueprintUserMessages: [BP_ALien_C_7] Touché
+[2018.04.30-16.15.04:152][291]LogBlueprintUserMessages: [BP_ALien_C_4] Touché
+[2018.04.30-16.15.04:165][291]LogBlueprintUserMessages: [BP_ALien_C_4] Touché
+[2018.04.30-16.15.05:926][326]LogBlueprintUserMessages: [BP_ALien_C_8] Touché
+[2018.04.30-16.15.06:474][337]LogBlueprintUserMessages: [BP_ALien_C_2] Touché
+[2018.04.30-16.15.06:474][337]LogBlueprintUserMessages: [BP_ALien_C_1] Touché
+[2018.04.30-16.15.06:963][347]LogBlueprintUserMessages: [BP_ALien_C_1] Touché
+[2018.04.30-16.15.07:105][350]LogBlueprintUserMessages: [BP_ALien_C_2] Touché
+[2018.04.30-16.15.07:616][360]LogBlueprintUserMessages: [Item_V_BP_C_0] 1
+[2018.04.30-16.15.08:791][383]LogBlueprintUserMessages: [BP_ALien_C_2] Touché
+[2018.04.30-16.15.08:945][386]LogBlueprintUserMessages: [BP_ALien_C_9] Touché
+[2018.04.30-16.15.08:989][387]LogBlueprintUserMessages: [BP_ALien_C_1] Touché
+[2018.04.30-16.15.09:766][401]LogBlueprintUserMessages: [BP_ALien_C_0] Touché
+[2018.04.30-16.15.10:706][419]LogBlueprintUserMessages: [BP_ALien_C_5] Touché
+[2018.04.30-16.15.10:706][419]LogBlueprintUserMessages: [BP_ALien_C_0] Touché
+[2018.04.30-16.15.10:758][420]LogBlueprintUserMessages: [BP_ALien_C_5] Touché
+[2018.04.30-16.15.10:758][420]LogBlueprintUserMessages: [BP_ALien_C_0] Touché
+[2018.04.30-16.15.10:813][421]LogBlueprintUserMessages: [BP_ALien_C_5] Touché
+[2018.04.30-16.15.10:813][421]LogBlueprintUserMessages: [BP_ALien_C_0] Touché
+[2018.04.30-16.15.10:863][422]LogBlueprintUserMessages: [BP_ALien_C_5] Touché
+[2018.04.30-16.15.10:863][422]LogBlueprintUserMessages: [BP_ALien_C_0] Touché
+[2018.04.30-16.15.10:966][424]LogBlueprintUserMessages: [BP_ALien_C_10] Touché
+[2018.04.30-16.15.11:968][443]LogBlueprintUserMessages: [BP_ALien_C_11] Touché
+[2018.04.30-16.15.12:027][444]LogBlueprintUserMessages: [BP_ALien_C_12] Touché
+[2018.04.30-16.15.12:720][458]LogBlueprintUserMessages: [BP_ALien_C_0] Touché
+[2018.04.30-16.15.12:721][458]LogBlueprintUserMessages: [BP_ALien_C_0] Touché
+[2018.04.30-16.15.12:772][459]LogBlueprintUserMessages: [BP_ALien_C_5] Touché
+[2018.04.30-16.15.12:772][459]LogBlueprintUserMessages: [BP_ALien_C_5] Touché
+[2018.04.30-16.15.13:080][465]LogBlueprintUserMessages: [BP_ALien_C_11] Touché
+[2018.04.30-16.15.13:080][465]LogBlueprintUserMessages: [BP_ALien_C_10] Touché
+[2018.04.30-16.15.13:130][466]LogBlueprintUserMessages: [BP_ALien_C_11] Touché
+[2018.04.30-16.15.13:130][466]LogBlueprintUserMessages: [BP_ALien_C_10] Touché
+[2018.04.30-16.15.13:179][467]LogBlueprintUserMessages: [BP_ALien_C_11] Touché
+[2018.04.30-16.15.13:179][467]LogBlueprintUserMessages: [BP_ALien_C_10] Touché
+[2018.04.30-16.15.13:231][468]LogBlueprintUserMessages: [BP_ALien_C_11] Touché
+[2018.04.30-16.15.13:231][468]LogBlueprintUserMessages: [BP_ALien_C_10] Touché
+[2018.04.30-16.15.14:856][500]LogBlueprintUserMessages: [Item_V_BP_C_1] 2
+[2018.04.30-16.15.15:028][503]LogBlueprintUserMessages: [BP_ALien_C_13] Touché
+[2018.04.30-16.15.15:271][508]LogBlueprintUserMessages: [Item_V_BP_C_2] 3
+[2018.04.30-16.15.16:065][523]LogBlueprintUserMessages: [BP_ALien_C_14] Touché
+[2018.04.30-16.15.16:680][535]LogBlueprintUserMessages: [BP_ALien_C_10] Touché
+[2018.04.30-16.15.16:781][537]LogBlueprintUserMessages: [BP_ALien_C_10] Touché
+[2018.04.30-16.15.16:782][537]LogBlueprintUserMessages: [BP_ALien_C_10] Touché
+[2018.04.30-16.15.16:880][539]LogBlueprintUserMessages: [BP_ALien_C_10] Touché
+[2018.04.30-16.15.17:082][543]LogBlueprintUserMessages: [BP_ALien_C_15] Touché
+[2018.04.30-16.15.17:347][548]LogBlueprintUserMessages: [BP_ALien_C_10] Touché
+[2018.04.30-16.15.17:348][548]LogBlueprintUserMessages: [BP_ALien_C_10] Touché
+[2018.04.30-16.15.17:348][548]LogBlueprintUserMessages: [Item_V_BP_C_3] 4
+[2018.04.30-16.15.17:831][557]LogBlueprintUserMessages: [BP_ALien_C_11] Touché
+[2018.04.30-16.15.17:832][557]LogBlueprintUserMessages: [BP_ALien_C_11] Touché
+[2018.04.30-16.15.19:098][582]LogBlueprintUserMessages: [BP_ALien_C_16] Touché
+[2018.04.30-16.15.19:200][584]LogBlueprintUserMessages: [Item_V_BP_C_4] 5
+[2018.04.30-16.15.20:129][602]LogBlueprintUserMessages: [BP_ALien_C_17] Touché
+[2018.04.30-16.15.20:966][618]LogBlueprintUserMessages: [BP_ALien_C_8] Touché
+[2018.04.30-16.15.20:966][618]LogBlueprintUserMessages: [BP_ALien_C_15] Touché
+[2018.04.30-16.15.21:920][637]LogBlueprintUserMessages: [BP_ALien_C_8] Touché
+[2018.04.30-16.15.21:971][638]LogBlueprintUserMessages: [BP_ALien_C_8] Touché
+[2018.04.30-16.15.22:371][646]LogBlueprintUserMessages: [BP_ALien_C_15] Touché
+[2018.04.30-16.15.22:419][647]LogBlueprintUserMessages: [BP_ALien_C_15] Touché
+[2018.04.30-16.15.22:819][655]LogCharacterMovement: BP_ALien_C_15 is stuck and failed to move! Velocity: X=151.17 Y=-580.64 Z=0.00 Location: X=-6249.04 Y=2163.94 Z=4698.07 Normal: X=-0.99 Y=-0.05 Z=-0.10 PenetrationDepth:0.712 Actor:BP_ALien_C_8 Component:CharacterMesh0 BoneName:joint3 (0 other events since notify)
+[2018.04.30-16.15.23:171][662]LogBlueprintUserMessages: [BP_ALien_C_18] Touché
+[2018.04.30-16.15.23:516][669]LogBlueprintUserMessages: [BP_ALien_C_2] Touché
+[2018.04.30-16.15.23:517][669]LogBlueprintUserMessages: [BP_ALien_C_2] Touché
+[2018.04.30-16.15.25:577][710]LogBlueprintUserMessages: [Item_V_BP_C_5] 6
+[2018.04.30-16.15.27:214][742]LogBlueprintUserMessages: [BP_ALien_C_19] Touché
+[2018.04.30-16.15.27:215][742]LogBlueprintUserMessages: [BP_ALien_C_3] Touché
+[2018.04.30-16.15.27:215][742]LogBlueprintUserMessages: [BP_ALien_C_19] Touché
+[2018.04.30-16.15.27:264][743]LogBlueprintUserMessages: [BP_ALien_C_20] Touché
+[2018.04.30-16.15.27:715][752]LogBlueprintUserMessages: [BP_ALien_C_13] Touché
+[2018.04.30-16.15.27:715][752]LogBlueprintUserMessages: [BP_ALien_C_17] Touché
+[2018.04.30-16.15.28:077][759]LogBlueprintUserMessages: [BP_ALien_C_13] Touché
+[2018.04.30-16.15.28:078][759]LogBlueprintUserMessages: [BP_ALien_C_17] Touché
+[2018.04.30-16.15.28:167][761]LogBlueprintUserMessages: [BP_ALien_C_19] Touché
+[2018.04.30-16.15.28:167][761]LogBlueprintUserMessages: [BP_ALien_C_19] Touché
+[2018.04.30-16.15.28:374][765]LogBlueprintUserMessages: [BP_ALien_C_3] Touché
+[2018.04.30-16.15.28:425][766]LogBlueprintUserMessages: [BP_ALien_C_3] Touché
+[2018.04.30-16.15.28:425][766]LogBlueprintUserMessages: [BP_ALien_C_3] Touché
+[2018.04.30-16.15.29:950][796]LogBlueprintUserMessages: [Item_V_BP_C_6] 7
+[2018.04.30-16.15.30:116][799]LogBlueprintUserMessages: [Item_V_BP_C_7] 8
+[2018.04.30-16.15.30:281][802]LogBlueprintUserMessages: [BP_ALien_C_21] Touché
+[2018.04.30-16.15.31:165][819]LogBlueprintUserMessages: [BP_ALien_C_15] Touché
+[2018.04.30-16.15.31:165][819]LogBlueprintUserMessages: [BP_ALien_C_15] Touché
+[2018.04.30-16.15.32:110][838]LogBlueprintUserMessages: [BP_ALien_C_13] Touché
+[2018.04.30-16.15.32:110][838]LogBlueprintUserMessages: [BP_ALien_C_14] Touché
+[2018.04.30-16.15.32:302][842]LogBlueprintUserMessages: [BP_ALien_C_15] Touché
+[2018.04.30-16.15.32:397][844]LogBlueprintUserMessages: [BP_ALien_C_13] Touché
+[2018.04.30-16.15.32:493][846]LogBlueprintUserMessages: [BP_ALien_C_14] Touché
+[2018.04.30-16.15.32:693][850]LogCharacterMovement: BP_ALien_C_14 is stuck and failed to move! Velocity: X=394.56 Y=452.02 Z=0.00 Location: X=-8715.39 Y=5338.74 Z=4850.55 Normal: X=-0.94 Y=0.12 Z=-0.33 PenetrationDepth:19.977 Actor:BP_ALien_C_13 Component:CharacterMesh0 BoneName:joint3 (0 other events since notify)
+[2018.04.30-16.15.33:328][863]LogBlueprintUserMessages: [BP_ALien_C_22] Touché
+[2018.04.30-16.15.33:426][865]Set new viewmode: Lit
+[2018.04.30-16.15.33:428][865]Cmd: stat FPS
+[2018.04.30-16.15.33:477][866]LogBlueprintUserMessages: [BP_ALien_C_17] Touché
+[2018.04.30-16.15.33:792][872]LogBlueprintUserMessages: [BP_ALien_C_20] Touché
+[2018.04.30-16.15.33:793][872]LogBlueprintUserMessages: [BP_ALien_C_20] Touché
+[2018.04.30-16.15.34:344][883]LogBlueprintUserMessages: [BP_ALien_C_23] Touché
+[2018.04.30-16.15.35:092][898]LogBlueprintUserMessages: [BP_ALien_C_8] Touché
+[2018.04.30-16.15.35:839][913]LogBlueprintUserMessages: [Item_V_BP_C_8] 9
+[2018.04.30-16.15.36:854][932]LogBlueprintUserMessages: [BP_ALien_C_23] Touché
+[2018.04.30-16.15.36:854][932]LogBlueprintUserMessages: [BP_ALien_C_22] Touché
+[2018.04.30-16.15.37:220][939]LogBlueprintUserMessages: [BP_ALien_C_16] Touché
+[2018.04.30-16.15.37:220][939]LogBlueprintUserMessages: [BP_ALien_C_7] Touché
+[2018.04.30-16.15.37:536][945]LogBlueprintUserMessages: [BP_ALien_C_16] Touché
+[2018.04.30-16.15.37:590][946]LogBlueprintUserMessages: [BP_ALien_C_7] Touché
+[2018.04.30-16.15.37:855][951]LogBlueprintUserMessages: [BP_ALien_C_22] Touché
+[2018.04.30-16.15.37:909][952]LogCharacterMovement: BP_ALien_C_16 is stuck and failed to move! Velocity: X=73.78 Y=-595.45 Z=0.00 Location: X=372.66 Y=3978.46 Z=7543.00 Normal: X=0.28 Y=-0.66 Z=-0.70 PenetrationDepth:44.179 Actor:BP_ALien_C_7 Component:CharacterMesh0 BoneName:joint6 (0 other events since notify)
+[2018.04.30-16.15.37:909][952]LogBlueprintUserMessages: [BP_ALien_C_22] Touché
+[2018.04.30-16.15.37:966][953]LogBlueprintUserMessages: [BP_ALien_C_22] Touché
+[2018.04.30-16.15.38:020][954]LogBlueprintUserMessages: [BP_ALien_C_23] Touché
+[2018.04.30-16.15.38:075][955]LogBlueprintUserMessages: [BP_ALien_C_23] Touché
+[2018.04.30-16.15.38:263][957]LogBlueprintUserMessages: [BP_ALien_C_22] Touché
+[2018.04.30-16.15.38:263][957]LogBlueprintUserMessages: [BP_ALien_C_23] Touché
+[2018.04.30-16.15.38:263][957]LogBlueprintUserMessages: [BP_ALien_C_7] Touché
+[2018.04.30-16.15.38:263][957]LogBlueprintUserMessages: [BP_ALien_C_6] Touché
+[2018.04.30-16.15.38:382][960]LogBlueprintUserMessages: [BP_ALien_C_24] Touché
+[2018.04.30-16.15.38:538][962]LogBlueprintUserMessages: [BP_ALien_C_6] Touché
+[2018.04.30-16.15.38:579][963]LogBlueprintUserMessages: [BP_ALien_C_7] Touché
+[2018.04.30-16.15.38:709][966]LogBlueprintUserMessages: [BP_ALien_C_14] Touché
+[2018.04.30-16.15.38:886][970]LogBlueprintUserMessages: [BP_ALien_C_14] Touché
+[2018.04.30-16.15.39:298][979]LogBlueprintUserMessages: [BP_ALien_C_1] Touché
+[2018.04.30-16.15.39:300][979]LogBlueprintUserMessages: [BP_ALien_C_1] Touché
+[2018.04.30-16.15.40:127][996]LogBlueprintUserMessages: [Item_V_BP_C_9] 10
+[2018.04.30-16.15.40:419][  1]LogBlueprintUserMessages: [BP_ALien_C_25] Touché
+[2018.04.30-16.15.40:461][  2]LogBlueprintUserMessages: [BP_ALien_C_26] Touché
+[2018.04.30-16.15.43:225][ 52]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_0.LVL_0_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0'
+[2018.04.30-16.15.43:382][ 52]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_0.LVL_0_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_0.LVL_0:PersistentLevel.LVL_0'
+[2018.04.30-16.15.55:278][328]LogAIModule: Creating AISystem for world Menu_principal
+[2018.04.30-16.15.55:366][328]Cmd: MAP LOAD FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/HUDS/Menu/Menu_principal.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.30-16.15.55:366][328]LightingResults: New page: Lighting Build
+[2018.04.30-16.15.55:367][328]LoadErrors: New page: Loading map: Menu_principal.umap
+[2018.04.30-16.15.55:527][328]MapCheck: New page: Map Check
+[2018.04.30-16.15.55:527][328]LightingResults: New page: Lighting Build
+[2018.04.30-16.15.55:643][328]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.30-16.15.55:693][328]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.30-16.15.55:918][328]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 224.174ms to complete.
+[2018.04.30-16.15.55:919][328]LogFileHelpers: Loading map 'Menu_principal' took 0.603
+[2018.04.30-16.15.59:484][383]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.04.30-16.16.22:055][383]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.04.30-16.16.22:280][383]SourceControl: Info [master 2965f5d] source Alien v1
+[2018.04.30-16.16.22:280][383]SourceControl: Info  3 files changed, 0 insertions(+), 0 deletions(-)
+[2018.04.30-16.16.22:280][383]SourceControl: Info  rewrite Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset (79%)
+[2018.04.30-16.16.22:280][383]SourceControl: Info  rewrite Content/HUDS/Status/Status.uasset (72%)
+[2018.04.30-16.16.22:298][383]SourceControl: Info Commited [master 2965f5d] source Alien v1.
