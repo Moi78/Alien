@@ -984,3 +984,26 @@ LogInit: Object subsystem initialized
 [2018.05.02-20.30.02:032][743]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset
 [2018.05.02-20.30.23:832][188]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2018.05.02-20.30.23:929][188]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.05.02-21.00.56:603][489]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.05.02-21.01.04:949][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/scr" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/scr.uasset" SILENT=true
+[2018.05.02-21.01.05:076][489]LogSavePackage: Save=23.54ms
+[2018.05.02-21.01.05:076][489]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/scrFC15F24D43C0D33054C6D48604C61B1C.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/scr.uasset'
+[2018.05.02-21.01.05:093][489]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/scr.uasset
+[2018.05.02-21.01.21:296][489]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.05.02-21.01.21:744][489]SourceControl: Info On branch master
+[2018.05.02-21.01.21:744][489]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.05.02-21.01.21:744][489]SourceControl: Info Changes not staged for commit:
+[2018.05.02-21.01.21:744][489]SourceControl: Info 	modified:   Content/Material/scr.uasset
+[2018.05.02-21.01.21:744][489]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2018.05.02-21.01.21:744][489]SourceControl: Info 	modified:   Saved/Logs/Alien_build.log
+[2018.05.02-21.01.21:744][489]SourceControl: Info Untracked files:
+[2018.05.02-21.01.21:744][489]SourceControl: Info 	Saved/Backup/scr_2018-05-02-23-01-04.uasset
+[2018.05.02-21.01.21:744][489]SourceControl: Info 	Saved/Logs/Git-TempCDB5870448274F900096B2A2B610FD82.txt
+[2018.05.02-21.01.21:744][489]SourceControl: Info no changes added to commit
+[2018.05.02-21.01.21:753][489]SourceControl: Info Commited On branch master.
+[2018.05.02-21.03.13:337][322]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.05.02-21.03.29:243][322]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.05.02-21.03.29:321][322]SourceControl: Info [master 53df9a2] source Alien v1
+[2018.05.02-21.03.29:321][322]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2018.05.02-21.03.29:321][322]SourceControl: Info  rewrite Content/Material/scr.uasset (97%)
+[2018.05.02-21.03.29:335][322]SourceControl: Info Commited [master 53df9a2] source Alien v1.
