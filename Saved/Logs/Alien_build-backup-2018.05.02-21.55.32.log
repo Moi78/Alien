@@ -1,0 +1,295 @@
+﻿Log file open, 05/02/18 21:45:20
+LogInit:Display: Running engine for game: Alien_build
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2029842025) SRandInit(2029842025).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 16.745588
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.02-19.45.22:525][  0]LogModuleManager:Warning: No filename provided for module ExampleDeviceProfileSelector
+[2018.05.02-19.45.22:525][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'ExampleDeviceProfileSelector' because the file 'C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/' was not found.
+[2018.05.02-19.45.22:525][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.02-19.45.22:769][  0]LogInit: Computer: DESKTOP-7FDRESD
+[2018.05.02-19.45.22:769][  0]LogInit: User: mathi
+[2018.05.02-19.45.22:769][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.02-19.45.22:769][  0]LogInit: High frequency timer resolution =2.437498 MHz
+[2018.05.02-19.45.22:773][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.05.02-19.45.22:773][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-19.45.22:773][  0]LogMemory: Process Physical Memory: 271.68 MB used, 271.68 MB peak
+[2018.05.02-19.45.22:773][  0]LogMemory: Process Virtual Memory: 258.48 MB used, 258.48 MB peak
+[2018.05.02-19.45.22:773][  0]LogMemory: Physical Memory: 3862.97 MB used,  4214.67 MB free, 8077.64 MB total
+[2018.05.02-19.45.22:773][  0]LogMemory: Virtual Memory: 670.37 MB used,  4214.67 MB free, 134217728.00 MB total
+[2018.05.02-19.45.25:837][  0]LogInit: Using OS detected language (fr-FR).
+[2018.05.02-19.45.25:838][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.05.02-19.45.26:354][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2018.05.02-19.45.26:356][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
+[2018.05.02-19.45.39:629][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.02-19.45.40:024][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.05.02-19.45.40:024][  0]LogD3D11RHI:       2010/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.05.02-19.45.40:110][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.05.02-19.45.40:110][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.05.02-19.45.40:113][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.02-19.45.40:113][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.02-19.45.40:113][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.02-19.45.40:127][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.02-19.45.40:128][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.05.02-19.45.40:128][  0]LogWindows: EnumDisplayDevices:
+[2018.05.02-19.45.40:128][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.05.02-19.45.40:129][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2018.05.02-19.45.40:129][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.05.02-19.45.40:130][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.02-19.45.40:130][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.05.02-19.45.40:130][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.02-19.45.40:130][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.02-19.45.40:130][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.05.02-19.45.40:299][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.02-19.45.40:728][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.02-19.45.40:904][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/Shaders/WorkingDirectory/8716/).
+[2018.05.02-19.45.40:905][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mathi/AppData/Local/Temp/UnrealShaderWorkingDir/51CD3A92434FF864D0ADAA897335660C/'.
+[2018.05.02-19.45.40:928][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.05.02-19.45.53:326][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.02-19.45.53:564][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.05.02-19.45.53:788][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.02-19.45.54:048][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.05.02-19.45.54:325][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.05.02-19.45.54:526][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.02-19.45.54:725][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.02-19.45.54:939][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.02-19.45.55:130][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.05.02-19.45.55:427][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.05.02-19.45.55:638][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.02-19.45.55:885][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.02-19.45.56:105][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.02-19.45.56:324][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.02-19.45.56:594][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.02-19.45.57:095][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.02-19.45.57:095][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.02-19.45.57:303][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.05.02-19.45.57:783][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.05.02-19.45.57:883][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.05.02-19.45.58:063][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.02-19.45.58:288][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.02-19.45.58:638][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.02-19.45.58:917][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.05.02-19.45.58:917][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.05.02-19.46.02:750][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.05.02-19.46.04:464][  0]LogDerivedDataCache: Loaded boot cache 1.68s 90MB C:/Users/mathi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.05.02-19.46.04:464][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mathi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.05.02-19.46.04:464][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.02-19.46.04:464][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.02-19.46.04:464][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.02-19.46.04:464][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.02-19.46.04:658][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.02-19.46.04:719][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mathi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.02-19.46.04:787][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.02-19.46.04:824][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.02-19.46.05:035][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.02-19.46.05:035][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.02-19.46.43:123][  0]LogModuleManager:Warning: No filename provided for module ExampleDeviceProfileSelector
+[2018.05.02-19.46.43:123][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'ExampleDeviceProfileSelector' because the file 'C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/' was not found.
+[2018.05.02-19.46.47:550][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.05.02-19.46.52:613][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.02-19.46.54:159][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.02-19.46.54:910][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.02-19.46.54:910][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.05.02-19.46.54:910][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.05.02-19.47.32:430][  0]LogNetVersion: Alien_build , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2330291340)
+[2018.05.02-19.47.35:223][  0]LogAssetRegistry: FAssetRegistry took 0.6154 seconds to start up
+[2018.05.02-19.47.36:449][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 1 prioritized culture(s) in 0.846598 seconds
+[2018.05.02-19.47.36:459][  0]LogUObjectArray: 33812 objects as part of root set at end of initial load.
+[2018.05.02-19.47.36:459][  0]LogUObjectAllocator: 6959536 out of 0 bytes used by permanent object pool.
+[2018.05.02-19.47.36:459][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.02-19.47.36:792][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.02-19.49.36:328][  0]LogSteamAudio: FSteamAudioModule Startup
+[2018.05.02-19.49.36:328][  0]LogSteamAudio: Attempting to load ../../../Engine/Binaries/ThirdParty/Phonon/Win64/phonon.dll
+[2018.05.02-19.49.37:104][  0]LogSteamAudio: Loaded ../../../Engine/Binaries/ThirdParty/Phonon/Win64/phonon.dll.
+[2018.05.02-19.49.45:634][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.02-19.49.51:730][  0]SourceControl: Info Source control is disabled
+[2018.05.02-19.50.08:202][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
+[2018.05.02-19.50.11:089][  0]LogLinker:Warning: Can't find file '/Script/OnlineSubsystemUtils'
+[2018.05.02-19.50.11:089][  0]LogLinker:Warning: Can't find file '/Script/OnlineSubsystemUtils'
+[2018.05.02-19.50.14:166][  0]LogEngine: Initializing Engine...
+[2018.05.02-19.50.14:286][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2018.05.02-19.50.17:458][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.02-19.50.17:514][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.02-19.50.20:637][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.02-19.50.21:479][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.05.02-19.50.22:120][  0]LogInit: FAudioDevice initialized.
+[2018.05.02-19.50.22:257][  0]LogDerivedDataCache: Saved boot cache 0.14s 90MB C:/Users/mathi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.05.02-19.50.22:274][  0]LogInit: Texture streaming: Enabled
+[2018.05.02-19.50.23:382][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.02-19.50.30:752][  0]LogInit: Transaction tracking system initialized
+[2018.05.02-19.50.35:432][  0]BlueprintLog: New page: Editor Load
+[2018.05.02-19.50.50:848][  0]LocalizationService: Info Localization service is disabled
+[2018.05.02-19.50.55:112][  0]LogModuleManager:Warning: No filename provided for module TcpMessaging
+[2018.05.02-19.50.55:112][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'TcpMessaging' because the file 'C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/' was not found.
+[2018.05.02-19.51.00:709][  0]LogConsoleResponse:Display: 
+[2018.05.02-19.51.09:779][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/' took 0.06s
+[2018.05.02-19.51.09:779][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.02-19.51.09:779][  0]LogCook:Display: Mobile HDR setting 1
+[2018.05.02-19.51.28:501][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/HUDS/Menu/Menu_principal.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.02-19.51.28:706][  0]LightingResults: New page: Lighting Build
+[2018.05.02-19.51.29:465][  0]MapCheck: New page: Map Check
+[2018.05.02-19.51.29:465][  0]LightingResults: New page: Lighting Build
+[2018.05.02-19.51.38:123][  0]LogAIModule: Creating AISystem for world Menu_principal
+[2018.05.02-19.51.38:457][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.02-19.51.38:820][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.02-19.51.39:137][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 317.13ms to complete.
+[2018.05.02-19.51.39:138][  0]LogFileHelpers: Loading map 'Menu_principal' took 10.711
+[2018.05.02-19.51.45:931][  0]LogCollectionManager: Loaded 0 collections in 0.002713 seconds
+[2018.05.02-19.51.47:932][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Collections/' took 0.01s
+[2018.05.02-19.51.47:932][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/Developers/mathi/Collections/' took 0.01s
+[2018.05.02-19.51.47:932][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/Collections/' took 0.01s
+[2018.05.02-19.51.47:932][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.05.02-19.51.48:032][  0]LogContentBrowser: Native class hierarchy populated in 0.0977 seconds. Added 2320 classes and 474 folders.
+[2018.05.02-19.51.48:804][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0067 seconds. Added 0 classes and 0 folders.
+[2018.05.02-19.51.59:356][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0240 seconds. Added 0 classes and 0 folders.
+[2018.05.02-19.52.00:210][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0217 seconds. Added 1 classes and 2 folders.
+[2018.05.02-19.52.09:092][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.05.02-19.52.10:513][  0]LogSlate: Took 0.170025 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.02-19.52.10:662][  0]LogSlate: Took 0.143490 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.02-19.52.10:799][  0]LogSlate: Took 0.121749 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.02-19.52.13:342][  0]LogRenderer: Reallocating scene render targets to support 1208x572 NumSamples 1 (Frame:1).
+[2018.05.02-19.52.15:687][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.05.02-19.52.16:503][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0240 seconds. Added 1 classes and 2 folders.
+[2018.05.02-19.52.16:504][  0]LogLoad: (Engine Initialization) Total time: 454.72 seconds
+[2018.05.02-19.52.16:504][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 5.01 seconds
+[2018.05.02-19.52.16:504][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.05.02-19.52.16:504][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.05.02-19.52.16:846][  0]LogOcInput: OculusInput pre-init called
+[2018.05.02-19.52.16:846][  0]LogHMD: Starting GearVRController plugin
+[2018.05.02-19.52.17:145][  0]SourceControl: Info On branch master
+[2018.05.02-19.52.17:146][  0]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.05.02-19.52.17:146][  0]SourceControl: Info Changes to be committed:
+[2018.05.02-19.52.17:146][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	new file:   Content/Models/Tuyau_DM.uasset
+[2018.05.02-19.52.17:146][  0]SourceControl: Info Changes not staged for commit:
+[2018.05.02-19.52.17:146][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.05.02-19.52.17:146][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Content/Blueprint/Item/BP_Item_lvl1.uasset
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Content/Blueprint/Porte.uasset
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   "Content/Cin\303\251matique/LVL1_intro/Intro.uasset"
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_1.umap
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Content/HUDS/Menu/Menu_principal.umap
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Content/Material/M_TuyauEau.uasset
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Content/Models/Alien/ProtoLVL1/BP_ALienlvl1.uasset
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Content/Models/Alien/ProtoLVL1/Spawn.uasset
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Content/Models/Vaisseau/porteVaisseauD.uasset
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Content/Models/Vaisseau/porteVaisseauG.uasset
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/FirstPersonBP/Maps/LVL_1_Auto1.umap
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/FirstPersonBP/Maps/LVL_1_Auto2.umap
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/FirstPersonBP/Maps/LVL_1_Auto3.umap
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-54728009481C97FC4E043995E65DD524/CrashReportClient.ini
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-5D1E12AF4526693B8B6D12BA0F693AAA/CrashReportClient.ini
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	modified:   Saved/Config/WorldState/1811039102.json
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.04.27-16.21.48.log
+[2018.05.02-19.52.17:146][  0]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.04.29-20.33.21.log
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	modified:   Saved/Logs/Alien_build.log
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	modified:   Saved/Logs/Alien_build_2.log
+[2018.05.02-19.52.17:147][  0]SourceControl: Info Untracked files:
+[2018.05.02-19.52.17:147][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/BP_ALienlvl1_2018-05-01-19-18-04.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/BP_ALienlvl1_2018-05-01-19-42-41.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/BP_ALienlvl1_2018-05-02-14-16-48.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/BP_Item_lvl1_2018-05-02-14-17-43.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/Intro_2018-05-02-14-25-29.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-04-30-22-29-00.umap
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-05-01-19-31-29.umap
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-05-01-19-38-29.umap
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-05-01-19-51-41.umap
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-05-01-22-14-14.umap
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-05-01-22-19-51.umap
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-05-01-22-26-08.umap
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-05-01-22-33-28.umap
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-05-01-22-44-08.umap
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-05-02-14-11-14.umap
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-05-02-14-19-51.umap
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-05-02-16-08-28.umap
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_BuiltData_2018-05-01-19-38-29.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_BuiltData_2018-05-01-22-14-18.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_BuiltData_2018-05-01-22-19-52.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_BuiltData_2018-05-01-22-26-09.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/LVL_1_BuiltData_2018-05-02-16-08-29.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/M_Metal_Steel_2018-04-30-22-27-03.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/M_TuyauEau_2018-04-30-22-27-03.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/Menu_principal_2018-04-30-22-27-02.umap
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/Porte_2018-05-01-22-21-23.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/Spawn_2018-05-01-19-22-29.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/Spawn_2018-05-01-19-27-56.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/Spawn_2018-05-01-19-38-49.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/Spawn_2018-05-02-14-15-16.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/porteVaisseauD_2018-05-01-19-47-38.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/porteVaisseauD_2018-05-01-22-11-54.uasset
+[2018.05.02-19.52.17:147][  0]SourceControl: Info 	Saved/Backup/porteVaisseauD_2018-05-01-22-17-42.uasset
+[2018.05.02-19.52.17:148][  0]SourceControl: Info 	Saved/Backup/porteVaisseauG_2018-05-01-22-20-02.uasset
+[2018.05.02-19.52.17:148][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-03E80A5D4F423FA6338D589745D3075E/
+[2018.05.02-19.52.17:148][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-1B938915481F141B16DC598D28C64597/
+[2018.05.02-19.52.17:148][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-3EB21EC34977AC2638BF65B87C80728E/
+[2018.05.02-19.52.17:148][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-7149454946EAF1F9FFF7D08022C33578/
+[2018.05.02-19.52.17:148][  0]SourceControl: Info 	Saved/Config/WorldState/22919041.json
+[2018.05.02-19.52.17:148][  0]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.04.30-19.51.12.log
+[2018.05.02-19.52.17:148][  0]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.04.30-22.10.42.log
+[2018.05.02-19.52.17:148][  0]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.05.01-19.04.49.log
+[2018.05.02-19.52.17:148][  0]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.05.01-19.12.53.log
+[2018.05.02-19.52.17:148][  0]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.05.02-14.02.48.log
+[2018.05.02-19.52.17:148][  0]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.05.02-21.45.19.log
+[2018.05.02-19.52.17:148][  0]SourceControl: Info 	Saved/Logs/Alien_build_2-backup-2018.04.30-22.10.43.log
+[2018.05.02-19.52.17:148][  0]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00001.png
+[2018.05.02-19.52.17:148][  0]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00002.png
+[2018.05.02-19.52.17:180][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.05.02-19.52.17:671][  0]LogSlate: Took 0.113810 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.02-19.52.18:105][  2]LogSlate: Took 0.000701 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.02-19.52.18:390][  3]LogAssetRegistry: Asset discovery search completed in 283.2391 seconds
+[2018.05.02-19.52.18:397][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.05.02-19.52.18:397][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000176 seconds (updated 0 objects)
