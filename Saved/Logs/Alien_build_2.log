@@ -1,12 +1,16 @@
-﻿Log file open, 05/19/18 12:09:59
+﻿Log file open, 06/02/18 17:00:15
 LogInit:Display: Running engine for game: Alien_build
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-739346326) SRandInit(-739346325).
+LogInit:Display: RandInit(290937496) SRandInit(290937497).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 17.496651
+LogStats: Stats thread started at 32.008264
 LogConfig:Warning: Failed to saved backup for config[Input]
 LogConfig:Warning: Failed to saved backup for config[Editor]
+LogConfig:Warning: Failed to saved backup for config[EditorPerProjectUserSettings]
+LogConfig:Warning: Failed to saved backup for config[Lightmass]
 LogConfig:Warning: Failed to saved backup for config[Scalability]
+LogConfig:Warning: Failed to saved backup for config[Hardware]
+LogConfig:Warning: Failed to saved backup for config[Paper2D]
 LogConfig:Warning: Failed to saved backup for config[PhysXVehicles]
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
@@ -54,534 +58,1098 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.19-10.10.14:964][  0]LogModuleManager:Warning: No filename provided for module ExampleDeviceProfileSelector
-[2018.05.19-10.10.14:964][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'ExampleDeviceProfileSelector' because the file 'C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/' was not found.
-[2018.05.19-10.10.14:964][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.19-10.10.15:067][  0]LogConfig:Warning: Failed to saved backup for config[DeviceProfiles]
-[2018.05.19-10.10.15:133][  0]LogInit: Computer: DESKTOP-7FDRESD
-[2018.05.19-10.10.15:133][  0]LogInit: User: mathi
-[2018.05.19-10.10.15:133][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.19-10.10.15:133][  0]LogInit: High frequency timer resolution =2.437499 MHz
-[2018.05.19-10.10.15:133][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.05.19-10.10.15:133][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.19-10.10.15:133][  0]LogMemory: Process Physical Memory: 273.36 MB used, 273.36 MB peak
-[2018.05.19-10.10.15:133][  0]LogMemory: Process Virtual Memory: 266.44 MB used, 266.44 MB peak
-[2018.05.19-10.10.15:133][  0]LogMemory: Physical Memory: 4546.42 MB used,  3531.22 MB free, 8077.64 MB total
-[2018.05.19-10.10.15:133][  0]LogMemory: Virtual Memory: 678.38 MB used,  3531.22 MB free, 134217728.00 MB total
-[2018.05.19-10.10.23:768][  0]LogInit: Using OS detected language (fr-FR).
-[2018.05.19-10.10.23:768][  0]LogInit: Using OS detected locale (fr-FR).
-[2018.05.19-10.10.24:936][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
-[2018.05.19-10.10.24:939][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
-[2018.05.19-10.10.50:915][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.19-10.10.53:982][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2018.05.19-10.10.53:982][  0]LogD3D11RHI:       2010/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.05.19-10.10.54:085][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.05.19-10.10.54:085][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.05.19-10.10.54:091][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.19-10.10.54:091][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.19-10.10.54:091][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.19-10.10.54:101][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.19-10.10.54:125][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2018.05.19-10.10.54:125][  0]LogWindows: EnumDisplayDevices:
-[2018.05.19-10.10.54:126][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2018.05.19-10.10.54:127][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.05.19-10.10.54:127][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.05.19-10.10.54:127][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.19-10.10.54:127][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2018.05.19-10.10.54:127][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.19-10.10.54:127][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.19-10.10.54:127][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.05.19-10.10.56:353][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.19-10.10.56:421][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.05.19-10.10.56:604][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/Shaders/WorkingDirectory/29312/).
-[2018.05.19-10.10.56:605][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mathi/AppData/Local/Temp/UnrealShaderWorkingDir/3EBAE8584CE9BEDBD92E989CE5EC3987/'.
-[2018.05.19-10.10.56:605][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.05.19-10.11.16:721][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.19-10.11.16:926][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.05.19-10.11.17:185][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.19-10.11.17:645][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.05.19-10.11.18:028][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.05.19-10.11.18:272][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.19-10.11.18:654][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.19-10.11.18:921][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.19-10.11.19:608][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.05.19-10.11.19:936][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.05.19-10.11.20:177][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.19-10.11.20:449][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.19-10.11.20:731][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.19-10.11.21:070][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.19-10.11.21:372][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.19-10.11.21:907][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.19-10.11.21:907][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.19-10.11.22:128][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.05.19-10.11.22:629][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.05.19-10.11.22:744][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.05.19-10.11.22:950][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.19-10.11.23:183][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.19-10.11.23:404][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.19-10.11.23:669][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.05.19-10.11.23:669][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.05.19-10.11.26:811][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.05.19-10.11.28:543][  0]LogDerivedDataCache: Loaded boot cache 1.70s 90MB C:/Users/mathi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.05.19-10.11.28:543][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mathi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.05.19-10.11.28:544][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.19-10.11.28:544][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.19-10.11.28:544][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.19-10.11.28:544][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.19-10.11.28:655][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.19-10.11.28:668][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mathi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.19-10.11.28:704][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.19-10.11.28:729][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.19-10.11.28:882][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.19-10.11.28:882][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.19-10.11.37:636][  0]LogModuleManager:Warning: No filename provided for module ExampleDeviceProfileSelector
-[2018.05.19-10.11.37:637][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'ExampleDeviceProfileSelector' because the file 'C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/' was not found.
-[2018.05.19-10.11.38:363][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.05.19-10.11.39:492][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.19-10.11.39:876][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.19-10.11.40:117][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.19-10.11.40:117][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.05.19-10.11.40:117][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.05.19-10.11.46:429][  0]LogNetVersion: Alien_build , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2330291340)
-[2018.05.19-10.11.46:824][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
-[2018.05.19-10.11.47:149][  0]LogAssetRegistry:Error: Failed to open file for write ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/2657c409.bin
-[2018.05.19-10.11.47:158][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
-[2018.05.19-10.11.47:659][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
-[2018.05.19-10.11.48:160][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
-[2018.05.19-10.11.48:661][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
-[2018.05.19-10.11.49:162][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
-[2018.05.19-10.11.49:663][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
-[2018.05.19-10.11.50:164][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
-[2018.05.19-10.11.50:665][  0]LogAssetRegistry:Error: Failed to open file for write ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/CachedAssetRegistry.bin
-[2018.05.19-10.11.50:665][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
-[2018.05.19-10.11.51:166][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
-[2018.05.19-10.11.51:667][  0]LogFileManager:Warning: MoveFile was unable to move '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin', retrying in .5s...
-[2018.05.19-10.11.52:168][  0]LogFileManager:Error: Error moving file '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/866581fd.bin'.
-[2018.05.19-10.11.52:206][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 1 prioritized culture(s) in 5.111971 seconds
-[2018.05.19-10.11.52:212][  0]LogUObjectArray: 33812 objects as part of root set at end of initial load.
-[2018.05.19-10.11.52:212][  0]LogUObjectAllocator: 6959544 out of 0 bytes used by permanent object pool.
-[2018.05.19-10.11.52:212][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.19-10.11.52:488][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.19-10.12.35:348][  0]LogSteamAudio: FSteamAudioModule Startup
-[2018.05.19-10.12.35:348][  0]LogSteamAudio: Attempting to load ../../../Engine/Binaries/ThirdParty/Phonon/Win64/phonon.dll
-[2018.05.19-10.12.35:551][  0]LogSteamAudio: Loaded ../../../Engine/Binaries/ThirdParty/Phonon/Win64/phonon.dll.
-[2018.05.19-10.12.37:827][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.19-10.12.40:470][  0]SourceControl: Info Source control is disabled
-[2018.05.19-10.12.47:683][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
-[2018.05.19-10.12.49:210][  0]LogLinker:Warning: Can't find file '/Script/OnlineSubsystemUtils'
-[2018.05.19-10.12.49:210][  0]LogLinker:Warning: Can't find file '/Script/OnlineSubsystemUtils'
-[2018.05.19-10.12.50:169][  0]LogEngine: Initializing Engine...
-[2018.05.19-10.12.50:274][  0]LogHMD: Failed to initialize OpenVR with code 101
-[2018.05.19-10.12.51:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.19-10.12.51:554][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.19-10.12.52:384][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.19-10.12.52:514][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.05.19-10.12.53:007][  0]LogInit: FAudioDevice initialized.
-[2018.05.19-10.12.53:017][  0]LogDerivedDataCache:Error: Could not save memory cache C:/Users/mathi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.05.19-10.12.53:040][  0]LogInit: Texture streaming: Enabled
-[2018.05.19-10.12.53:706][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.19-10.12.57:143][  0]LogInit: Transaction tracking system initialized
-[2018.05.19-10.12.59:950][  0]BlueprintLog: New page: Editor Load
-[2018.05.19-10.13.10:713][  0]LocalizationService: Info Localization service is disabled
-[2018.05.19-10.13.13:166][  0]LogModuleManager:Warning: No filename provided for module TcpMessaging
-[2018.05.19-10.13.13:166][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'TcpMessaging' because the file 'C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/' was not found.
-[2018.05.19-10.13.18:298][  0]LogConsoleResponse:Display: 
-[2018.05.19-10.13.24:432][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/' took 0.06s
-[2018.05.19-10.13.24:432][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.19-10.13.24:455][  0]LogCook:Display: Mobile HDR setting 1
-[2018.05.19-10.13.41:430][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/HUDS/Menu/Menu_principal.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.19-10.13.41:507][  0]LightingResults: New page: Lighting Build
-[2018.05.19-10.13.42:220][  0]MapCheck: New page: Map Check
-[2018.05.19-10.13.42:220][  0]LightingResults: New page: Lighting Build
-[2018.05.19-10.13.48:820][  0]LogAIModule: Creating AISystem for world Menu_principal
-[2018.05.19-10.13.49:116][  0]LogEditorServer: Finished looking for orphan Actors (0.035 secs)
-[2018.05.19-10.13.49:211][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.19-10.13.49:437][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 196.835ms to complete.
-[2018.05.19-10.13.49:467][  0]LogFileHelpers: Loading map 'Menu_principal' took 8.065
-[2018.05.19-10.13.59:994][  0]LogCollectionManager: Loaded 0 collections in 0.030540 seconds
-[2018.05.19-10.14.02:022][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Collections/' took 0.01s
-[2018.05.19-10.14.02:022][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/Developers/mathi/Collections/' took 0.01s
-[2018.05.19-10.14.02:022][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/Collections/' took 0.01s
-[2018.05.19-10.14.02:022][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
-[2018.05.19-10.14.02:591][  0]LogContentBrowser: Native class hierarchy populated in 0.3367 seconds. Added 2320 classes and 474 folders.
-[2018.05.19-10.14.04:679][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0074 seconds. Added 0 classes and 0 folders.
-[2018.05.19-10.14.10:273][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0107 seconds. Added 0 classes and 0 folders.
-[2018.05.19-10.14.10:682][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0088 seconds. Added 1 classes and 2 folders.
-[2018.05.19-10.14.13:754][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.05.19-10.14.14:538][  0]LogSlate: Took 0.070312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.19-10.14.14:571][  0]LogSlate: Took 0.031502 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.19-10.14.14:802][  0]LogSlate: Took 0.200468 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.19-10.14.16:251][  0]LogRenderer: Reallocating scene render targets to support 1208x572 NumSamples 1 (Frame:1).
-[2018.05.19-10.14.17:860][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2018.05.19-10.14.18:722][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0125 seconds. Added 1 classes and 2 folders.
-[2018.05.19-10.14.18:722][  0]LogLoad: (Engine Initialization) Total time: 298.31 seconds
-[2018.05.19-10.14.18:722][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.83 seconds
-[2018.05.19-10.14.18:722][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.05.19-10.14.18:722][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.05.19-10.14.19:083][  0]LogOcInput: OculusInput pre-init called
-[2018.05.19-10.14.19:083][  0]LogHMD: Starting GearVRController plugin
-[2018.05.19-10.14.19:153][  0]SourceControl: Info On branch master
-[2018.05.19-10.14.19:153][  0]SourceControl: Info Your branch is up to date with 'origin/master'.
-[2018.05.19-10.14.19:153][  0]SourceControl: Info Changes to be committed:
-[2018.05.19-10.14.19:153][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
-[2018.05.19-10.14.19:153][  0]SourceControl: Info 	new file:   Content/Models/Vaisseau/VaisseauP4.uasset
-[2018.05.19-10.14.19:153][  0]SourceControl: Info Changes not staged for commit:
-[2018.05.19-10.14.19:153][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
-[2018.05.19-10.14.19:154][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Content/Blueprint/BP_Balais.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Content/Blueprint/Inventaire.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Content/Blueprint/PortePlacardBalais.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_1.umap
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Content/HUDS/Vaisseau/INT_VAISS.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/FirstPersonBP/Maps/LVL_1_Auto2.umap
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/FirstPersonBP/Maps/LVL_1_Auto3.umap
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/HUDS/Vaisseau/INT_VAISS_Auto1.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-46CA3FBF49C2002E5E41A9A948317828/CrashReportClient.ini
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-58443AE94C4229E2E84DB99D68858637/CrashReportClient.ini
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D940500F42EA6B4B776093B6AE4A5773/CrashReportClient.ini
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Saved/Config/WorldState/1811039102.json
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.13-21.45.45.log
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.14-21.03.31.log
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.14-22.02.20.log
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Saved/Logs/Alien_build.log
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Saved/Logs/Alien_build_2.log
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	modified:   Saved/SaveGames/Name.sav
-[2018.05.19-10.14.19:154][  0]SourceControl: Info Untracked files:
-[2018.05.19-10.14.19:154][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Autosaves/Game/Blueprint/
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto3.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/BP_Balais_2018-05-18-19-38-08.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/BP_Balais_2018-05-18-19-44-02.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/BP_Balais_2018-05-18-20-21-49.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/BP_Balais_2018-05-18-20-56-51.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/BP_Balais_2018-05-18-21-03-27.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-05-18-19-37-25.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-05-18-19-44-02.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-05-18-20-21-52.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-05-18-20-27-19.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-05-18-20-53-14.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-05-18-20-59-43.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/INT_VAISS_2018-05-17-21-56-03.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/INT_VAISS_2018-05-17-22-11-12.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/INT_VAISS_2018-05-17-22-17-32.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/INT_VAISS_2018-05-17-22-23-05.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/Inventaire_2018-05-18-19-44-02.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/Inventaire_2018-05-18-20-24-29.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-05-17-22-33-13.umap
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-05-18-20-35-26.umap
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-05-18-20-58-05.umap
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-05-18-21-03-38.umap
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Backup/PortePlacardBalais_2018-05-18-20-24-03.uasset
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-2E30CA1D4E38F21CF6DA9BB75DDD09E8/
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-2FC5C27B447E23549F27DEA18123AC81/
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-3CDD404E471EDBDA4F208FB89E304E17/
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-883F84EF4B9BAF0D3B9DE7AD855E7F3A/
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Crashes/UE4CC-Windows-2E30CA1D4E38F21CF6DA9BB75DDD09E8_0000/
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Crashes/UE4CC-Windows-883F84EF4B9BAF0D3B9DE7AD855E7F3A_0000/
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.05.17-21.33.17.log
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.05.18-19.31.42.log
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.05.19-12.09.58.log
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Logs/Alien_build_2-backup-2018.05.19-12.09.59.log
-[2018.05.19-10.14.19:154][  0]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00012.png
-[2018.05.19-10.14.19:155][  0]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00013.png
-[2018.05.19-10.14.19:155][  0]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00014.png
-[2018.05.19-10.14.19:155][  0]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00015.png
-[2018.05.19-10.14.19:155][  0]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00016.png
-[2018.05.19-10.14.19:155][  0]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00017.png
-[2018.05.19-10.14.19:155][  0]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00018.png
-[2018.05.19-10.14.19:155][  0]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00019.png
-[2018.05.19-10.14.19:155][  0]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00020.png
-[2018.05.19-10.14.19:155][  0]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00021.png
-[2018.05.19-10.14.19:155][  0]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00022.png
-[2018.05.19-10.14.19:155][  0]LogContentStreaming: Texture pool size now 800 MB
-[2018.05.19-10.14.20:163][  2]LogSlate: Took 0.024182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.19-10.14.21:280][  3]LogAssetRegistry: Asset discovery search completed in 154.4991 seconds
-[2018.05.19-10.14.21:282][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.19-10.14.21:282][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
-[2018.05.19-10.14.21:338][  3]LogSlate: Took 0.000322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.19-10.14.26:884][ 17]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.05.19-10.14.26:884][ 17]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.05.19-10.14.29:625][ 18]Cmd: QUIT_EDITOR
-[2018.05.19-10.14.32:230][ 18]LogExit: Preparing to exit.
-[2018.05.19-10.14.33:830][ 18]LogDirectoryWatcher: A directory notification for 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/' was aborted.
-[2018.05.19-10.14.34:535][ 18]LogExit: Editor shut down
-[2018.05.19-10.14.34:541][ 18]LogExit: Transaction tracking system shut down
-[2018.05.19-10.14.42:708][ 18]LogObj: Freed 0b from 0 cluster array pools.
-[2018.05.19-10.14.42:708][ 18]LogExit: Object subsystem successfully closed.
-[2018.05.19-10.14.43:560][ 18]LogD3D11RHI: Shutdown
-[2018.05.19-10.14.43:560][ 18]LogD3D11RHI: CleanupD3DDevice
-[2018.05.19-10.14.44:102][ 18]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.05.19-10.14.48:348][ 18]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (504)
-[2018.05.19-10.14.48:526][ 18]LogModuleManager: Shutting down and abandoning module CrashTracker (502)
-[2018.05.19-10.14.48:526][ 18]LogModuleManager: Shutting down and abandoning module SceneOutliner (500)
-[2018.05.19-10.14.48:564][ 18]LogModuleManager: Shutting down and abandoning module AddContentDialog (498)
-[2018.05.19-10.14.48:757][ 18]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2018.05.19-10.14.48:769][ 18]LogModuleManager: Shutting down and abandoning module WidgetCarousel (497)
-[2018.05.19-10.14.48:769][ 18]LogModuleManager: Shutting down and abandoning module EditorWidgets (494)
-[2018.05.19-10.14.48:769][ 18]LogModuleManager: Shutting down and abandoning module CollectionManager (492)
-[2018.05.19-10.14.48:769][ 18]LogDirectoryWatcher: A directory notification for 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/Collections/' was aborted.
-[2018.05.19-10.14.48:769][ 18]LogDirectoryWatcher: A directory notification for 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/Developers/mathi/Collections/' was aborted.
-[2018.05.19-10.14.48:770][ 18]LogDirectoryWatcher: A directory notification for 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Collections/' was aborted.
-[2018.05.19-10.14.48:770][ 18]LogModuleManager: Shutting down and abandoning module StatsViewer (490)
-[2018.05.19-10.14.48:806][ 18]LogModuleManager: Shutting down and abandoning module FoliageEdit (488)
-[2018.05.19-10.14.48:806][ 18]LogModuleManager: Shutting down and abandoning module LandscapeEditor (486)
-[2018.05.19-10.14.48:951][ 18]LogModuleManager: Shutting down and abandoning module MeshPaintMode (484)
-[2018.05.19-10.14.48:951][ 18]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (482)
-[2018.05.19-10.14.48:951][ 18]LogModuleManager: Shutting down and abandoning module ActorPickerMode (480)
-[2018.05.19-10.14.48:951][ 18]LogModuleManager: Shutting down and abandoning module GeometryMode (478)
-[2018.05.19-10.14.48:951][ 18]LogModuleManager: Shutting down and abandoning module TextureAlignMode (476)
-[2018.05.19-10.14.48:951][ 18]LogModuleManager: Shutting down and abandoning module BspMode (474)
-[2018.05.19-10.14.49:023][ 18]LogModuleManager: Shutting down and abandoning module HardwareSurvey (472)
-[2018.05.19-10.14.49:057][ 18]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (470)
-[2018.05.19-10.14.49:097][ 18]LogModuleManager: Shutting down and abandoning module SequenceRecorder (468)
-[2018.05.19-10.14.49:525][ 18]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
-[2018.05.19-10.14.49:574][ 18]LogModuleManager: Shutting down and abandoning module SteamAudioEditor (464)
-[2018.05.19-10.14.49:574][ 18]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
-[2018.05.19-10.14.49:868][ 18]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
-[2018.05.19-10.14.49:868][ 18]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
-[2018.05.19-10.14.49:868][ 18]LogModuleManager: Shutting down and abandoning module Media (457)
-[2018.05.19-10.14.49:868][ 18]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
-[2018.05.19-10.14.49:868][ 18]LogModuleManager: Shutting down and abandoning module ControlRigEditor (452)
-[2018.05.19-10.14.50:201][ 18]LogModuleManager: Shutting down and abandoning module CharacterAI (450)
-[2018.05.19-10.14.50:201][ 18]LogModuleManager: Shutting down and abandoning module SmartSnapping (448)
-[2018.05.19-10.14.50:201][ 18]LogModuleManager: Shutting down and abandoning module SessionServices (446)
-[2018.05.19-10.14.50:201][ 18]LogModuleManager: Shutting down and abandoning module ViewportSnapping (444)
-[2018.05.19-10.14.50:201][ 18]LogModuleManager: Shutting down and abandoning module ViewportInteraction (442)
-[2018.05.19-10.14.50:201][ 18]LogModuleManager: Shutting down and abandoning module ClothPainter (440)
-[2018.05.19-10.14.50:505][ 18]LogModuleManager: Shutting down and abandoning module LogVisualizer (438)
-[2018.05.19-10.14.50:650][ 18]LogModuleManager: Shutting down and abandoning module IntroTutorials (436)
-[2018.05.19-10.14.50:710][ 18]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (435)
-[2018.05.19-10.14.50:753][ 18]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (432)
-[2018.05.19-10.14.50:753][ 18]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (430)
-[2018.05.19-10.14.50:930][ 18]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (428)
-[2018.05.19-10.14.50:930][ 18]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (426)
-[2018.05.19-10.14.50:930][ 18]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (424)
-[2018.05.19-10.14.51:488][ 18]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (421)
-[2018.05.19-10.14.51:488][ 18]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (419)
-[2018.05.19-10.14.51:488][ 18]LogModuleManager: Shutting down and abandoning module InputBindingEditor (417)
-[2018.05.19-10.14.51:553][ 18]LogModuleManager: Shutting down and abandoning module MergeActors (415)
-[2018.05.19-10.14.51:578][ 18]LogModuleManager: Shutting down and abandoning module SizeMap (413)
-[2018.05.19-10.14.51:578][ 18]LogModuleManager: Shutting down and abandoning module TreeMap (411)
-[2018.05.19-10.14.51:618][ 18]LogModuleManager: Shutting down and abandoning module ReferenceViewer (409)
-[2018.05.19-10.14.51:632][ 18]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (407)
-[2018.05.19-10.14.51:965][ 18]LogModuleManager: Shutting down and abandoning module LocalizationService (406)
-[2018.05.19-10.14.51:990][ 18]LogModuleManager: Shutting down and abandoning module HardwareTargeting (403)
-[2018.05.19-10.14.51:990][ 18]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (401)
-[2018.05.19-10.14.52:153][ 18]LogModuleManager: Shutting down and abandoning module UndoHistory (399)
-[2018.05.19-10.14.52:252][ 18]LogModuleManager: Shutting down and abandoning module UserFeedback (397)
-[2018.05.19-10.14.52:252][ 18]LogModuleManager: Shutting down and abandoning module XmlParser (395)
-[2018.05.19-10.14.52:263][ 18]LogModuleManager: Shutting down and abandoning module Blutility (393)
-[2018.05.19-10.14.52:280][ 18]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (391)
-[2018.05.19-10.14.52:280][ 18]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (390)
-[2018.05.19-10.14.52:281][ 18]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (387)
-[2018.05.19-10.14.52:281][ 18]LogModuleManager: Shutting down and abandoning module SettingsEditor (385)
-[2018.05.19-10.14.52:304][ 18]LogModuleManager: Shutting down and abandoning module ProjectLauncher (383)
-[2018.05.19-10.14.52:374][ 18]LogModuleManager: Shutting down and abandoning module SessionFrontend (381)
-[2018.05.19-10.14.52:411][ 18]LogModuleManager: Shutting down and abandoning module ProfilerClient (379)
-[2018.05.19-10.14.52:427][ 18]LogModuleManager: Shutting down and abandoning module DeviceManager (377)
-[2018.05.19-10.14.52:489][ 18]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (376)
-[2018.05.19-10.14.52:552][ 18]LogModuleManager: Shutting down and abandoning module AutomationController (373)
-[2018.05.19-10.14.52:694][ 18]LogModuleManager: Shutting down and abandoning module AutomationWindow (371)
-[2018.05.19-10.14.52:829][ 18]LogModuleManager: Shutting down and abandoning module Layers (369)
-[2018.05.19-10.14.53:078][ 18]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (367)
-[2018.05.19-10.14.53:078][ 18]LogModuleManager: Shutting down and abandoning module DetailCustomizations (365)
-[2018.05.19-10.14.53:142][ 18]LogModuleManager: Shutting down and abandoning module PackagesDialog (363)
-[2018.05.19-10.14.53:172][ 18]LogModuleManager: Shutting down and abandoning module Persona (361)
-[2018.05.19-10.14.53:485][ 18]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (360)
-[2018.05.19-10.14.53:485][ 18]LogModuleManager: Shutting down and abandoning module AnimGraph (358)
-[2018.05.19-10.14.53:485][ 18]LogModuleManager: Shutting down and abandoning module Kismet (355)
-[2018.05.19-10.14.53:511][ 18]LogModuleManager: Shutting down and abandoning module ClassViewer (353)
-[2018.05.19-10.14.53:512][ 18]LogModuleManager: Shutting down and abandoning module Toolbox (351)
-[2018.05.19-10.14.53:540][ 18]LogModuleManager: Shutting down and abandoning module ModuleUI (349)
-[2018.05.19-10.14.53:744][ 18]LogModuleManager: Shutting down and abandoning module MovieSceneTools (347)
-[2018.05.19-10.14.53:814][ 18]LogModuleManager: Shutting down and abandoning module OutputLog (345)
-[2018.05.19-10.14.53:814][ 18]LogModuleManager: Shutting down and abandoning module GammaUI (343)
-[2018.05.19-10.14.53:839][ 18]LogModuleManager: Shutting down and abandoning module Documentation (341)
-[2018.05.19-10.14.53:839][ 18]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (339)
-[2018.05.19-10.14.53:839][ 18]LogModuleManager: Shutting down and abandoning module MovieScene (337)
-[2018.05.19-10.14.53:839][ 18]LogModuleManager: Shutting down and abandoning module GeometryCache (335)
-[2018.05.19-10.14.53:869][ 18]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (334)
-[2018.05.19-10.14.53:869][ 18]LogModuleManager: Shutting down and abandoning module Niagara (331)
-[2018.05.19-10.14.53:869][ 18]LogModuleManager: Shutting down and abandoning module NiagaraEditor (330)
-[2018.05.19-10.14.54:226][ 18]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (327)
-[2018.05.19-10.14.54:226][ 18]LogModuleManager: Shutting down and abandoning module AnalyticsET (325)
-[2018.05.19-10.14.54:226][ 18]LogModuleManager: Shutting down and abandoning module PortalServices (323)
-[2018.05.19-10.14.54:226][ 18]LogModuleManager: Shutting down and abandoning module PortalRpc (321)
-[2018.05.19-10.14.54:226][ 18]LogModuleManager: Shutting down and abandoning module MessagingRpc (319)
-[2018.05.19-10.14.54:226][ 18]LogModuleManager: Shutting down and abandoning module AIModule (317)
-[2018.05.19-10.14.54:254][ 18]LogModuleManager: Shutting down and abandoning module GameplayDebugger (316)
-[2018.05.19-10.14.54:283][ 18]LogModuleManager: Shutting down and abandoning module AITestSuite (314)
-[2018.05.19-10.14.54:312][ 18]LogModuleManager: Shutting down and abandoning module ProfilerService (311)
-[2018.05.19-10.14.54:392][ 18]LogModuleManager: Shutting down and abandoning module TaskGraph (309)
-[2018.05.19-10.14.54:461][ 18]LogModuleManager: Shutting down and abandoning module SteamVRController (307)
-[2018.05.19-10.14.54:461][ 18]LogModuleManager: Shutting down and abandoning module SteamVR (305)
-[2018.05.19-10.14.54:461][ 18]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (303)
-[2018.05.19-10.14.54:520][ 18]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (301)
-[2018.05.19-10.14.54:531][ 18]LogModuleManager: Shutting down and abandoning module OculusLibrary (299)
-[2018.05.19-10.14.54:531][ 18]LogModuleManager: Shutting down and abandoning module OculusInput (297)
-[2018.05.19-10.14.54:531][ 18]LogModuleManager: Shutting down and abandoning module Ansel (295)
-[2018.05.19-10.14.54:559][ 18]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (293)
-[2018.05.19-10.14.54:559][ 18]LogModuleManager: Shutting down and abandoning module CableComponent (291)
-[2018.05.19-10.14.54:586][ 18]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (289)
-[2018.05.19-10.14.54:587][ 18]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (287)
-[2018.05.19-10.14.54:793][ 18]LogModuleManager: Shutting down and abandoning module HTML5Networking (285)
-[2018.05.19-10.14.54:793][ 18]LogModuleManager: Shutting down and abandoning module CodeView (283)
-[2018.05.19-10.14.54:814][ 18]LogModuleManager: Shutting down and abandoning module CodeEditor (281)
-[2018.05.19-10.14.55:000][ 18]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (279)
-[2018.05.19-10.14.55:000][ 18]LogModuleManager: Shutting down and abandoning module SuperSearch (278)
-[2018.05.19-10.14.55:000][ 18]LogModuleManager: Shutting down and abandoning module PluginBrowser (275)
-[2018.05.19-10.14.55:156][ 18]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (273)
-[2018.05.19-10.14.55:315][ 18]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (271)
-[2018.05.19-10.14.55:315][ 18]LogModuleManager: Shutting down and abandoning module DesktopPlatform (270)
-[2018.05.19-10.14.55:329][ 18]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (267)
-[2018.05.19-10.14.55:347][ 18]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (265)
-[2018.05.19-10.14.55:388][ 18]LogModuleManager: Shutting down and abandoning module GitSourceControl (263)
-[2018.05.19-10.14.55:417][ 18]LogModuleManager: Shutting down and abandoning module SourceControl (262)
-[2018.05.19-10.14.55:417][ 18]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (259)
-[2018.05.19-10.14.55:417][ 18]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (257)
-[2018.05.19-10.14.55:417][ 18]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (255)
-[2018.05.19-10.14.55:417][ 18]LogModuleManager: Shutting down and abandoning module Paper2DEditor (253)
-[2018.05.19-10.14.55:467][ 18]LogModuleManager: Shutting down and abandoning module MeshPaint (252)
-[2018.05.19-10.14.55:473][ 18]LogModuleManager: Shutting down and abandoning module LevelEditor (250)
-[2018.05.19-10.14.55:496][ 18]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (249)
-[2018.05.19-10.14.55:537][ 18]LogModuleManager: Shutting down and abandoning module MainFrame (247)
-[2018.05.19-10.14.55:555][ 18]LogModuleManager: Shutting down and abandoning module HotReload (246)
-[2018.05.19-10.14.55:569][ 18]LogDirectoryWatcher: A directory notification for 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Binaries/Win64' was aborted.
-[2018.05.19-10.14.55:570][ 18]LogModuleManager: Shutting down and abandoning module Alien_build (241)
-[2018.05.19-10.14.55:570][ 18]LogModuleManager: Shutting down and abandoning module SteamAudio (239)
-[2018.05.19-10.14.55:570][ 18]LogSteamAudio: FSteamAudioModule Shutdown
-[2018.05.19-10.14.55:594][ 18]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (237)
-[2018.05.19-10.14.55:619][ 18]LogModuleManager: Shutting down and abandoning module PhysXVehicles (235)
-[2018.05.19-10.14.55:619][ 18]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (233)
-[2018.05.19-10.14.55:619][ 18]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (231)
-[2018.05.19-10.14.55:619][ 18]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (229)
-[2018.05.19-10.14.55:673][ 18]LogModuleManager: Shutting down and abandoning module ControlRig (227)
-[2018.05.19-10.14.55:673][ 18]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (225)
-[2018.05.19-10.14.55:837][ 18]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (223)
-[2018.05.19-10.14.55:940][ 18]LogModuleManager: Shutting down and abandoning module FacialAnimation (221)
-[2018.05.19-10.14.55:940][ 18]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (219)
-[2018.05.19-10.14.56:072][ 18]LogModuleManager: Shutting down and abandoning module GraphEditor (218)
-[2018.05.19-10.14.56:342][ 18]LogModuleManager: Shutting down and abandoning module ContentBrowser (216)
-[2018.05.19-10.14.56:343][ 18]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (213)
-[2018.05.19-10.14.56:343][ 18]LogModuleManager: Shutting down and abandoning module Paper2D (211)
-[2018.05.19-10.14.56:428][ 18]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (209)
-[2018.05.19-10.14.56:428][ 18]LogModuleManager: Shutting down and abandoning module WmfMedia (207)
-[2018.05.19-10.14.56:457][ 18]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (205)
-[2018.05.19-10.14.56:475][ 18]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (203)
-[2018.05.19-10.14.56:552][ 18]LogModuleManager: Shutting down and abandoning module MediaAssets (201)
-[2018.05.19-10.14.56:552][ 18]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (199)
-[2018.05.19-10.14.56:609][ 18]LogModuleManager: Shutting down and abandoning module VREditor (197)
-[2018.05.19-10.14.56:658][ 18]LogModuleManager: Shutting down and abandoning module StringTableEditor (195)
-[2018.05.19-10.14.56:717][ 18]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (193)
-[2018.05.19-10.14.56:717][ 18]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (191)
-[2018.05.19-10.14.57:005][ 18]LogModuleManager: Shutting down and abandoning module FunctionalTesting (189)
-[2018.05.19-10.14.57:005][ 18]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (187)
-[2018.05.19-10.14.57:239][ 18]LogModuleManager: Shutting down and abandoning module UMG (185)
-[2018.05.19-10.14.57:343][ 18]LogModuleManager: Shutting down and abandoning module UMGEditor (184)
-[2018.05.19-10.14.57:603][ 18]LogModuleManager: Shutting down and abandoning module Sequencer (183)
-[2018.05.19-10.14.57:681][ 18]LogModuleManager: Shutting down and abandoning module AssetTools (181)
-[2018.05.19-10.14.57:789][ 18]LogModuleManager: Shutting down and abandoning module MessageLog (180)
-[2018.05.19-10.14.57:789][ 18]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (179)
-[2018.05.19-10.14.57:790][ 18]LogModuleManager: Shutting down and abandoning module SlateReflector (173)
-[2018.05.19-10.14.57:926][ 18]LogModuleManager: Shutting down and abandoning module Slate (171)
-[2018.05.19-10.14.57:926][ 18]LogModuleManager: Shutting down and abandoning module EditorStyle (169)
-[2018.05.19-10.14.57:930][ 18]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (167)
-[2018.05.19-10.14.57:930][ 18]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (165)
-[2018.05.19-10.14.57:930][ 18]LogModuleManager: Shutting down and abandoning module XAudio2 (163)
-[2018.05.19-10.14.57:930][ 18]LogModuleManager: Shutting down and abandoning module Networking (161)
-[2018.05.19-10.14.57:930][ 18]LogModuleManager: Shutting down and abandoning module Core (157)
-[2018.05.19-10.14.57:930][ 18]LogModuleManager: Shutting down and abandoning module AssetRegistry (155)
-[2018.05.19-10.14.58:125][ 18]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.05.19-10.14.58:125][ 18]LogDirectoryWatcher: A directory notification for '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/' was aborted.
-[2018.05.19-10.14.58:125][ 18]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.05.19-10.14.58:125][ 18]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Experimental/ControlRig/Content/' was aborted.
-[2018.05.19-10.14.58:125][ 18]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2018.05.19-10.14.58:126][ 18]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamAudio/Content/' was aborted.
-[2018.05.19-10.14.58:265][ 18]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (154)
-[2018.05.19-10.14.58:265][ 18]LogModuleManager: Shutting down and abandoning module KismetCompiler (151)
-[2018.05.19-10.14.58:266][ 18]LogModuleManager: Shutting down and abandoning module LevelSequence (149)
-[2018.05.19-10.14.58:266][ 18]LogModuleManager: Shutting down and abandoning module PhysXFormats (147)
-[2018.05.19-10.14.58:266][ 18]LogModuleManager: Shutting down and abandoning module MeshUtilities (145)
-[2018.05.19-10.14.58:356][ 18]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (144)
-[2018.05.19-10.14.58:374][ 18]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (142)
-[2018.05.19-10.14.58:374][ 18]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (140)
-[2018.05.19-10.14.58:436][ 18]LogModuleManager: Shutting down and abandoning module DerivedDataCache (137)
-[2018.05.19-10.14.58:439][ 18]LogDerivedDataCache: Shutdown
-[2018.05.19-10.14.58:439][ 18]LogModuleManager: Shutting down and abandoning module TargetPlatform (135)
-[2018.05.19-10.14.58:439][ 18]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (134)
-[2018.05.19-10.14.58:521][ 18]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (132)
-[2018.05.19-10.14.58:565][ 18]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (130)
-[2018.05.19-10.14.58:597][ 18]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (128)
-[2018.05.19-10.14.58:607][ 18]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (126)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (124)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (122)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (120)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (118)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (116)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module ImageWrapper (115)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (112)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (110)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (108)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (106)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (104)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (102)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (100)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (98)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (96)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module Messaging (94)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (92)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (90)
-[2018.05.19-10.14.58:648][ 18]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (88)
-[2018.05.19-10.14.58:665][ 18]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (86)
-[2018.05.19-10.14.58:665][ 18]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (84)
-[2018.05.19-10.14.58:686][ 18]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (82)
-[2018.05.19-10.14.58:693][ 18]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (80)
-[2018.05.19-10.14.58:697][ 18]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (78)
-[2018.05.19-10.14.58:715][ 18]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (76)
-[2018.05.19-10.14.58:715][ 18]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (74)
-[2018.05.19-10.14.58:729][ 18]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (72)
-[2018.05.19-10.14.58:729][ 18]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (70)
-[2018.05.19-10.14.58:729][ 18]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (68)
-[2018.05.19-10.14.58:729][ 18]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (66)
-[2018.05.19-10.14.58:729][ 18]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (64)
-[2018.05.19-10.14.58:729][ 18]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (62)
-[2018.05.19-10.14.58:729][ 18]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (60)
-[2018.05.19-10.14.58:729][ 18]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (58)
-[2018.05.19-10.14.58:729][ 18]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (56)
-[2018.05.19-10.14.58:729][ 18]LogModuleManager: Shutting down and abandoning module InputCore (53)
-[2018.05.19-10.14.58:729][ 18]LogModuleManager: Shutting down and abandoning module Settings (51)
-[2018.05.19-10.14.58:729][ 18]LogModuleManager: Shutting down and abandoning module OculusRift (48)
-[2018.05.19-10.14.58:748][ 18]LogModuleManager: Shutting down and abandoning module GearVRController (46)
-[2018.05.19-10.14.58:748][ 18]LogModuleManager: Shutting down and abandoning module GearVR (44)
-[2018.05.19-10.14.58:775][ 18]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (42)
-[2018.05.19-10.14.58:790][ 18]LogModuleManager: Shutting down and abandoning module XMPP (41)
-[2018.05.19-10.14.58:839][ 18]LogModuleManager: Shutting down and abandoning module HTTP (39)
-[2018.05.19-10.14.58:839][ 18]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.05.19-10.14.58:945][ 18]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B07C23A98-4355-DC76-8AB4-52B9CAB31C44%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=a84f5cc54bdf4b94862db0a98bc92dd4%7C6855d30c7bf045ce8f43503786266ef9%7C9ef5caba-46ff-4fb5-9752-1aa5a8b12452&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.05.19-10.14.58:964][ 18]LogModuleManager: Shutting down and abandoning module SSL (38)
-[2018.05.19-10.14.59:090][ 18]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2018.05.19-10.14.59:103][ 18]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2018.05.19-10.14.59:103][ 18]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2018.05.19-10.14.59:427][ 18]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2018.05.19-10.14.59:453][ 18]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2018.05.19-10.14.59:453][ 18]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2018.05.19-10.14.59:453][ 18]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2018.05.19-10.14.59:574][ 18]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2018.05.19-10.14.59:683][ 18]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2018.05.19-10.14.59:683][ 18]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2018.05.19-10.14.59:698][ 18]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2018.05.19-10.14.59:698][ 18]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2018.05.19-10.14.59:698][ 18]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2018.05.19-10.14.59:699][ 18]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2018.05.19-10.14.59:770][ 18]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.05.19-10.14.59:803][ 18]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.05.19-10.14.59:832][ 18]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.05.19-10.15.00:184][ 18]LogExit: Exiting.
-[2018.05.19-10.15.00:206][ 18]Log file closed, 05/19/18 12:15:00
+[2018.06.02-15.00.41:623][  0]LogModuleManager:Warning: No filename provided for module ExampleDeviceProfileSelector
+[2018.06.02-15.00.41:623][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'ExampleDeviceProfileSelector' because the file 'C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/' was not found.
+[2018.06.02-15.00.41:647][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.02-15.00.41:752][  0]LogConfig:Warning: Failed to saved backup for config[DeviceProfiles]
+[2018.06.02-15.00.42:186][  0]LogInit: Computer: DESKTOP-7FDRESD
+[2018.06.02-15.00.42:186][  0]LogInit: User: mathi
+[2018.06.02-15.00.42:186][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.06.02-15.00.42:186][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2018.06.02-15.00.42:255][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.06.02-15.00.42:255][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.02-15.00.42:255][  0]LogMemory: Process Physical Memory: 272.27 MB used, 272.27 MB peak
+[2018.06.02-15.00.42:255][  0]LogMemory: Process Virtual Memory: 266.55 MB used, 266.55 MB peak
+[2018.06.02-15.00.42:255][  0]LogMemory: Physical Memory: 3613.75 MB used,  4463.89 MB free, 8077.64 MB total
+[2018.06.02-15.00.42:255][  0]LogMemory: Virtual Memory: 4774.92 MB used,  4463.89 MB free, 134217728.00 MB total
+[2018.06.02-15.00.48:651][  0]LogInit: Using OS detected language (fr-FR).
+[2018.06.02-15.00.48:651][  0]LogInit: Using OS detected locale (fr-FR).
+[2018.06.02-15.00.49:781][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2018.06.02-15.00.49:784][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the locale.
+[2018.06.02-15.01.08:796][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.02-15.01.10:817][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.06.02-15.01.10:817][  0]LogD3D11RHI:       2010/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.06.02-15.01.10:954][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.06.02-15.01.10:954][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.06.02-15.01.11:007][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.02-15.01.11:008][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.02-15.01.11:008][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.02-15.01.11:068][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.02-15.01.11:089][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.06.02-15.01.11:089][  0]LogWindows: EnumDisplayDevices:
+[2018.06.02-15.01.11:089][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.06.02-15.01.11:090][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2018.06.02-15.01.11:091][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.06.02-15.01.11:091][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.02-15.01.11:091][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.06.02-15.01.11:091][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.02-15.01.11:091][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.02-15.01.11:091][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.06.02-15.01.11:410][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.02-15.01.11:978][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.06.02-15.01.12:262][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/Shaders/WorkingDirectory/18624/).
+[2018.06.02-15.01.12:262][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mathi/AppData/Local/Temp/UnrealShaderWorkingDir/FE84AA464F340BC39516C081B206E927/'.
+[2018.06.02-15.01.12:317][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.06.02-15.01.29:630][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.02-15.01.29:857][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.06.02-15.01.30:089][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.02-15.01.30:311][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.06.02-15.01.30:788][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.06.02-15.01.31:064][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.02-15.01.31:519][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.02-15.01.31:966][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.02-15.01.32:338][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.06.02-15.01.33:106][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.06.02-15.01.33:437][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.02-15.01.33:814][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.02-15.01.34:191][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.02-15.01.34:558][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.02-15.01.35:020][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.02-15.01.35:824][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.02-15.01.35:824][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.02-15.01.36:467][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.06.02-15.01.37:222][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.06.02-15.01.37:479][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.06.02-15.01.37:906][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.02-15.01.38:256][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.02-15.01.38:981][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.02-15.01.39:427][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.06.02-15.01.39:450][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.06.02-15.01.44:232][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.06.02-15.01.45:703][  0]LogDerivedDataCache: Loaded boot cache 1.43s 90MB C:/Users/mathi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.06.02-15.01.45:703][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mathi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.06.02-15.01.45:703][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.02-15.01.45:703][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.02-15.01.45:703][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.02-15.01.45:703][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.02-15.01.45:856][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.02-15.01.45:872][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mathi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.02-15.01.46:074][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.02-15.01.46:205][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.02-15.01.46:465][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.02-15.01.46:465][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.02-15.02.02:097][  0]LogModuleManager:Warning: No filename provided for module ExampleDeviceProfileSelector
+[2018.06.02-15.02.02:098][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'ExampleDeviceProfileSelector' because the file 'C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/' was not found.
+[2018.06.02-15.02.07:442][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.06.02-15.02.09:516][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.02-15.02.09:988][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.02-15.02.10:300][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.02-15.02.10:300][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.06.02-15.02.10:300][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.06.02-15.02.22:819][  0]LogNetVersion: Alien_build , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2330291340)
+[2018.06.02-15.02.23:535][  0]LogAssetRegistry: FAssetRegistry took 0.0508 seconds to start up
+[2018.06.02-15.02.24:083][  0]LogAssetRegistry:Error: Failed to open file for write ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/AssetRegistryCache/2657c409.bin
+[2018.06.02-15.02.24:590][  0]LogPackageLocalizationCache: Processed 6 localized package path(s) for 1 prioritized culture(s) in 0.677421 seconds
+[2018.06.02-15.02.24:853][  0]LogUObjectArray: 33812 objects as part of root set at end of initial load.
+[2018.06.02-15.02.24:853][  0]LogUObjectAllocator: 6959544 out of 0 bytes used by permanent object pool.
+[2018.06.02-15.02.24:853][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.02-15.02.25:988][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.06.02-15.03.18:759][  0]LogAssetRegistry:Error: Failed to open file for write ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Intermediate/CachedAssetRegistry.bin
+[2018.06.02-15.03.24:269][  0]LogSteamAudio: FSteamAudioModule Startup
+[2018.06.02-15.03.24:269][  0]LogSteamAudio: Attempting to load ../../../Engine/Binaries/ThirdParty/Phonon/Win64/phonon.dll
+[2018.06.02-15.03.24:524][  0]LogSteamAudio: Loaded ../../../Engine/Binaries/ThirdParty/Phonon/Win64/phonon.dll.
+[2018.06.02-15.03.27:709][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.06.02-15.03.30:938][  0]SourceControl: Info Source control is disabled
+[2018.06.02-15.03.39:921][  0]LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
+[2018.06.02-15.03.41:808][  0]LogLinker:Warning: Can't find file '/Script/OnlineSubsystemUtils'
+[2018.06.02-15.03.41:808][  0]LogLinker:Warning: Can't find file '/Script/OnlineSubsystemUtils'
+[2018.06.02-15.03.43:228][  0]LogEngine: Initializing Engine...
+[2018.06.02-15.03.43:445][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2018.06.02-15.03.45:195][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.02-15.03.45:197][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.02-15.03.49:445][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.02-15.03.50:168][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.06.02-15.03.53:113][  0]LogInit: FAudioDevice initialized.
+[2018.06.02-15.03.53:207][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/mathi/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.06.02-15.03.53:225][  0]LogInit: Texture streaming: Enabled
+[2018.06.02-15.03.56:199][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.02-15.04.04:118][  0]LogInit: Transaction tracking system initialized
+[2018.06.02-15.04.09:698][  0]BlueprintLog: New page: Editor Load
+[2018.06.02-15.04.26:693][  0]LocalizationService: Info Localization service is disabled
+[2018.06.02-15.04.31:948][  0]LogModuleManager:Warning: No filename provided for module TcpMessaging
+[2018.06.02-15.04.31:948][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'TcpMessaging' because the file 'C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/' was not found.
+[2018.06.02-15.04.39:207][  0]LogConsoleResponse:Display: 
+[2018.06.02-15.04.53:565][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/' took 0.46s
+[2018.06.02-15.04.53:565][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.02-15.04.53:627][  0]LogCook:Display: Mobile HDR setting 1
+[2018.06.02-15.05.16:129][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/HUDS/Menu/Menu_principal.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.02-15.05.16:415][  0]LightingResults: New page: Lighting Build
+[2018.06.02-15.05.17:591][  0]MapCheck: New page: Map Check
+[2018.06.02-15.05.17:591][  0]LightingResults: New page: Lighting Build
+[2018.06.02-15.05.38:811][  0]LogAIModule: Creating AISystem for world Menu_principal
+[2018.06.02-15.05.39:633][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.02-15.05.40:448][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.02-15.05.40:772][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 283.746ms to complete.
+[2018.06.02-15.05.40:773][  0]LogFileHelpers: Loading map 'Menu_principal' took 24.871
+[2018.06.02-15.05.55:887][  0]LogCollectionManager: Loaded 0 collections in 0.059144 seconds
+[2018.06.02-15.06.00:677][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Collections/' took 0.01s
+[2018.06.02-15.06.00:677][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/Developers/mathi/Collections/' took 0.01s
+[2018.06.02-15.06.00:677][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mathi/Desktop/Alien_build/Alien_rep/Content/Collections/' took 0.01s
+[2018.06.02-15.06.00:677][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2018.06.02-15.06.01:674][  0]LogContentBrowser: Native class hierarchy populated in 0.6184 seconds. Added 2320 classes and 474 folders.
+[2018.06.02-15.06.03:111][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0101 seconds. Added 0 classes and 0 folders.
+[2018.06.02-15.06.11:793][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0127 seconds. Added 0 classes and 0 folders.
+[2018.06.02-15.06.12:262][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0165 seconds. Added 1 classes and 2 folders.
+[2018.06.02-15.06.15:029][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.06.02-15.06.16:300][  0]LogSlate: Took 0.139890 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.02-15.06.16:560][  0]LogSlate: Took 0.178713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.02-15.06.16:910][  0]LogSlate: Took 0.048990 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.02-15.06.18:707][  0]LogRenderer: Reallocating scene render targets to support 1208x572 NumSamples 1 (Frame:1).
+[2018.06.02-15.06.23:432][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.06.02-15.06.24:533][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0142 seconds. Added 1 classes and 2 folders.
+[2018.06.02-15.06.24:534][  0]LogLoad: (Engine Initialization) Total time: 464.51 seconds
+[2018.06.02-15.06.24:534][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 7.07 seconds
+[2018.06.02-15.06.24:534][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.06.02-15.06.24:534][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.06.02-15.06.25:076][  0]LogOcInput: OculusInput pre-init called
+[2018.06.02-15.06.25:076][  0]LogHMD: Starting GearVRController plugin
+[2018.06.02-15.06.25:823][  0]SourceControl: Info On branch master
+[2018.06.02-15.06.25:823][  0]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.06.02-15.06.25:823][  0]SourceControl: Info Changes to be committed:
+[2018.06.02-15.06.25:823][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	new file:   Content/Blueprint/Coffre_code.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	new file:   Content/Models/Coffre_code_polySurface7.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	new file:   Content/Models/Coffre_code_polySurface8.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface7_PhysicsAsset.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface7_Skeleton.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface8_PhysicsAsset.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface8_Skeleton.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	new file:   Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	new file:   Content/Models/Rig/lambert3.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	new file:   Content/Models/coffre_code_base.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info Changes not staged for commit:
+[2018.06.02-15.06.25:823][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.06.02-15.06.25:823][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Content/Blueprint/BP_Balais.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Content/Blueprint/Coffre_code.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   "Content/Cin\303\251matique/LVL1_intro/Intro.uasset"
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_0.umap
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_1.umap
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Content/HUDS/Status/Status.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Content/Models/Rig/lambert3.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Content/Models/lambert2.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Content/Models/lambert3.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2E30CA1D4E38F21CF6DA9BB75DDD09E8/CrashReportClient.ini
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2FC5C27B447E23549F27DEA18123AC81/CrashReportClient.ini
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-3CDD404E471EDBDA4F208FB89E304E17/CrashReportClient.ini
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-7527BFDF462D20F08C11949834AEBE3C/CrashReportClient.ini
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-883F84EF4B9BAF0D3B9DE7AD855E7F3A/CrashReportClient.ini
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Saved/Config/WorldState/1811039102.json
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.16-19.42.01.log
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.16-22.04.35.log
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.17-18.43.36.log
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.17-21.33.17.log
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.18-19.31.42.log
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.19-12.09.58.log
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Saved/Logs/Alien_build.log
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	deleted:    Saved/Logs/Alien_build_2-backup-2018.05.16-22.04.45.log
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	deleted:    Saved/Logs/Alien_build_2-backup-2018.05.19-12.09.59.log
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Saved/Logs/Alien_build_2.log
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	modified:   Saved/SaveGames/Name.sav
+[2018.06.02-15.06.25:823][  0]SourceControl: Info Untracked files:
+[2018.06.02-15.06.25:823][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	"Saved/Autosaves/Game/Cin\303\251matique/LVL1_intro/Intro_Auto1.uasset"
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto2.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto3.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto4.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_PhysicsAsset_Auto4.uasset
+[2018.06.02-15.06.25:823][  0]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Skeleton_Auto4.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface2_PhysicsAsset_Auto2.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface2_Skeleton_Auto2.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface3_PhysicsAsset_Auto2.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface3_Skeleton_Auto2.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Autosaves/Game/Models/Rig/
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Autosaves/Game/Models/lambert2_Auto2.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Autosaves/Game/Models/lambert3_Auto2.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/BP_Balais_2018-06-01-22-55-15.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/Coffre_code_2018-06-02-16-10-59.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-06-01-22-54-17.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-06-02-13-09-12.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-27-17.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-32-42.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-38-44.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-06-02-13-10-47.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-06-02-13-20-35.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/Intro_2018-06-02-13-43-41.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/Intro_2018-06-02-16-21-03.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/LVL_0_2018-05-21-17-32-40.umap
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-01-22-56-41.umap
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-13-27.umap
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-18-50.umap
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-32-55.umap
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-16-22-24.umap
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/LVL_1_BuiltData_2018-06-02-13-32-56.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/Status_2018-06-02-12-58-58.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-15-28-52.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-16-15-54.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-16-22-27.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-15-28-51.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-16-12-41.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-16-22-27.uasset
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-1F56F077451537FFE1AFC69525F5B00F/
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-A0B1FF4F479A5CA8DE8138848BF6DB54/
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-A53A8C084450E03994980D9C5FBB8233/
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-CE02D2E04F5A703ACBA6F7AA821C71E6/
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Crashes/UE4CC-Windows-CE02D2E04F5A703ACBA6F7AA821C71E6_0000/
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.01-22.42.35.log
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.02-12.36.34.log
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.02-17.00.14.log
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Logs/Alien_build_2-backup-2018.06.02-17.00.15.log
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00023.png
+[2018.06.02-15.06.25:824][  0]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00024.png
+[2018.06.02-15.06.25:863][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.06.02-15.06.26:686][  1]LogSlate: Took 0.024418 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.06.02-15.06.27:464][  4]LogAssetRegistry: Asset discovery search completed in 243.9505 seconds
+[2018.06.02-15.06.27:599][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.06.02-15.06.27:599][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.060420 seconds (updated 0 objects)
+[2018.06.02-15.07.34:046][ 94]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.06.02-15.07.35:122][ 94]LogSlate: Took 0.041390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.02-15.08.17:631][ 94]LogAIModule: Creating AISystem for world LVL_1
+[2018.06.02-15.08.19:926][ 94]Cmd: MAP LOAD FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.02-15.08.19:927][ 94]LightingResults: New page: Lighting Build
+[2018.06.02-15.08.19:928][ 94]LoadErrors: New page: Loading map: LVL_1.umap
+[2018.06.02-15.08.19:959][ 94]MapCheck: New page: Map Check
+[2018.06.02-15.08.19:959][ 94]LightingResults: New page: Lighting Build
+[2018.06.02-15.08.20:776][ 94]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.02-15.08.20:900][ 94]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.02-15.08.21:188][ 94]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 288.646ms to complete.
+[2018.06.02-15.08.21:193][ 94]LogFileHelpers: Loading map 'LVL_1' took 1.372
+[2018.06.02-15.19.39:999][101]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.19.46:245][101]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.19.46:655][101]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.19.46:839][101]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.06.02-15.19.47:293][101]LogSlate: Took 0.161083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.06.02-15.19.53:493][102]LogSlate: Took 0.134885 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.06.02-15.20.11:794][106]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.06.02-15.20.11:794][106]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.06.02-15.20.11:794][106]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.06.02-15.24.49:406][ 20]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2018.06.02-15.24.49:557][ 20]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2018.06.02-15.24.49:635][ 20]LogMaterial: Missing cached shader map for material lambert3, compiling. 
+[2018.06.02-15.24.49:695][ 20]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.06.02-15.24.59:238][247]SourceControl: Info On branch master
+[2018.06.02-15.24.59:238][247]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.06.02-15.24.59:238][247]SourceControl: Info Changes to be committed:
+[2018.06.02-15.24.59:238][247]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	new file:   Content/Blueprint/Coffre_code.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	new file:   Content/Models/Coffre_code_polySurface7.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	new file:   Content/Models/Coffre_code_polySurface8.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface7_PhysicsAsset.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface7_Skeleton.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface8_PhysicsAsset.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface8_Skeleton.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	new file:   Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	new file:   Content/Models/Rig/lambert3.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	new file:   Content/Models/coffre_code_base.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info Changes not staged for commit:
+[2018.06.02-15.24.59:238][247]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.06.02-15.24.59:238][247]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	modified:   Content/Blueprint/BP_Balais.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	modified:   Content/Blueprint/Coffre_code.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	modified:   "Content/Cin\303\251matique/LVL1_intro/Intro.uasset"
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	modified:   Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	modified:   Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_0.umap
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_1.umap
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	modified:   Content/HUDS/Status/Status.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	modified:   Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	modified:   Content/Models/Rig/lambert3.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	modified:   Content/Models/lambert2.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	modified:   Content/Models/lambert3.uasset
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.06.02-15.24.59:238][247]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2E30CA1D4E38F21CF6DA9BB75DDD09E8/CrashReportClient.ini
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2FC5C27B447E23549F27DEA18123AC81/CrashReportClient.ini
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-3CDD404E471EDBDA4F208FB89E304E17/CrashReportClient.ini
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-7527BFDF462D20F08C11949834AEBE3C/CrashReportClient.ini
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-883F84EF4B9BAF0D3B9DE7AD855E7F3A/CrashReportClient.ini
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	modified:   Saved/Config/WorldState/1811039102.json
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.16-19.42.01.log
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.16-22.04.35.log
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.17-18.43.36.log
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.17-21.33.17.log
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.18-19.31.42.log
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.19-12.09.58.log
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	modified:   Saved/Logs/Alien_build.log
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	deleted:    Saved/Logs/Alien_build_2-backup-2018.05.16-22.04.45.log
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	deleted:    Saved/Logs/Alien_build_2-backup-2018.05.19-12.09.59.log
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	modified:   Saved/Logs/Alien_build_2.log
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	modified:   Saved/SaveGames/Name.sav
+[2018.06.02-15.24.59:239][247]SourceControl: Info Untracked files:
+[2018.06.02-15.24.59:239][247]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	"Saved/Autosaves/Game/Cin\303\251matique/LVL1_intro/Intro_Auto1.uasset"
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto2.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto3.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto4.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_PhysicsAsset_Auto4.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Skeleton_Auto4.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface2_PhysicsAsset_Auto2.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface2_Skeleton_Auto2.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface3_PhysicsAsset_Auto2.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface3_Skeleton_Auto2.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Autosaves/Game/Models/Rig/
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Autosaves/Game/Models/lambert2_Auto2.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Autosaves/Game/Models/lambert3_Auto2.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Backup/BP_Balais_2018-06-01-22-55-15.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Backup/Coffre_code_2018-06-02-16-10-59.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-06-01-22-54-17.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-06-02-13-09-12.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-27-17.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-32-42.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-38-44.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-06-02-13-10-47.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-06-02-13-20-35.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Backup/Intro_2018-06-02-13-43-41.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Backup/Intro_2018-06-02-16-21-03.uasset
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Backup/LVL_0_2018-05-21-17-32-40.umap
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-01-22-56-41.umap
+[2018.06.02-15.24.59:239][247]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-13-27.umap
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-18-50.umap
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-32-55.umap
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-16-22-24.umap
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Backup/LVL_1_BuiltData_2018-06-02-13-32-56.uasset
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Backup/Status_2018-06-02-12-58-58.uasset
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-15-28-52.uasset
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-16-15-54.uasset
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-16-22-27.uasset
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-15-28-51.uasset
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-16-12-41.uasset
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-16-22-27.uasset
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-1F56F077451537FFE1AFC69525F5B00F/
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-A0B1FF4F479A5CA8DE8138848BF6DB54/
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-A53A8C084450E03994980D9C5FBB8233/
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-CE02D2E04F5A703ACBA6F7AA821C71E6/
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Crashes/UE4CC-Windows-CE02D2E04F5A703ACBA6F7AA821C71E6_0000/
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.01-22.42.35.log
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.02-12.36.34.log
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.02-17.00.14.log
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Logs/Alien_build_2-backup-2018.06.02-17.00.15.log
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00023.png
+[2018.06.02-15.24.59:240][247]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00024.png
+[2018.06.02-15.25.02:320][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/coffre_code_base" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/coffre_code_base.uasset" SILENT=true
+[2018.06.02-15.25.03:505][247]LogSavePackage: Save=288.83ms
+[2018.06.02-15.25.03:506][247]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/coffre_code_base6F3E57FC4B7C3DFB43BC07A7C14C3E87.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/coffre_code_base.uasset'
+[2018.06.02-15.25.03:509][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/coffre_code_base.uasset
+[2018.06.02-15.25.03:547][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Coffre_code_polySurface7" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface7.uasset" SILENT=true
+[2018.06.02-15.25.03:636][247]LogSavePackage: Save=19.59ms
+[2018.06.02-15.25.03:636][247]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Coffre_code_polySurface7D9D6283D4C782189CB3C4B942FBB7F2E.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface7.uasset'
+[2018.06.02-15.25.03:642][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface7.uasset
+[2018.06.02-15.25.03:672][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Coffre_code_polySurface8" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface8.uasset" SILENT=true
+[2018.06.02-15.25.04:018][247]LogSavePackage: Save=277.30ms
+[2018.06.02-15.25.04:019][247]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Coffre_code_polySurface84AD36B6741CE157FA54ADDA62A2A4BB4.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface8.uasset'
+[2018.06.02-15.25.04:024][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface8.uasset
+[2018.06.02-15.25.04:540][247]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.06.02-15.25.04:540][247]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.06.02-15.25.04:540][247]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.06.02-15.25.22:218][657]SourceControl: Info On branch master
+[2018.06.02-15.25.22:218][657]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.06.02-15.25.22:218][657]SourceControl: Info Changes to be committed:
+[2018.06.02-15.25.22:218][657]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	new file:   Content/Blueprint/Coffre_code.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	new file:   Content/Models/Coffre_code_polySurface7.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	new file:   Content/Models/Coffre_code_polySurface8.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface7_PhysicsAsset.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface7_Skeleton.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface8_PhysicsAsset.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface8_Skeleton.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	new file:   Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	new file:   Content/Models/Rig/lambert3.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	new file:   Content/Models/coffre_code_base.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info Changes not staged for commit:
+[2018.06.02-15.25.22:218][657]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.06.02-15.25.22:218][657]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Content/Blueprint/BP_Balais.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Content/Blueprint/Coffre_code.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   "Content/Cin\303\251matique/LVL1_intro/Intro.uasset"
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_0.umap
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_1.umap
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Content/HUDS/Status/Status.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Content/Models/Coffre_code_polySurface7.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Content/Models/Coffre_code_polySurface8.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Content/Models/coffre_code_base.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Content/Models/lambert2.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Content/Models/lambert3.uasset
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2E30CA1D4E38F21CF6DA9BB75DDD09E8/CrashReportClient.ini
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2FC5C27B447E23549F27DEA18123AC81/CrashReportClient.ini
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-3CDD404E471EDBDA4F208FB89E304E17/CrashReportClient.ini
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-7527BFDF462D20F08C11949834AEBE3C/CrashReportClient.ini
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-883F84EF4B9BAF0D3B9DE7AD855E7F3A/CrashReportClient.ini
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Saved/Config/WorldState/1811039102.json
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.16-19.42.01.log
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.16-22.04.35.log
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.17-18.43.36.log
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.17-21.33.17.log
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.18-19.31.42.log
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.19-12.09.58.log
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	modified:   Saved/Logs/Alien_build.log
+[2018.06.02-15.25.22:218][657]SourceControl: Info 	deleted:    Saved/Logs/Alien_build_2-backup-2018.05.16-22.04.45.log
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	deleted:    Saved/Logs/Alien_build_2-backup-2018.05.19-12.09.59.log
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	modified:   Saved/Logs/Alien_build_2.log
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	modified:   Saved/SaveGames/Name.sav
+[2018.06.02-15.25.22:219][657]SourceControl: Info Untracked files:
+[2018.06.02-15.25.22:219][657]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	"Saved/Autosaves/Game/Cin\303\251matique/LVL1_intro/Intro_Auto1.uasset"
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto2.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto3.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto4.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_PhysicsAsset_Auto4.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Skeleton_Auto4.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface2_PhysicsAsset_Auto2.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface2_Skeleton_Auto2.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface3_PhysicsAsset_Auto2.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface3_Skeleton_Auto2.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Autosaves/Game/Models/Rig/
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Autosaves/Game/Models/lambert2_Auto2.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Autosaves/Game/Models/lambert3_Auto2.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/BP_Balais_2018-06-01-22-55-15.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/Coffre_code_2018-06-02-16-10-59.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/Coffre_code_polySurface7_2018-06-02-17-25-03.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/Coffre_code_polySurface8_2018-06-02-17-25-03.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-06-01-22-54-17.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-06-02-13-09-12.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-27-17.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-32-42.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-38-44.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-06-02-13-10-47.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-06-02-13-20-35.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/Intro_2018-06-02-13-43-41.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/Intro_2018-06-02-16-21-03.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/LVL_0_2018-05-21-17-32-40.umap
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-01-22-56-41.umap
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-13-27.umap
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-18-50.umap
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-32-55.umap
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-16-22-24.umap
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/LVL_1_BuiltData_2018-06-02-13-32-56.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/Status_2018-06-02-12-58-58.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/coffre_code_base_2018-06-02-17-25-03.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-15-28-52.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-16-15-54.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-16-22-27.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-15-28-51.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-16-12-41.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-16-22-27.uasset
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-1F56F077451537FFE1AFC69525F5B00F/
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-A0B1FF4F479A5CA8DE8138848BF6DB54/
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-A53A8C084450E03994980D9C5FBB8233/
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-CE02D2E04F5A703ACBA6F7AA821C71E6/
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Crashes/UE4CC-Windows-CE02D2E04F5A703ACBA6F7AA821C71E6_0000/
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.01-22.42.35.log
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.02-12.36.34.log
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.02-17.00.14.log
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Logs/Alien_build_2-backup-2018.06.02-17.00.15.log
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00023.png
+[2018.06.02-15.25.22:219][657]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00024.png
+[2018.06.02-15.25.22:851][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rig/Coffre_rouge" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/Coffre_rouge.uasset" SILENT=true
+[2018.06.02-15.25.22:879][657]LogSavePackage: Save=22.80ms
+[2018.06.02-15.25.22:879][657]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Coffre_rougeA5FAC53D494FF3209B3F209CB2BBB6BC.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/Coffre_rouge.uasset'
+[2018.06.02-15.25.22:923][657]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/Coffre_rouge.uasset
+[2018.06.02-15.25.24:766][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/coffre_code_base" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/coffre_code_base.uasset" SILENT=true
+[2018.06.02-15.25.24:844][657]LogSavePackage: Save=9.52ms
+[2018.06.02-15.25.24:844][657]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/coffre_code_baseA04CD2B74AAD1FF607B018BA9140F10D.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/coffre_code_base.uasset'
+[2018.06.02-15.25.24:847][657]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/coffre_code_base.uasset
+[2018.06.02-15.25.24:851][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Coffre_code_polySurface7" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface7.uasset" SILENT=true
+[2018.06.02-15.25.24:921][657]LogSavePackage: Save=9.53ms
+[2018.06.02-15.25.24:921][657]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Coffre_code_polySurface7D51388BB4F10AC5DE79F4FB6130C8C64.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface7.uasset'
+[2018.06.02-15.25.24:924][657]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface7.uasset
+[2018.06.02-15.25.24:929][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Coffre_code_polySurface8" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface8.uasset" SILENT=true
+[2018.06.02-15.25.25:004][657]LogSavePackage: Save=10.85ms
+[2018.06.02-15.25.25:004][657]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Coffre_code_polySurface8CDDDCC56472200E2BBBE15880D1CDA12.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface8.uasset'
+[2018.06.02-15.25.25:008][657]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface8.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info On branch master
+[2018.06.02-15.25.31:775][859]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.06.02-15.25.31:775][859]SourceControl: Info Changes to be committed:
+[2018.06.02-15.25.31:775][859]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	new file:   Content/Blueprint/Coffre_code.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	new file:   Content/Models/Coffre_code_polySurface7.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	new file:   Content/Models/Coffre_code_polySurface8.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface7_PhysicsAsset.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface7_Skeleton.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface8_PhysicsAsset.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface8_Skeleton.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_rouge.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	new file:   Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	new file:   Content/Models/Rig/lambert3.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	new file:   Content/Models/coffre_code_base.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info Changes not staged for commit:
+[2018.06.02-15.25.31:775][859]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.06.02-15.25.31:775][859]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Content/Blueprint/BP_Balais.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Content/Blueprint/Coffre_code.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   "Content/Cin\303\251matique/LVL1_intro/Intro.uasset"
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_0.umap
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_1.umap
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Content/HUDS/Status/Status.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Content/Models/Coffre_code_polySurface7.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Content/Models/Coffre_code_polySurface8.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Content/Models/coffre_code_base.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Content/Models/lambert2.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Content/Models/lambert3.uasset
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2E30CA1D4E38F21CF6DA9BB75DDD09E8/CrashReportClient.ini
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2FC5C27B447E23549F27DEA18123AC81/CrashReportClient.ini
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-3CDD404E471EDBDA4F208FB89E304E17/CrashReportClient.ini
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-7527BFDF462D20F08C11949834AEBE3C/CrashReportClient.ini
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-883F84EF4B9BAF0D3B9DE7AD855E7F3A/CrashReportClient.ini
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	modified:   Saved/Config/WorldState/1811039102.json
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.16-19.42.01.log
+[2018.06.02-15.25.31:775][859]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.16-22.04.35.log
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.17-18.43.36.log
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.17-21.33.17.log
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.18-19.31.42.log
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.19-12.09.58.log
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	modified:   Saved/Logs/Alien_build.log
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	deleted:    Saved/Logs/Alien_build_2-backup-2018.05.16-22.04.45.log
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	deleted:    Saved/Logs/Alien_build_2-backup-2018.05.19-12.09.59.log
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	modified:   Saved/Logs/Alien_build_2.log
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	modified:   Saved/SaveGames/Name.sav
+[2018.06.02-15.25.31:776][859]SourceControl: Info Untracked files:
+[2018.06.02-15.25.31:776][859]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	"Saved/Autosaves/Game/Cin\303\251matique/LVL1_intro/Intro_Auto1.uasset"
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto2.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto3.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto4.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_PhysicsAsset_Auto4.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Skeleton_Auto4.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface2_PhysicsAsset_Auto2.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface2_Skeleton_Auto2.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface3_PhysicsAsset_Auto2.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface3_Skeleton_Auto2.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Autosaves/Game/Models/Rig/
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Autosaves/Game/Models/lambert2_Auto2.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Autosaves/Game/Models/lambert3_Auto2.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/BP_Balais_2018-06-01-22-55-15.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/Coffre_code_2018-06-02-16-10-59.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/Coffre_code_polySurface7_2018-06-02-17-25-03.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/Coffre_code_polySurface8_2018-06-02-17-25-03.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-06-01-22-54-17.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-06-02-13-09-12.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-27-17.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-32-42.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-38-44.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-06-02-13-10-47.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-06-02-13-20-35.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/Intro_2018-06-02-13-43-41.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/Intro_2018-06-02-16-21-03.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/LVL_0_2018-05-21-17-32-40.umap
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-01-22-56-41.umap
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-13-27.umap
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-18-50.umap
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-32-55.umap
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-16-22-24.umap
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/LVL_1_BuiltData_2018-06-02-13-32-56.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/Status_2018-06-02-12-58-58.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/coffre_code_base_2018-06-02-17-25-03.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-15-28-52.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-16-15-54.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-16-22-27.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-15-28-51.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-16-12-41.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-16-22-27.uasset
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-1F56F077451537FFE1AFC69525F5B00F/
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-A0B1FF4F479A5CA8DE8138848BF6DB54/
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-A53A8C084450E03994980D9C5FBB8233/
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-CE02D2E04F5A703ACBA6F7AA821C71E6/
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Crashes/UE4CC-Windows-CE02D2E04F5A703ACBA6F7AA821C71E6_0000/
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.01-22.42.35.log
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.02-12.36.34.log
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.02-17.00.14.log
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Logs/Alien_build_2-backup-2018.06.02-17.00.15.log
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00023.png
+[2018.06.02-15.25.31:776][859]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00024.png
+[2018.06.02-15.25.32:277][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Coffre_rouge" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/Coffre_rouge.uasset" SILENT=true
+[2018.06.02-15.25.32:304][859]LogSavePackage: Save=22.02ms
+[2018.06.02-15.25.32:304][859]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Coffre_rouge538131E042E4DBC49CDF18931041F518.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/Coffre_rouge.uasset'
+[2018.06.02-15.25.32:312][859]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/Coffre_rouge.uasset
+[2018.06.02-15.25.34:083][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/coffre_code_base" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/coffre_code_base.uasset" SILENT=true
+[2018.06.02-15.25.34:161][859]LogSavePackage: Save=10.28ms
+[2018.06.02-15.25.34:161][859]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/coffre_code_baseD5B452C14F546E67FFADB1B141DE1153.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/coffre_code_base.uasset'
+[2018.06.02-15.25.34:164][859]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/coffre_code_base.uasset
+[2018.06.02-15.25.34:170][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Coffre_code_polySurface7" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface7.uasset" SILENT=true
+[2018.06.02-15.25.34:241][859]LogSavePackage: Save=10.33ms
+[2018.06.02-15.25.34:242][859]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Coffre_code_polySurface76D371D8D47C44262FC9A2E83CB8C6473.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface7.uasset'
+[2018.06.02-15.25.34:245][859]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface7.uasset
+[2018.06.02-15.25.34:251][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Coffre_code_polySurface8" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface8.uasset" SILENT=true
+[2018.06.02-15.25.34:322][859]LogSavePackage: Save=9.67ms
+[2018.06.02-15.25.34:322][859]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Coffre_code_polySurface81CD5A2E540AF579DF1443F892380B1F2.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface8.uasset'
+[2018.06.02-15.25.34:324][859]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface8.uasset
+[2018.06.02-15.26.03:090][471]LogRenderer: Reallocating scene render targets to support 1392x924 NumSamples 1 (Frame:1).
+[2018.06.02-15.26.07:992][581]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2018.06.02-15.26.08:397][581]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2018.06.02-15.26.08:488][581]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2018.06.02-15.26.08:557][581]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.06.02-15.26.30:434][110]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.26.38:634][382]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.26.41:883][480]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.26.41:926][480]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.06.02-15.26.43:704][523]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.27.03:820][ 67]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.27.08:095][161]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.27.11:817][275]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.27.13:344][309]LogMaterialEditor: Saving and Compiling material lambert2
+[2018.06.02-15.27.15:292][309]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.27.15:568][309]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.27.15:652][309]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.27.15:878][309]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert2, compiling. 
+[2018.06.02-15.27.20:543][309]TextureStreamingBuild:Display: Compiling optional shaders took 4.691 seconds.
+[2018.06.02-15.27.25:348][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rig/lambert2" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/lambert2.uasset" SILENT=true
+[2018.06.02-15.27.25:439][309]LogSavePackage: Save=16.31ms
+[2018.06.02-15.27.25:439][309]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/lambert2BA741B6B4757917E43E3E1B48B918E70.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/lambert2.uasset'
+[2018.06.02-15.27.25:448][309]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.27.25:468][309]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.06.02-15.27.25:469][309]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.06.02-15.27.25:469][309]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.06.02-15.27.35:501][548]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.27.36:791][577]LogMaterialEditor: Applying material lambert2
+[2018.06.02-15.27.37:799][577]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.27.37:901][577]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.27.38:018][577]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.27.38:178][577]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert2, compiling. 
+[2018.06.02-15.27.41:562][577]TextureStreamingBuild:Display: Compiling optional shaders took 3.481 seconds.
+[2018.06.02-15.27.44:338][637]LogMaterialEditor: Saving and Compiling material lambert2
+[2018.06.02-15.27.48:380][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rig/lambert2" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/lambert2.uasset" SILENT=true
+[2018.06.02-15.27.48:465][637]LogSavePackage: Save=17.12ms
+[2018.06.02-15.27.48:465][637]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/lambert263F518C14D480523024DBAAB30CA1CCC.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/lambert2.uasset'
+[2018.06.02-15.27.48:474][637]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.27.48:490][637]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.06.02-15.27.48:490][637]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.06.02-15.27.48:490][637]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.06.02-15.28.17:810][334]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.06.02-15.28.18:418][334]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
+[2018.06.02-15.28.18:442][334]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.02-15.28.18:507][334]PIE: New page: PIE session: LVL_1 (Jun 2, 2018, 7:28:18 PM)
+[2018.06.02-15.28.18:551][334]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1
+[2018.06.02-15.28.18:869][334]LogPlayLevel: PIE: StaticDuplicateObject took: (0.318562s)
+[2018.06.02-15.28.18:870][334]LogAIModule: Creating AISystem for world LVL_1
+[2018.06.02-15.28.18:870][334]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2018.06.02-15.28.18:894][334]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/LVL_1.LVL_1 to /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1.LVL_1 (0.377385s)
+[2018.06.02-15.28.18:965][334]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.06.02-15.28.19:460][334]LogInit: FAudioDevice initialized.
+[2018.06.02-15.28.20:098][334]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2018.06.02-15.28.20:265][334]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1.LVL_1 up for play (max tick rate 60) at 2018.06.02-17.28.20
+[2018.06.02-15.28.20:397][334]LogWorld: Bringing up level for play took: 0.144338
+[2018.06.02-15.28.20:623][334]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2018.06.02-15.28.20:888][334]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0088 seconds. Added 11 classes and 0 folders.
+[2018.06.02-15.28.21:669][334]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_LVL_1 3.216
+[2018.06.02-15.28.21:670][334]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
+[2018.06.02-15.28.22:083][334]LogAnsel: We reckon 0.010000 meters to 1 world unit
+[2018.06.02-15.28.28:067][480]LogBlueprintUserMessages: [Spawn_128] 1
+[2018.06.02-15.28.28:342][481]LogBlueprintUserMessages: [Spawn_128] 2
+[2018.06.02-15.28.32:379][561]LogBlueprintUserMessages: [Spawn_128] 3
+[2018.06.02-15.28.32:426][562]LogBlueprintUserMessages: [Spawn_128] 4
+[2018.06.02-15.28.39:434][720]LogBlueprintUserMessages: [Spawn_128] 5
+[2018.06.02-15.28.39:477][721]LogBlueprintUserMessages: [Spawn_128] 6
+[2018.06.02-15.28.43:527][809]LogBlueprintUserMessages: [Spawn_128] 7
+[2018.06.02-15.28.49:456][936]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
+[2018.06.02-15.28.49:877][936]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1' with GeneratedClass '/Game/FirstPersonBP/Maps/LVL_1.LVL_1_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/LVL_1.LVL_1:PersistentLevel.LVL_1'
+[2018.06.02-15.29.08:034][361]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.29.09:364][390]LogMaterialEditor: Saving and Compiling material lambert2
+[2018.06.02-15.29.10:506][390]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.29.10:611][390]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.29.10:777][390]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.29.10:862][390]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert2, compiling. 
+[2018.06.02-15.29.15:051][390]TextureStreamingBuild:Display: Compiling optional shaders took 4.196 seconds.
+[2018.06.02-15.29.19:949][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rig/lambert2" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/lambert2.uasset" SILENT=true
+[2018.06.02-15.29.20:053][390]LogSavePackage: Save=19.08ms
+[2018.06.02-15.29.20:054][390]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/lambert27EF41EB64675A76216BC7B9F28E944D2.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/lambert2.uasset'
+[2018.06.02-15.29.20:064][390]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.29.20:082][390]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.06.02-15.29.20:082][390]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.06.02-15.29.20:082][390]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.06.02-15.29.23:797][475]LogMaterialEditor: Saving and Compiling material lambert2
+[2018.06.02-15.29.23:970][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rig/lambert2" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/lambert2.uasset" SILENT=true
+[2018.06.02-15.29.24:048][475]LogSavePackage: Save=9.95ms
+[2018.06.02-15.29.24:048][475]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/lambert2804E65E14A1A91C6D57E859B48867C95.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/lambert2.uasset'
+[2018.06.02-15.29.24:051][475]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.29.34:498][731]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.29.35:818][761]LogMaterialEditor: Applying material lambert2
+[2018.06.02-15.29.36:912][761]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.29.37:026][761]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.29.37:272][761]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.06.02-15.29.37:346][761]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert2, compiling. 
+[2018.06.02-15.29.40:807][761]TextureStreamingBuild:Display: Compiling optional shaders took 3.468 seconds.
+[2018.06.02-15.29.42:743][800]LogMaterialEditor: Saving and Compiling material lambert2
+[2018.06.02-15.29.47:142][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rig/lambert2" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/lambert2.uasset" SILENT=true
+[2018.06.02-15.29.47:231][800]LogSavePackage: Save=17.83ms
+[2018.06.02-15.29.47:231][800]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/lambert2845F0173461E7DF704EFC0A18D486E76.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/lambert2.uasset'
+[2018.06.02-15.29.47:240][800]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.29.47:255][800]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2018.06.02-15.29.47:255][800]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.06.02-15.29.47:255][800]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.06.02-15.30.02:187][123]SourceControl: Info On branch master
+[2018.06.02-15.30.02:187][123]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.06.02-15.30.02:187][123]SourceControl: Info Changes to be committed:
+[2018.06.02-15.30.02:187][123]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	new file:   Content/Blueprint/Coffre_code.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	new file:   Content/Material/Coffre_rouge.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	new file:   Content/Models/Coffre_code_polySurface7.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	new file:   Content/Models/Coffre_code_polySurface8.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface7_PhysicsAsset.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface7_Skeleton.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface8_PhysicsAsset.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface8_Skeleton.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_rouge.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	new file:   Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	new file:   Content/Models/Rig/lambert3.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	new file:   Content/Models/coffre_code_base.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info Changes not staged for commit:
+[2018.06.02-15.30.02:187][123]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.06.02-15.30.02:187][123]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Content/Blueprint/BP_Balais.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Content/Blueprint/Coffre_code.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   "Content/Cin\303\251matique/LVL1_intro/Intro.uasset"
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_0.umap
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_1.umap
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Content/HUDS/Status/Status.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Content/Models/Coffre_code_polySurface7.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Content/Models/Coffre_code_polySurface8.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Content/Models/coffre_code_base.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Content/Models/lambert2.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Content/Models/lambert3.uasset
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2018.06.02-15.30.02:187][123]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2E30CA1D4E38F21CF6DA9BB75DDD09E8/CrashReportClient.ini
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2FC5C27B447E23549F27DEA18123AC81/CrashReportClient.ini
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-3CDD404E471EDBDA4F208FB89E304E17/CrashReportClient.ini
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-7527BFDF462D20F08C11949834AEBE3C/CrashReportClient.ini
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-883F84EF4B9BAF0D3B9DE7AD855E7F3A/CrashReportClient.ini
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	modified:   Saved/Config/WorldState/1811039102.json
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.16-19.42.01.log
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.16-22.04.35.log
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.17-18.43.36.log
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.17-21.33.17.log
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.18-19.31.42.log
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.19-12.09.58.log
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	modified:   Saved/Logs/Alien_build.log
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	deleted:    Saved/Logs/Alien_build_2-backup-2018.05.16-22.04.45.log
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	deleted:    Saved/Logs/Alien_build_2-backup-2018.05.19-12.09.59.log
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	modified:   Saved/Logs/Alien_build_2.log
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	modified:   Saved/SaveGames/Name.sav
+[2018.06.02-15.30.02:188][123]SourceControl: Info Untracked files:
+[2018.06.02-15.30.02:188][123]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	"Saved/Autosaves/Game/Cin\303\251matique/LVL1_intro/Intro_Auto1.uasset"
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto2.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto3.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto4.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_PhysicsAsset_Auto4.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Skeleton_Auto4.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface2_PhysicsAsset_Auto2.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface2_Skeleton_Auto2.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface3_PhysicsAsset_Auto2.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface3_Skeleton_Auto2.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Autosaves/Game/Models/Rig/
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Autosaves/Game/Models/lambert2_Auto2.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Autosaves/Game/Models/lambert3_Auto2.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/BP_Balais_2018-06-01-22-55-15.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/Coffre_code_2018-06-02-16-10-59.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/Coffre_code_polySurface7_2018-06-02-17-25-03.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/Coffre_code_polySurface8_2018-06-02-17-25-03.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-06-01-22-54-17.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-06-02-13-09-12.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-27-17.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-32-42.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-38-44.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-06-02-13-10-47.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-06-02-13-20-35.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/Intro_2018-06-02-13-43-41.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/Intro_2018-06-02-16-21-03.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/LVL_0_2018-05-21-17-32-40.umap
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-01-22-56-41.umap
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-13-27.umap
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-18-50.umap
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-32-55.umap
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-16-22-24.umap
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/LVL_1_BuiltData_2018-06-02-13-32-56.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/Status_2018-06-02-12-58-58.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/coffre_code_base_2018-06-02-17-25-03.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-15-28-52.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-16-15-54.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-16-22-27.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-17-27-25.uasset
+[2018.06.02-15.30.02:188][123]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-15-28-51.uasset
+[2018.06.02-15.30.02:189][123]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-16-12-41.uasset
+[2018.06.02-15.30.02:189][123]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-16-22-27.uasset
+[2018.06.02-15.30.02:189][123]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-1F56F077451537FFE1AFC69525F5B00F/
+[2018.06.02-15.30.02:189][123]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-A0B1FF4F479A5CA8DE8138848BF6DB54/
+[2018.06.02-15.30.02:189][123]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-A53A8C084450E03994980D9C5FBB8233/
+[2018.06.02-15.30.02:189][123]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-CE02D2E04F5A703ACBA6F7AA821C71E6/
+[2018.06.02-15.30.02:189][123]SourceControl: Info 	Saved/Crashes/UE4CC-Windows-CE02D2E04F5A703ACBA6F7AA821C71E6_0000/
+[2018.06.02-15.30.02:189][123]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.01-22.42.35.log
+[2018.06.02-15.30.02:189][123]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.02-12.36.34.log
+[2018.06.02-15.30.02:189][123]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.02-17.00.14.log
+[2018.06.02-15.30.02:189][123]SourceControl: Info 	Saved/Logs/Alien_build_2-backup-2018.06.02-17.00.15.log
+[2018.06.02-15.30.02:189][123]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00023.png
+[2018.06.02-15.30.02:189][123]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00024.png
+[2018.06.02-15.30.02:786][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Rig/Glow" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/Glow.uasset" SILENT=true
+[2018.06.02-15.30.02:973][123]LogSavePackage: Save=181.71ms
+[2018.06.02-15.30.02:974][123]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Glow317450D948CF990CAC3F779B979EAB7C.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/Glow.uasset'
+[2018.06.02-15.30.02:983][123]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Rig/Glow.uasset
+[2018.06.02-15.30.05:178][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/coffre_code_base" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/coffre_code_base.uasset" SILENT=true
+[2018.06.02-15.30.05:267][123]LogSavePackage: Save=10.45ms
+[2018.06.02-15.30.05:267][123]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/coffre_code_baseBE9860904C5C6E54EB41B28A5C00ED09.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/coffre_code_base.uasset'
+[2018.06.02-15.30.05:271][123]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/coffre_code_base.uasset
+[2018.06.02-15.30.05:277][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Coffre_code_polySurface7" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface7.uasset" SILENT=true
+[2018.06.02-15.30.05:362][123]LogSavePackage: Save=9.56ms
+[2018.06.02-15.30.05:362][123]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Coffre_code_polySurface7A6AE8223442B2CD616729ABEFB6485E9.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface7.uasset'
+[2018.06.02-15.30.05:365][123]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface7.uasset
+[2018.06.02-15.30.05:372][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Coffre_code_polySurface8" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface8.uasset" SILENT=true
+[2018.06.02-15.30.05:455][123]LogSavePackage: Save=9.80ms
+[2018.06.02-15.30.05:455][123]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Coffre_code_polySurface8820E7BDA451A00C774ADA8978CF3E9BF.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface8.uasset'
+[2018.06.02-15.30.05:459][123]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface8.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info On branch master
+[2018.06.02-15.30.17:799][493]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.06.02-15.30.17:799][493]SourceControl: Info Changes to be committed:
+[2018.06.02-15.30.17:799][493]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	new file:   Content/Blueprint/Coffre_code.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	new file:   Content/Material/Coffre_rouge.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	new file:   Content/Models/Coffre_code_polySurface7.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	new file:   Content/Models/Coffre_code_polySurface8.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface7_PhysicsAsset.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface7_Skeleton.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface8_PhysicsAsset.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_code_polySurface8_Skeleton.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	new file:   Content/Models/Rig/Coffre_rouge.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	new file:   Content/Models/Rig/Glow.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	new file:   Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	new file:   Content/Models/Rig/lambert3.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	new file:   Content/Models/coffre_code_base.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info Changes not staged for commit:
+[2018.06.02-15.30.17:799][493]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.06.02-15.30.17:799][493]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Content/Blueprint/BP_Balais.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Content/Blueprint/Coffre_code.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   "Content/Cin\303\251matique/LVL1_intro/Intro.uasset"
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_0.umap
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_1.umap
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Content/HUDS/Status/Status.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Content/Models/Coffre_code_polySurface7.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Content/Models/Coffre_code_polySurface8.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Content/Models/coffre_code_base.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Content/Models/lambert2.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Content/Models/lambert3.uasset
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2E30CA1D4E38F21CF6DA9BB75DDD09E8/CrashReportClient.ini
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2FC5C27B447E23549F27DEA18123AC81/CrashReportClient.ini
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-3CDD404E471EDBDA4F208FB89E304E17/CrashReportClient.ini
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-7527BFDF462D20F08C11949834AEBE3C/CrashReportClient.ini
+[2018.06.02-15.30.17:799][493]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-883F84EF4B9BAF0D3B9DE7AD855E7F3A/CrashReportClient.ini
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	modified:   Saved/Config/WorldState/1811039102.json
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.16-19.42.01.log
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.16-22.04.35.log
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.17-18.43.36.log
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.17-21.33.17.log
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.18-19.31.42.log
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	deleted:    Saved/Logs/Alien_build-backup-2018.05.19-12.09.58.log
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	modified:   Saved/Logs/Alien_build.log
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	deleted:    Saved/Logs/Alien_build_2-backup-2018.05.16-22.04.45.log
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	deleted:    Saved/Logs/Alien_build_2-backup-2018.05.19-12.09.59.log
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	modified:   Saved/Logs/Alien_build_2.log
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	modified:   Saved/SaveGames/Name.sav
+[2018.06.02-15.30.17:800][493]SourceControl: Info Untracked files:
+[2018.06.02-15.30.17:800][493]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	"Saved/Autosaves/Game/Cin\303\251matique/LVL1_intro/Intro_Auto1.uasset"
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto2.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto3.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Auto4.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_PhysicsAsset_Auto4.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_Skeleton_Auto4.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface2_PhysicsAsset_Auto2.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface2_Skeleton_Auto2.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface3_PhysicsAsset_Auto2.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Autosaves/Game/Models/Coffre_code_polySurface3_Skeleton_Auto2.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Autosaves/Game/Models/Rig/
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Autosaves/Game/Models/lambert2_Auto2.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Autosaves/Game/Models/lambert3_Auto2.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/BP_Balais_2018-06-01-22-55-15.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/Coffre_code_2018-06-02-16-10-59.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/Coffre_code_polySurface7_2018-06-02-17-25-03.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/Coffre_code_polySurface7_2018-06-02-17-30-05.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/Coffre_code_polySurface8_2018-06-02-17-25-03.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/Coffre_code_polySurface8_2018-06-02-17-30-05.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-06-01-22-54-17.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/FirstPersonCharacter_2018-06-02-13-09-12.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-27-17.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-32-42.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-05-21-17-38-44.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-06-02-13-10-47.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/FirstPersonProjectile_2018-06-02-13-20-35.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/Intro_2018-06-02-13-43-41.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/Intro_2018-06-02-16-21-03.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/LVL_0_2018-05-21-17-32-40.umap
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-01-22-56-41.umap
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-13-27.umap
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-18-50.umap
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-13-32-55.umap
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/LVL_1_2018-06-02-16-22-24.umap
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/LVL_1_BuiltData_2018-06-02-13-32-56.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/Status_2018-06-02-12-58-58.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/coffre_code_base_2018-06-02-17-25-03.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/coffre_code_base_2018-06-02-17-30-05.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-15-28-52.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-16-15-54.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-16-22-27.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/lambert2_2018-06-02-17-27-25.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-15-28-51.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-16-12-41.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Backup/lambert3_2018-06-02-16-22-27.uasset
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-1F56F077451537FFE1AFC69525F5B00F/
+[2018.06.02-15.30.17:800][493]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-A0B1FF4F479A5CA8DE8138848BF6DB54/
+[2018.06.02-15.30.17:801][493]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-A53A8C084450E03994980D9C5FBB8233/
+[2018.06.02-15.30.17:801][493]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-CE02D2E04F5A703ACBA6F7AA821C71E6/
+[2018.06.02-15.30.17:801][493]SourceControl: Info 	Saved/Crashes/UE4CC-Windows-CE02D2E04F5A703ACBA6F7AA821C71E6_0000/
+[2018.06.02-15.30.17:801][493]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.01-22.42.35.log
+[2018.06.02-15.30.17:801][493]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.02-12.36.34.log
+[2018.06.02-15.30.17:801][493]SourceControl: Info 	Saved/Logs/Alien_build-backup-2018.06.02-17.00.14.log
+[2018.06.02-15.30.17:801][493]SourceControl: Info 	Saved/Logs/Alien_build_2-backup-2018.06.02-17.00.15.log
+[2018.06.02-15.30.17:801][493]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00023.png
+[2018.06.02-15.30.17:801][493]SourceControl: Info 	Saved/Screenshots/Windows/ScreenShot00024.png
+[2018.06.02-15.30.18:355][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Glow" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/Glow.uasset" SILENT=true
+[2018.06.02-15.30.18:380][493]LogSavePackage: Save=19.49ms
+[2018.06.02-15.30.18:380][493]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Glow56946F69496BD7210AE19980E022C7D3.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/Glow.uasset'
+[2018.06.02-15.30.18:388][493]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/Glow.uasset
+[2018.06.02-15.30.20:038][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/coffre_code_base" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/coffre_code_base.uasset" SILENT=true
+[2018.06.02-15.30.20:118][493]LogSavePackage: Save=10.21ms
+[2018.06.02-15.30.20:118][493]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/coffre_code_base080332B64777797500BE5E8BAC7BBBB2.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/coffre_code_base.uasset'
+[2018.06.02-15.30.20:121][493]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/coffre_code_base.uasset
+[2018.06.02-15.30.20:127][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Coffre_code_polySurface7" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface7.uasset" SILENT=true
+[2018.06.02-15.30.20:201][493]LogSavePackage: Save=9.75ms
+[2018.06.02-15.30.20:201][493]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Coffre_code_polySurface70FC4865244DB46DCD732B7A3B59DC02F.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface7.uasset'
+[2018.06.02-15.30.20:205][493]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface7.uasset
+[2018.06.02-15.30.20:211][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Coffre_code_polySurface8" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface8.uasset" SILENT=true
+[2018.06.02-15.30.20:289][493]LogSavePackage: Save=9.44ms
+[2018.06.02-15.30.20:289][493]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Coffre_code_polySurface82CAEA74F4A2A2899BBB8B39D13E86D90.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface8.uasset'
+[2018.06.02-15.30.20:292][493]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Models/Coffre_code_polySurface8.uasset
+[2018.06.02-15.30.34:703][831]LogMaterial: Missing cached shader map for material Coffre_rouge, compiling. 
+[2018.06.02-15.30.34:903][831]LogMaterial: Missing cached shader map for material Coffre_rouge, compiling. 
+[2018.06.02-15.30.34:940][831]LogMaterial: Missing cached shader map for material Coffre_rouge, compiling. 
+[2018.06.02-15.30.35:007][831]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.06.02-15.30.40:251][972]LogMaterialEditor: Saving and Compiling material Coffre_rouge
+[2018.06.02-15.30.40:460][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Coffre_rouge" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/Coffre_rouge.uasset" SILENT=true
+[2018.06.02-15.30.40:573][972]LogSavePackage: Save=13.64ms
+[2018.06.02-15.30.40:573][972]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Coffre_rougeE603DF97492CE22020C8A3ACBE19603D.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/Coffre_rouge.uasset'
+[2018.06.02-15.30.40:577][972]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/Coffre_rouge.uasset
+[2018.06.02-15.30.57:778][343]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.06.02-15.30.57:778][343]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.06.02-15.30.57:778][343]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.06.02-15.31.13:035][690]LogMaterial: Missing cached shader map for material Coffre_rouge, compiling. 
+[2018.06.02-15.31.14:338][718]LogMaterialEditor: Applying material Coffre_rouge
+[2018.06.02-15.31.15:508][718]LogMaterial: Missing cached shader map for material Coffre_rouge, compiling. 
+[2018.06.02-15.31.15:624][718]LogMaterial: Missing cached shader map for material Coffre_rouge, compiling. 
+[2018.06.02-15.31.15:688][718]LogMaterial: Missing cached shader map for material Coffre_rouge, compiling. 
+[2018.06.02-15.31.15:826][718]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Coffre_rouge, compiling. 
+[2018.06.02-15.31.19:652][718]TextureStreamingBuild:Display: Compiling optional shaders took 3.890 seconds.
+[2018.06.02-15.31.22:737][783]LogMaterialEditor: Saving and Compiling material Coffre_rouge
+[2018.06.02-15.31.27:235][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Coffre_rouge" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/Coffre_rouge.uasset" SILENT=true
+[2018.06.02-15.31.27:325][783]LogSavePackage: Save=21.25ms
+[2018.06.02-15.31.27:326][783]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Coffre_rougeF2A0F17341789FC22785F0934FBA0AE2.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/Coffre_rouge.uasset'
+[2018.06.02-15.31.27:335][783]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/Coffre_rouge.uasset
+[2018.06.02-15.31.27:352][783]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.06.02-15.31.27:352][783]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.06.02-15.31.27:352][783]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.06.02-15.31.35:035][961]LogMaterial: Missing cached shader map for material Coffre_rouge, compiling. 
+[2018.06.02-15.31.36:344][989]LogMaterialEditor: Applying material Coffre_rouge
+[2018.06.02-15.31.37:445][989]LogMaterial: Missing cached shader map for material Coffre_rouge, compiling. 
+[2018.06.02-15.31.37:556][989]LogMaterial: Missing cached shader map for material Coffre_rouge, compiling. 
+[2018.06.02-15.31.37:683][989]LogMaterial: Missing cached shader map for material Coffre_rouge, compiling. 
+[2018.06.02-15.31.37:916][989]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Coffre_rouge, compiling. 
+[2018.06.02-15.31.41:467][989]TextureStreamingBuild:Display: Compiling optional shaders took 3.719 seconds.
+[2018.06.02-15.31.45:297][ 36]LogMaterialEditor: Saving and Compiling material Coffre_rouge
+[2018.06.02-15.31.48:211][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Coffre_rouge" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/Coffre_rouge.uasset" SILENT=true
+[2018.06.02-15.31.48:311][ 36]LogSavePackage: Save=30.85ms
+[2018.06.02-15.31.48:312][ 36]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/Coffre_rouge7ECBF1DA4BCE8513889C1B8415DB3258.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/Coffre_rouge.uasset'
+[2018.06.02-15.31.48:322][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/Material/Coffre_rouge.uasset
+[2018.06.02-15.31.48:344][ 36]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2018.06.02-15.31.48:345][ 36]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.06.02-15.31.48:345][ 36]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.06.02-15.32.16:568][680]LogSavePackage: Save=1186.41ms
+[2018.06.02-15.32.16:568][680]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/LVL_13D8494C844C2A29CB4C9F6AF57B4CA90.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1.umap'
+[2018.06.02-15.32.16:573][680]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1.umap
+[2018.06.02-15.32.16:844][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/LVL_1_BuiltData" FILE="../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset" SILENT=true
+[2018.06.02-15.32.17:574][680]LogSavePackage: Save=631.32ms
+[2018.06.02-15.32.17:574][680]LogSavePackage: Moving '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Saved/LVL_1_BuiltDataFA35573C407AAC3893299F888686A458.tmp' to '../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset'
+[2018.06.02-15.32.17:578][680]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mathi/Desktop/Alien_build/Alien_rep/Content/FirstPersonBP/Maps/LVL_1_BuiltData.uasset
+[2018.06.02-15.33.19:210][987]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.06.02-15.34.06:732][987]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.06.02-15.34.07:151][987]SourceControl: Info [master d25f6bf] source Alien v1
+[2018.06.02-15.34.07:151][987]SourceControl: Info  20 files changed, 0 insertions(+), 0 deletions(-)
+[2018.06.02-15.34.07:151][987]SourceControl: Info  rewrite Content/Blueprint/BP_Balais.uasset (85%)
+[2018.06.02-15.34.07:151][987]SourceControl: Info  create mode 100644 Content/Blueprint/Coffre_code.uasset
+[2018.06.02-15.34.07:151][987]SourceControl: Info  create mode 100644 Content/Material/Coffre_rouge.uasset
+[2018.06.02-15.34.07:151][987]SourceControl: Info  create mode 100644 Content/Material/Glow.uasset
+[2018.06.02-15.34.07:151][987]SourceControl: Info  create mode 100644 Content/Models/Coffre_code_polySurface7.uasset
+[2018.06.02-15.34.07:151][987]SourceControl: Info  create mode 100644 Content/Models/Coffre_code_polySurface8.uasset
+[2018.06.02-15.34.07:151][987]SourceControl: Info  create mode 100644 Content/Models/Rig/Coffre_code_polySurface7_PhysicsAsset.uasset
+[2018.06.02-15.34.07:151][987]SourceControl: Info  create mode 100644 Content/Models/Rig/Coffre_code_polySurface7_Skeleton.uasset
+[2018.06.02-15.34.07:151][987]SourceControl: Info  create mode 100644 Content/Models/Rig/Coffre_code_polySurface8_PhysicsAsset.uasset
+[2018.06.02-15.34.07:151][987]SourceControl: Info  create mode 100644 Content/Models/Rig/Coffre_code_polySurface8_Skeleton.uasset
+[2018.06.02-15.34.07:151][987]SourceControl: Info  create mode 100644 Content/Models/Rig/Coffre_rouge.uasset
+[2018.06.02-15.34.07:151][987]SourceControl: Info  create mode 100644 Content/Models/Rig/Glow.uasset
+[2018.06.02-15.34.07:151][987]SourceControl: Info  create mode 100644 Content/Models/Rig/lambert2.uasset
+[2018.06.02-15.34.07:151][987]SourceControl: Info  create mode 100644 Content/Models/Rig/lambert3.uasset
+[2018.06.02-15.34.07:151][987]SourceControl: Info  create mode 100644 Content/Models/coffre_code_base.uasset
+[2018.06.02-15.34.07:151][987]SourceControl: Info  rewrite Content/Models/lambert2.uasset (97%)
+[2018.06.02-15.34.07:151][987]SourceControl: Info  rewrite Content/Models/lambert3.uasset (97%)
+[2018.06.02-15.34.07:166][987]SourceControl: Info Commited [master d25f6bf] source Alien v1.
