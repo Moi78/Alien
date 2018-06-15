@@ -146,6 +146,10 @@
 		{
 			"Name": "XCodeSourceCodeAccess",
 			"Enabled": false
+		},
+		{
+			"Name": "LiveLink",
+			"Enabled": true
 		}
 	]
 }

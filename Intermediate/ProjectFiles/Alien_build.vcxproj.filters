@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Alien_build.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{780AA055-4D10-425E-8A0E-FDAA09424C74}</UniqueIdentifier>
+			<UniqueIdentifier>{AD97B16F-9C5F-433E-AA60-5225A4A9C212}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Alien_build.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{88D0E4B3-86D7-4268-90B0-FFECBE6E0F76}</UniqueIdentifier>
+			<UniqueIdentifier>{8987E81D-9DEE-4285-B027-0644A34586FA}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -30,59 +30,8 @@
 		<None Include="..\..\Config\DefaultInput.ini">
 			<Filter>Config</Filter>
 		</None >
-		<Filter Include="Plugins">
-			<UniqueIdentifier>{0AD8D943-DF2A-4C30-98CA-8C2A32EE3100}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Plugins\Testt">
-			<UniqueIdentifier>{94A43AB7-8EC3-452B-9B26-9CCF8A15320F}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Plugins\Testt\Source">
-			<UniqueIdentifier>{D5EFBA87-69E6-4BF2-BFA2-6FA52195FDF4}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Plugins\Testt\Source\Testt">
-			<UniqueIdentifier>{E9ADDDE7-E357-4842-A545-00C9A7FBC765}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Plugins\Testt\Source\Testt\Testt.Build.cs">
-			<Filter>Plugins\Testt\Source\Testt</Filter>
-		</None >
-		<Filter Include="Plugins\Testt\Source\Testt\Private">
-			<UniqueIdentifier>{448AB1CE-F156-45A6-84AE-09AB34CE435A}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Plugins\Testt\Source\Testt\Private\Testt.cpp">
-			<Filter>Plugins\Testt\Source\Testt\Private</Filter>
-		</ClCompile >
-		<Filter Include="Plugins\Testt\Source\Testt\Public">
-			<UniqueIdentifier>{7AB43F8A-DBDF-4456-A928-59FE0DC44170}</UniqueIdentifier>
-		</Filter>
-		<ClInclude Include="..\..\Plugins\Testt\Source\Testt\Public\Testt.h">
-			<Filter>Plugins\Testt\Source\Testt\Public</Filter>
-		</ClInclude >
-		<Filter Include="Plugins\Test">
-			<UniqueIdentifier>{C48B39B7-DD60-44EB-9662-8E287E08E8BC}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Plugins\Test\Test.uplugin">
-			<Filter>Plugins\Test</Filter>
-		</None >
-		<Filter Include="Plugins\Test\Resources">
-			<UniqueIdentifier>{8EC8348E-8E2D-401F-B85A-2F0701820208}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Plugins\Test\Resources\Icon128.png">
-			<Filter>Plugins\Test\Resources</Filter>
-		</None >
-		<None Include="..\..\Plugins\Test\Resources\Thumbs.db">
-			<Filter>Plugins\Test\Resources</Filter>
-		</None >
-		<None Include="..\..\Plugins\Testt\Testt.uplugin">
-			<Filter>Plugins\Testt</Filter>
-		</None >
-		<Filter Include="Plugins\Testt\Resources">
-			<UniqueIdentifier>{E4B07068-90BB-49C1-B2CC-5CDE70F1DF4B}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Plugins\Testt\Resources\Icon128.png">
-			<Filter>Plugins\Testt\Resources</Filter>
-		</None >
 		<Filter Include="Source\Alien_build">
-			<UniqueIdentifier>{B9D56F48-0F9B-44B2-906F-E97CD33751A9}</UniqueIdentifier>
+			<UniqueIdentifier>{EEE60024-3E88-4F95-9AC8-2A6B83F0A935}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Alien_build\Alien_build.Build.cs">
 			<Filter>Source\Alien_build</Filter>
@@ -94,9 +43,12 @@
 			<Filter>Source\Alien_build</Filter>
 		</ClInclude >
 		<Filter Include="Source\Alien_build\Private">
-			<UniqueIdentifier>{8E82665D-BDC9-4AAF-8092-7A539B82C482}</UniqueIdentifier>
+			<UniqueIdentifier>{6F3E609E-D8A3-4BF8-82DA-BC2ABA6D12D0}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\Alien_build\Private\AlienVaisseau.cpp">
+			<Filter>Source\Alien_build\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\Alien_build\Private\ID_Coffre_Property.cpp">
 			<Filter>Source\Alien_build\Private</Filter>
 		</ClCompile >
 		<ClCompile Include="..\..\Source\Alien_build\Private\lvl1_alienSpawner.cpp">
@@ -109,9 +61,12 @@
 			<Filter>Source\Alien_build\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\Alien_build\Public">
-			<UniqueIdentifier>{2D5A2EA4-7C14-4FA2-AC02-3ECADD7FE3E6}</UniqueIdentifier>
+			<UniqueIdentifier>{DE089612-FCFA-49A6-84CD-E8A456FC1D54}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\Alien_build\Public\AlienVaisseau.h">
+			<Filter>Source\Alien_build\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\Alien_build\Public\ID_Coffre_Property.h">
 			<Filter>Source\Alien_build\Public</Filter>
 		</ClInclude >
 		<ClInclude Include="..\..\Source\Alien_build\Public\lvl1_alienSpawner.h">
