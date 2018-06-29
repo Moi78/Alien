@@ -17,15 +17,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Alien_build-8982.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Alien_build-2932.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Alien_build-8982.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Alien_build-2932.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Alien_build-8982.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Alien_build-2932.lib",
 			"Type" : "ImportLibrary"
 		},
 		{
