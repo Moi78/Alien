@@ -10,3 +10,7 @@ void UEnxtensionHUDblueprint::ChangeLanguage(FString langue) {
 FString UEnxtensionHUDblueprint::getCurrentLanguage() {
 	return FInternationalization::Get().GetCurrentCulture()->GetName();
 }
+
+void UEnxtensionHUDblueprint::BindControl(FString toBind, FKey key) {
+
+}

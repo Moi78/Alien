@@ -19,6 +19,7 @@ class ALIEN_BUILD_API UEnxtensionHUDblueprint : public UBlueprintFunctionLibrary
 
 	UFUNCTION(BlueprintCallable, Category = "Language")
 		static FString getCurrentLanguage();
-	
+	UFUNCTION(BlueprintCallable, Category = "Controls")
+		static void BindControl(FString toBind, FKey key);
 	
 };
