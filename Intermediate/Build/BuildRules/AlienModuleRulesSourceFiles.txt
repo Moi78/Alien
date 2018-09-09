@@ -1,3 +1,0 @@
-C:\Users\mathi\Documents\Unreal Projects\Alien 4.16\Source\Alien\Alien.Build.cs
-C:\Users\mathi\Documents\Unreal Projects\Alien 4.16\Source\Alien.Target.cs
-C:\Users\mathi\Documents\Unreal Projects\Alien 4.16\Source\AlienEditor.Target.cs

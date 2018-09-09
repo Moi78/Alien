@@ -5,15 +5,12 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
-#ifndef ALIEN_BUILD_AlienVaisseau_generated_h
-	#include "Public/AlienVaisseau.h"
+#ifndef ALIEN_BUILD_EnxtensionHUDblueprint_generated_h
+	#include "Public/EnxtensionHUDblueprint.h"
 #endif
-#ifndef ALIEN_BUILD_lvl1_alienSpawner_generated_h
-	#include "Public/lvl1_alienSpawner.h"
+#ifndef ALIEN_BUILD_ID_Coffre_Property_generated_h
+	#include "Public/ID_Coffre_Property.h"
 #endif
-#ifndef ALIEN_BUILD_TestAlien_generated_h
-	#include "Public/TestAlien.h"
-#endif
-#ifndef ALIEN_BUILD_TestOBJ_generated_h
-	#include "Public/TestOBJ.h"
+#ifndef ALIEN_BUILD_OperatorExtension_generated_h
+	#include "Public/OperatorExtension.h"
 #endif
