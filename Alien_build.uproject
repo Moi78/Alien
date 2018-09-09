@@ -44,10 +44,6 @@
 			"Enabled": false
 		},
 		{
-			"Name": "SteamAudio",
-			"Enabled": true
-		},
-		{
 			"Name": "AndroidDeviceProfileSelector",
 			"Enabled": false
 		},
